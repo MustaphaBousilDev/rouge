@@ -21,9 +21,16 @@
 
 /*===================Layout====================*/
 .container {
-  width: 95%;
+  width: 92%;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .grid {

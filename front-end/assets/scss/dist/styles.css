@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3rem;
+  --header-height: 1rem;
   /*1 rem = 16px*/
   /*========== Colors ==========*/
   --hue: 45;
@@ -60,10 +60,9 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  margin: 0 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
   color: var(--text-color);
   transition: 0.5s;
 }
@@ -130,9 +129,9 @@ body.dark-theme {
 
 /*===================Layout====================*/
 .container {
-  max-width: 968px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grid {

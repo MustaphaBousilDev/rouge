@@ -4,6 +4,12 @@
 module.exports = {
   content: ['../*.html'],
   theme: {
+    screens: {
+      sm: '280px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px'
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
