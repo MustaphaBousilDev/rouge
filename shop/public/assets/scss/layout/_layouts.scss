@@ -1,0 +1,38 @@
+.section{
+    padding:4.5rem 0 1rem;
+    &__title,&__title-center{
+        font-size: var(--h2-font-size);
+        color:var(--title-color);
+        text-align: center;
+        margin-bottom:var(--mb-1) ;
+    }
+}
+
+.svg{
+    &__color{
+        fill:var(--first-color);
+    }
+    &__blod{
+        fill:var(--first-color-light);
+    }
+    &__img{
+        width:300px;
+        justify-self: center;
+    }
+}
+/*===================Layout====================*/
+.container{
+    width:92%;
+    margin-left:auto ;
+    margin-right:auto;
+    @media screen and (max-width:768px){
+        width: 99%;
+        margin-left:auto ;
+        margin-right:auto;
+    }
+}
+
+.grid{
+    display:grid;
+    gap:1.5rem;
+}
