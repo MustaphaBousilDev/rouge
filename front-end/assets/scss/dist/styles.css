@@ -168,10 +168,48 @@ body.dark-theme {
   display: block;
 }
 
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #1A1A1A;
+  padding: 0.75rem 1.5rem;
+  border-radius: 3rem;
+  font-weight: var(--font-semi-bold);
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+.button__header {
+  display: none;
+}
+.button-link {
+  background: none;
+  padding: 0;
+  color: var(--title-color);
+}
+.button-link:hover {
+  background-color: transparent;
+}
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  padding: 0.75rem 1rem;
+}
+.button__icon {
+  font-size: 1.5rem;
+}
+
 .navbar__home {
-  padding: 5px 25px;
+  padding: 5px 20px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+  .navbar__home {
+    padding: 5px 10px;
+  }
 }
 .navbar__home .top-navbar {
   display: flex;
@@ -183,7 +221,7 @@ body.dark-theme {
   align-items: center;
 }
 .navbar__home .top-navbar div:nth-child(1) .logo-mugiwara {
-  width: 70px;
+  width: 50px;
   height: 40px;
 }
 .navbar__home .top-navbar div:nth-child(1) .logo-mugiwara img {
@@ -255,10 +293,9 @@ body.dark-theme {
 .navbar__home .top-navbar div:nth-child(3) .account .icon-header {
   display: flex;
   align-items: center;
-  background-color: red;
+  justify-content: center;
   font-size: 24px;
   padding: 0;
-  flex: 2;
 }
 @media screen and (max-width: 800px) {
   .navbar__home .top-navbar div:nth-child(3) .account .icon-header {
@@ -266,14 +303,13 @@ body.dark-theme {
   }
 }
 .navbar__home .top-navbar div:nth-child(3) .account .sign-in {
-  flex: 10;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  flex: 6;
+  display: block;
   padding: 0;
 }
 .navbar__home .top-navbar div:nth-child(3) .account .sign-in span {
   font-size: 12px;
+  display: block;
 }
 @media screen and (max-width: 800px) {
   .navbar__home .top-navbar div:nth-child(3) .account .sign-in {
@@ -287,18 +323,64 @@ body.dark-theme {
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping {
   flex: 5;
-  background-color: green;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+}
+.navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping div span {
+  font-size: 9px;
+  top: 0px;
+  right: 0px;
+  color: #fff;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping div i {
+  width: 35px;
+  background-color: #f5f9fd;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing {
+  flex: 6;
+  display: block;
+  font-size: 18px;
+}
+.navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing span {
+  font-size: 12px;
+  display: block;
 }
 @media screen and (max-width: 800px) {
-  .navbar__home .top-navbar div:nth-child(3) .cart-shopping {
-    flex: 4;
+  .navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing p {
+    font-size: 13px;
+  }
+  .navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing p i {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
 }
 @media screen and (max-width: 800px) {
   .navbar__home .top-navbar div:nth-child(3) .cart-shopping {
-    flex: 2;
+    flex: 4;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -310,37 +392,4 @@ body.dark-theme {
   .navbar__home .top-navbar div:nth-child(3) {
     flex: 3;
   }
-}
-
-.button {
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #1A1A1A;
-  padding: 0.75rem 1.5rem;
-  border-radius: 3rem;
-  font-weight: var(--font-semi-bold);
-  transition: 0.3s;
-}
-.button:hover {
-  background-color: var(--first-color-alt);
-}
-.button__header {
-  display: none;
-}
-.button-link {
-  background: none;
-  padding: 0;
-  color: var(--title-color);
-}
-.button-link:hover {
-  background-color: transparent;
-}
-.button-flex {
-  display: inline-flex;
-  align-items: center;
-  column-gap: 0.25rem;
-  padding: 0.75rem 1rem;
-}
-.button__icon {
-  font-size: 1.5rem;
 }
