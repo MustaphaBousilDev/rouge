@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="assets/css-tailwind/main.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css"/>
+    <link rel="stylesheet" href="assets/scss/dist/styles.css"/>
     <title>Document</title>
 </head>
 <body>
-    <div class="bg-color-gray-dark  h-12 items-center flex">
+    <div class="bg-color-gray-dark  h-12 items-center flex header__home">
         <div class=" w-[100%] px-3 md:px-8   flex justify-between text-xs md:text-md">
             <div class="flex items-center">
                 <div class="text-color-red-button"><i class='bx bx-phone-call'></i></div>
                 <div class="mx-2 text-color-gray-background-light font-medium"><span>Support</span>+212.448.494</div>
             </div>
-            <div class="hidden md:flex">two</div>
+            <div class="hidden md:flex">
+                <i class='bx bxs-chevron-left icon-direction-left'></i>
+                <div class="offre">
+                    <p class="active">Free shipping for order over $200</p>
+                    <p>wa return money within 30 days</p>
+                    <p>Friendly 24/7 customer suppport</p>
+                </div>
+                <i class='bx bxs-chevron-right icon-direction-right'></i>
+            </div>
             <div class="flex cursor-pointer">
                 <div>
                     <img 
@@ -33,6 +41,8 @@
             </div>
         </div>
     </div>
+
 <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+<script src="assets/js/header-home.js"></script>
 </body>
 </html>
