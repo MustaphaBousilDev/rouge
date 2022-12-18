@@ -6,6 +6,7 @@
 }
 .header__home .offre {
   display: flex;
+  align-items: center;
 }
 .header__home .offre p {
   display: none;

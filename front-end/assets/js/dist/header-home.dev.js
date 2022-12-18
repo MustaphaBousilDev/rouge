@@ -2,7 +2,6 @@
 
 var offre_header = document.querySelectorAll('.offre p');
 var length = offre_header.length;
-console.log(length);
 var icon_right = document.querySelector('.icon-direction-right');
 var icon_left = document.querySelector('.icon-direction-left');
 var counter = 0;

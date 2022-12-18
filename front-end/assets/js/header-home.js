@@ -1,6 +1,5 @@
 let offre_header=document.querySelectorAll('.offre p')
 let length=offre_header.length;
-console.log(length)
 const icon_right=document.querySelector('.icon-direction-right')
 const icon_left=document.querySelector('.icon-direction-left')
 let counter=0;

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css-tailwind/main.css">
     <link rel="stylesheet" href="assets/scss/dist/styles.css"/>
     <title>Document</title>
-</head>
+</head> 
 <body>
     <div class="bg-color-gray-dark  h-12 items-center flex header__home">
         <div class=" w-[100%] px-3 md:px-8   flex justify-between text-xs md:text-md">
@@ -41,8 +41,67 @@
             </div>
         </div>
     </div>
+    <div class="navbar__home">
+        <div class="top-navbar">
+            <div>
+                <div class="logo-mugiwara">
+                    <img 
+                    src="https://seeklogo.com/images/M/mugiwara-logo-303FD55C54-seeklogo.com.png"
+                    alt="mugiwara logo"/>
+                </div>
+                <div class="font-bold name-logo">
+                    <a class="text-color-red-button" href="#">Mugi
+                        <span class="text-color-gray-dark">wara</span>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <form class="w-full relative form-search">
+                        <i class='bx bx-search absolute top-[50%] 
+                                translate-y-[-50%] z-30 left-2
+                                text-color-gray-background-light' >
+                        </i>
+                        <input
+                         class="
+                            bg-gray-200 appearance-none border-2 
+                            border-color-gray-background-light
+                            rounded w-full py-2 px-6 text-gray-700 leading-tight transition
+                            focus:outline-none focus:bg-white focus:border-color-red-button" 
+                            id="inline-password"  placeholder="search"
+                         type="search"/>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <div class="icon-wishlist">
+                    <i class='bx bx-heart 
+                    text-color-gray-background-light rounded-full
+                    w-9 h-9 flex items-center justify-center
+                     p-2' >
+                    </i>
+                </div>
+                <div class="account">
+                    <div class="icon-header">
+                        <i class='bx bx-user text-color-gray-background-light' ></i>
+                    </div>
+                    <div class="sign-in">
+                        <span class="text-color-gray-background-light">
+                            Hello , sign in
+                        </span>
+                        <p>My Account</p>
+                    </div>
+                </div>
+                <div class="cart-shopping">cart</div>
+            </div>
+        </div>
+        <div class="bottom-navbar">
+            bottom
+        </div>
+    </div>
 
 <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
 <script src="assets/js/header-home.js"></script>
+<script src="assets/js/navab-home.js"></script>
 </body>
 </html>
