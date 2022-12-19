@@ -27,3 +27,11 @@ icon_left.addEventListener('click',()=>{
 })
 
 setInterval(function(){icon_right.click()},2000);
+
+
+//function toggle menu language
+function menu__Toggle(){
+    const toggle__menu=document.querySelector('.menu-language')
+    toggle__menu.classList.toggle('active')
+    console.log('hohohohoh')
+}

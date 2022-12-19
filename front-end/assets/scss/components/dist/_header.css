@@ -10,7 +10,7 @@
 }
 .header__home .offre p {
   display: none;
-  font-size: 17px;
+  font-size: 13px;
   transition: opacity 0.3s ease;
   opacity: 0;
   color: #aea9a9;
@@ -18,4 +18,27 @@
 .header__home .offre p.active {
   opacity: 1;
   display: block;
+}
+.header__home .menu-language {
+  visibility: hidden;
+  opacity: 0;
+  top: 48px;
+  transition: 0.3s;
+}
+.header__home .menu-language::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: 10px;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  background: #fff;
+  z-index: 100000;
+  transform: rotate(-45deg);
+}
+.header__home .active {
+  opacity: 1;
+  visibility: visible;
+  top: 40px;
 }

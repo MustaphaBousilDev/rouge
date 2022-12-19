@@ -10,7 +10,7 @@
     <title>Document</title>
 </head> 
 <body>
-    <div class="bg-color-gray-dark  h-12 items-center flex header__home">
+    <div class="bg-color-gray-dark px-3  md:px-20   h-12 items-center flex header__home">
         <div class=" w-[100%] px-3 md:px-8   flex justify-between text-xs md:text-md">
             <div class="flex items-center">
                 <div class="text-color-red-button"><i class='bx bx-phone-call'></i></div>
@@ -25,7 +25,7 @@
                 </div>
                 <i class='bx bxs-chevron-right icon-direction-right'></i>
             </div>
-            <div class="flex cursor-pointer">
+            <div class="flex cursor-pointer relative" onclick='menu__Toggle()'>
                 <div>
                     <img 
                     class="w-7 h-4"
@@ -35,13 +35,50 @@
                 <div class="ml-2 text-color-gray-background-light">
                     <span>Eng/ $</span>
                 </div>
-                <div class="flex items-end">
-                    <i class='bx bxs-down-arrow text-color-gray-background-light  text-xs mt-[1px]'style="font-size:9px;"></i>
+                <div class="flex ml-1">
+                    <i class='bx bxs-down-arrow text-color-gray-background-light  text-xs'style="font-size:9px;"></i>
+                </div>   
+                <div class="fixed z-[200] rounded  w-40 h-[230px] 
+                        bg-while right-[20px] shadow-lg  
+                        md:right-[100px] p-2 
+                        menu-language
+
+                        ">
+                        <div class="flex items-center mb-2 bg-while p-2 cursor-pointer scale-[.98] hover:scale-100 transition opacity-[.8] hover:opacity-[1]">
+                            <img src="https://cdn.freebiesupply.com/logos/large/2x/france-logo-svg-vector.svg"
+                            class="w-9 h-5"
+                             alt="french"/>
+                             <p class="mx-2 text-md">Français</p>
+                        </div>
+                        <div class="flex items-center mb-2 bg-while p-2 cursor-pointer scale-[.98] hover:scale-100 transition opacity-[.8] hover:opacity-[1]">
+                            <img src="https://cdn.freebiesupply.com/logos/large/2x/france-logo-svg-vector.svg"
+                            class="w-9 h-5"
+                             alt="french"/>
+                             <p class="mx-2 text-md">Français</p>
+                        </div>
+                        <div class="flex items-center mb-2 bg-while p-2 cursor-pointer scale-[.98] hover:scale-100 transition opacity-[.8] hover:opacity-[1]">
+                            <img src="https://cdn.freebiesupply.com/logos/large/2x/france-logo-svg-vector.svg"
+                            class="w-9 h-5"
+                             alt="french"/>
+                             <p class="mx-2 text-md">Français</p>
+                        </div>
+                        <div class="flex items-center mb-2 bg-while p-2 cursor-pointer scale-[.98] hover:scale-100 transition opacity-[.8] hover:opacity-[1]">
+                            <img src="https://cdn.freebiesupply.com/logos/large/2x/france-logo-svg-vector.svg"
+                            class="w-9 h-5"
+                             alt="french"/>
+                             <p class="mx-2 text-md">Français</p>
+                        </div>
+                        <div class="flex items-center mb-2 bg-while p-2 cursor-pointer scale-[.98] hover:scale-100 transition opacity-[.8] hover:opacity-[1]">
+                            <img src="https://cdn.freebiesupply.com/logos/large/2x/france-logo-svg-vector.svg"
+                            class="w-9 h-5"
+                             alt="french"/>
+                             <p class="mx-2 text-md">Français</p>
+                        </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="navbar__home">
+    <div class="navbar__home px-3  md:pl-20">
         <div class="top-navbar">
             <div>
                 <div class="logo-mugiwara">
@@ -50,7 +87,7 @@
                     alt="mugiwara logo"/>
                 </div>
                 <div class="font-bold name-logo">
-                    <a class="text-color-red-button" href="#">Mugi
+                    <a class="" href="#">Mugi
                         <span class="text-color-gray-dark">wara</span>
                     </a>
                 </div>

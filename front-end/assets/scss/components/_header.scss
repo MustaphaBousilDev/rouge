@@ -4,6 +4,7 @@
         font-size: 22px;
         margin: 0 10px;
         cursor: pointer;
+        
     }
     .offre{
         display: flex;
@@ -11,7 +12,7 @@
         
         p{
             display: none;
-            font-size: 17px;
+            font-size: 13px;
             transition:opacity .3s ease;
             opacity: 0;
             color:rgb(174, 169, 169);
@@ -20,5 +21,29 @@
             display: block;
            }
         }
+    }
+    .menu-language{
+        
+       &::before{
+        content:'';
+        position:absolute;
+        top:-2px;right:10px;
+        width:12px; 
+        height:12px;
+        padding: 0;
+        background:#fff;
+        z-index: 100000;
+        transform: rotate(-45deg);
+       }
+       visibility: hidden;
+       opacity: 0;
+       top:48px;
+       transition: .3s;
+
+    }
+    .active{
+        opacity: 1;
+        visibility: visible;
+        top:40px;
     }
 }
