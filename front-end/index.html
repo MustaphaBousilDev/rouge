@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-    <div class="navbar__home px-3  md:pl-20">
+    <div class="navbar__home px-3  md:px-20">
         <div class="top-navbar">
             <div>
                 <div class="logo-mugiwara">
@@ -123,13 +123,13 @@
                         <i class='bx bx-user text-color-gray-background-light' ></i>
                     </div>
                     <div class="sign-in">
-                        <span class="text-color-gray-background-light">
+                        <span class="text-color-gray-background-light text-[11px]">
                             Hello , sign in
                         </span>
-                        <p>My Account</p>
+                        <p class=" text-[12px] md:text-[12px]">My Account</p>
                     </div>
                 </div>
-                <div class="cart-shopping ">
+                <div class="cart-shopping relative" onclick='cart__Toggle()'>
                     <div class="icon-cart-shopping">
                         <div class="relative">
                             <span class="absolute bg-color-red-button">1</span>
@@ -139,12 +139,118 @@
                     </div>
                     <div class="cart-boxing">
                         <span class="">My Cart</span>
-                        <p class="font-bold flex ">289$ 
+                        <p class="flex  text-md">289$ 
                             <i class='bx bx-chevron-down text-lg 
-                            text-left h-6 flex
+                            text-left  flex
                             
                             font-bold '></i>
                         </p>
+                    </div>
+                    <div class="box-carts fixed z-[300] rounded w-60 h-[350px]  md:w-[400px] md:h-[400px] 
+                            shadow-lg top-[120px]  md:top-[120px] border-[#cbd5e1] border 
+                            md:right-[120px] p-5  flex flex-col cart-menu">
+                        <p class="p-2 h-[70%] 
+                            overflow-y-auto w-[100%] relative">
+                            <span class=" bg-while h-20 flex items-center cursor-pointer
+                                border-b border-[#cbd5e1]">
+                                <img class="w-16 h-16" 
+                                    src="https://cartzilla.createx.studio/img/shop/cart/widget/01.jpg"
+                                    alt="fucking shoes"/>
+                                <span class="flex flex-col">
+                                    <span class="font-bold">Women Colorblock Sneakers</span>
+                                    <span class="text-color-red-button">$150.00x 
+                                        <b class="text-[#000]" style="font-size: 12px;">1</b>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="border-[#cbd5e1] bg-while h-20 flex items-center cursor-pointer
+                                border-b">
+                                <img class="w-16 h-16" 
+                                    src="https://cartzilla.createx.studio/img/shop/cart/widget/02.jpg"
+                                    alt="fucking shoes"/>
+                                <span class="flex flex-col">
+                                    <span class="font-bold">Women Colorblock Sneakers</span>
+                                    <span class="text-color-red-button">$150.00x 
+                                        <b class="text-[#000]" style="font-size: 12px;">1</b>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="border-[#cbd5e1] bg-while h-20 flex items-center cursor-pointer
+                                border-b">
+                                <img class="w-16 h-16" 
+                                    src="https://cartzilla.createx.studio/img/shop/cart/widget/03.jpg"
+                                    alt="fucking shoes"/>
+                                <span class="flex flex-col">
+                                    <span class="font-bold">Women Colorblock Sneakers</span>
+                                    <span class="text-color-red-button">$150.00x 
+                                        <b class="text-[#000]" style="font-size: 12px;">1</b>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="border-[#cbd5e1] bg-while h-20 flex items-center cursor-pointer
+                                border-b">
+                                <img class="w-16 h-16" 
+                                    src="https://cartzilla.createx.studio/img/shop/cart/widget/04.jpg"
+                                    alt="fucking shoes"/>
+                                <span class="flex flex-col">
+                                    <span class="font-bold">Women Colorblock Sneakers</span>
+                                    <span class="text-color-red-button">$150.00x 
+                                        <b class="text-[#000]" style="font-size: 12px;">1</b>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="border-[#cbd5e1] bg-while h-20 flex items-center cursor-pointer
+                                border-b">
+                                <img class="w-16 h-16" 
+                                    src="https://cartzilla.createx.studio/img/shop/catalog/04.jpg"
+                                    alt="fucking shoes"/>
+                                <span class="flex flex-col">
+                                    <span class="font-bold">Women Colorblock Sneakers</span>
+                                    <span class="text-color-red-button">$150.00x 
+                                        <b class="text-[#000]" style="font-size: 12px;">1</b>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="border-[#cbd5e1] bg-while h-20 flex items-center cursor-pointer
+                                border-b">
+                                <img class="w-16 h-16" 
+                                    src="https://cartzilla.createx.studio/img/shop/catalog/07.jpg"
+                                    alt="fucking shoes"/>
+                                <span class="flex flex-col">
+                                    <span class="font-bold">Women Colorblock Sneakers</span>
+                                    <span class="text-color-red-button">$150.00x 
+                                        <b class="text-[#000]" style="font-size: 12px;">1</b>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="border-[#cbd5e1] bg-while h-20 flex items-center cursor-pointer
+                                border-b">
+                                <img class="w-16 h-16" 
+                                    src="https://cartzilla.createx.studio/img/shop/catalog/03.jpg"
+                                    alt="fucking shoes"/>
+                                <span class="flex flex-col">
+                                    <span class="font-bold">Women Colorblock Sneakers</span>
+                                    <span class="text-color-red-button">$150.00x 
+                                        <b class="text-[#000]" style="font-size: 12px;">1</b>
+                                    </span>
+                                </span>
+                            </span>
+                        </p>
+                        <p class="p-2 flex mt-4 justify-between text-lg">
+                            <span class="text-[14px] md:text-lg">Subtotal: 
+                                <b class="text-color-red-button text-[14px] md:text-lg font-normal">$265</b>.
+                                <b style="font-size: 12px;" class="text-color-red-button font-normal">00</b>
+                            </span>
+                            <button class="border rounded text-[10px] px-1 py-0   md:text-sm md:py-2 md:px-3 border-[#cbd5e1]">
+                                Expand now >
+                            </button>
+                        </p>
+                        <button class="rounded bg-color-red-button flex 
+                            justify-center items-center w-[90%] mx-auto py-2 cursor-pointer text-while
+                            ">
+                            <i class='bx bxl-paypal text-[#455aab]'></i>
+                            <span>Check Out</span>
+                        </button>
                     </div>
                 </div>
             </div>

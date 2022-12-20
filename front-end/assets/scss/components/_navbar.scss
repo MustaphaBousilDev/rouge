@@ -104,10 +104,12 @@
                 }
                 .cart-shopping{
                     flex:5;
-                    //background-color: green;
                     display: flex;align-items: center;
                     justify-content: flex-end;
                     cursor: pointer;
+                    @media screen and (min-width:900px){
+                        padding:0 0 0 45px
+                    }
                     .icon-cart-shopping{
                         
                         //background-color: yellow;
@@ -117,7 +119,7 @@
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            width: 35px;height:35px;
+                            width: 45px;height:45px;
                             span{
                                 font-size: 9px;top:0px;right:0px;
                                 color:#fff;
@@ -127,11 +129,12 @@
                                 align-items: center;
                             }
                             i{
-                                width: 35px;
-                                background-color: rgb(245, 249, 253);
-                                height:35px;
+                                width: 45px;
+                                font-size: 19px;
+                                background-color:rgb(244, 241, 241);
+                                height:45px;
                                 border-radius:50%;
-                                font-size:22px;
+                                //font-size:2px;
                                 display: flex;justify-content: center;
                                 align-items: center;
                             }
@@ -141,7 +144,7 @@
                         flex:6;
                         //background-color: red;
                         display: block;
-                        font-size:18px;
+                        font-size:13px;
                         span{font-size: 12px;display:block;}
                         @media screen and (max-width:800px){
                             p{
@@ -156,6 +159,24 @@
                             }
                         }
                         
+                    }
+                    .box-carts{
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: .3s;
+                        top:140px;
+                        @media screen and (max-width:800px){
+                            top:140px
+                        }
+                        
+                    }
+                    .active{
+                        opacity: 1;
+                        visibility: visible;
+                        top:110px;
+                        @media screen and (max-width:800px){
+                            top:120px
+                        }
                     }
                     
                     @media screen and (max-width:800px){
