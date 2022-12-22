@@ -13,8 +13,7 @@ input_search.addEventListener('blur', function (e) {
   this.style.borderColor = "#d4d4d8";
 }); //function toggle menu language
 
-function cart__Toggle() {
-  var toggle__menu = document.querySelector('.cart-menu');
+var toggle__menu = document.querySelector('.cart-menu');
+document.querySelector('.cart__parent').addEventListener('click', function () {
   toggle__menu.classList.toggle('active');
-  console.log('fuck bitch ');
-}
+});

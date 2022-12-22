@@ -11,7 +11,7 @@
 </head> 
 <body>
     <div class="bg-color-gray-dark px-3  md:px-20   h-12 items-center flex header__home">
-        <div class=" w-[100%] px-3 md:px-8   flex justify-between text-xs md:text-md">
+        <div class=" w-[100%]    flex justify-between text-xs md:text-md">
             <div class="flex items-center">
                 <div class="text-color-red-button"><i class='bx bx-phone-call'></i></div>
                 <div class="mx-2 text-color-gray-background-light font-medium"><span>Support</span>+212.448.494</div>
@@ -123,31 +123,30 @@
                         <i class='bx bx-user text-color-gray-background-light' ></i>
                     </div>
                     <div class="sign-in">
-                        <span class="text-color-gray-background-light text-[11px]">
-                            Hello , sign in
-                        </span>
+                        
                         <p class=" text-[12px] md:text-[12px]">My Account</p>
                     </div>
                 </div>
-                <div class="cart-shopping relative" onclick='cart__Toggle()'>
-                    <div class="icon-cart-shopping">
-                        <div class="relative">
-                            <span class="absolute bg-color-red-button">1</span>
+                <div class="cart-shopping relative cart cart__parent">
+                    <div class="icon-cart-shopping cart">
+                        <div class="relative cart">
+                            <span class="absolute bg-color-red-button cart">1</span>
                             <i class='bx bx-cart-alt 
-                            text-color-gray-background-light' ></i>
+                            text-color-gray-background-light cart' ></i>
                         </div>
                     </div>
-                    <div class="cart-boxing">
-                        <span class="">My Cart</span>
-                        <p class="flex  text-md">289$ 
+                    <div class="cart-boxing cart">
+                        <span class="cart text-end">My Cart</span>
+                        <p class="flex  text-md cart text-end  justify-end">289$ 
                             <i class='bx bx-chevron-down text-lg 
                             text-left  flex
                             
-                            font-bold '></i>
+                            font-bold cart '></i>
                         </p>
                     </div>
                     <div class="box-carts fixed z-[300] rounded w-60 h-[350px]  md:w-[400px] md:h-[400px] 
                             shadow-lg top-[120px]  md:top-[120px] border-[#cbd5e1] border 
+                            bg-while
                             md:right-[120px] p-5  flex flex-col cart-menu">
                         <p class="p-2 h-[70%] 
                             overflow-y-auto w-[100%] relative">

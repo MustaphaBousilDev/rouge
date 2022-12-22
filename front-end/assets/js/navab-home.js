@@ -16,8 +16,14 @@ input_search.addEventListener('blur',function(e){
 
 
 //function toggle menu language
-function cart__Toggle(){
-    const toggle__menu=document.querySelector('.cart-menu')
+let  toggle__menu=document.querySelector('.cart-menu')
+
+document.querySelector('.cart__parent').addEventListener('click',()=>{
     toggle__menu.classList.toggle('active')
-    console.log('fuck bitch ')
-}
+})
+
+
+
+
+
+

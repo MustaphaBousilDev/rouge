@@ -16,7 +16,7 @@
                 display: flex;
                 align-items: center;
                 .logo-mugiwara{
-                    width: 50px;
+                    width: 70px;
                     height: 40px;
                     //background-color: red;
                     img{
@@ -103,21 +103,22 @@
                     }
                 }
                 .cart-shopping{
-                    flex:5;
+                    
                     display: flex;align-items: center;
-                    justify-content: flex-end;
+                    //background-color: red;
+                    
                     cursor: pointer;
                     @media screen and (min-width:900px){
                         padding:0 0 0 45px
                     }
                     .icon-cart-shopping{
-                        
+                        flex:2;
                         //background-color: yellow;
                         div{
                             //background-color: red;
                             position: relative;
                             display: flex;
-                            justify-content: center;
+                            justify-content: flex-end;
                             align-items: center;
                             width: 45px;height:45px;
                             span{
@@ -141,10 +142,12 @@
                         }
                     }
                     .cart-boxing{
-                        flex:6;
-                        //background-color: red;
+                        flex:1;
+                        //background-color: blue;
                         display: block;
+                        text-align: right;
                         font-size:13px;
+                        width: 80px;
                         span{font-size: 12px;display:block;}
                         @media screen and (max-width:800px){
                             p{
@@ -153,7 +156,7 @@
                                     //background-color: red;
                                     margin-bottom: 10px;
                                     display: flex;
-                                    justify-content: center;
+                                    justify-content: flex-end;
                                     align-items: flex-end;
                                 }
                             }

@@ -243,7 +243,7 @@ body.dark-theme {
   align-items: center;
 }
 .navbar__home .top-navbar div:nth-child(1) .logo-mugiwara {
-  width: 50px;
+  width: 70px;
   height: 40px;
 }
 .navbar__home .top-navbar div:nth-child(1) .logo-mugiwara img {
@@ -345,10 +345,8 @@ body.dark-theme {
   }
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping {
-  flex: 5;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   cursor: pointer;
 }
 @media screen and (min-width: 900px) {
@@ -356,10 +354,13 @@ body.dark-theme {
     padding: 0 0 0 45px;
   }
 }
+.navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping {
+  flex: 2;
+}
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping div {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 45px;
   height: 45px;
@@ -387,9 +388,11 @@ body.dark-theme {
   align-items: center;
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing {
-  flex: 6;
+  flex: 1;
   display: block;
+  text-align: right;
   font-size: 13px;
+  width: 80px;
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing span {
   font-size: 12px;
@@ -402,7 +405,7 @@ body.dark-theme {
   .navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing p i {
     margin-bottom: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
   }
 }
