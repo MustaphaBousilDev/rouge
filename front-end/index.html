@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/scss/dist/styles.css"/>
     <title>Document</title>
 </head> 
-<body>
+<body class="body">
     <div class="bg-color-gray-dark px-3  md:px-20   h-12 items-center flex header__home">
         <div class=" w-[100%]    flex justify-between text-xs md:text-md">
             <div class="flex items-center">
@@ -144,10 +144,10 @@
                             font-bold cart '></i>
                         </p>
                     </div>
-                    <div class="box-carts fixed z-[300] rounded w-60 h-[350px]  md:w-[400px] md:h-[400px] 
+                    <div class="body box-carts fixed z-[300] rounded w-60 h-[350px]  md:w-[400px] md:h-[400px] 
                             shadow-lg top-[120px]  md:top-[120px] border-[#cbd5e1] border 
                             bg-while
-                            md:right-[120px] p-5  flex flex-col cart-menu">
+                            right-[30px]    md:right-[70px] p-5  flex flex-col cart-menu">
                         <p class="p-2 h-[70%] 
                             overflow-y-auto w-[100%] relative">
                             <span class=" bg-while h-20 flex items-center cursor-pointer
@@ -254,8 +254,24 @@
                 </div>
             </div>
         </div>
-        <div class="bottom-navbar">
-            bottom
+        <div class="bottom-navbar h-16 flex items-center">
+            <div class="departement flex items-center p-3 py-2 cursor-pointer
+                text-color-gray-background-light">
+                <div class="mx-1"><i class='bx bx-grid-alt icon-departement'></i></div>
+                <div class="mx-1">Categories</div>
+                <div class="flex justify-center items-center">
+                    <i class='bx bxs-down-arrow icon-arrow-dow-departement'></i>
+                </div>
+            </div>
+            <div class="links-page flex items-center">
+                <ul class="flex px-4">
+                    <li class="mx-7 lg:mx-4"><a href="#">Home</a></li>
+                    <li class="mx-7 lg:mx-4"><a href="#">Shop</a></li>
+                    <li class="mx-7 lg:mx-4"><a href="#">Account</a></li>
+                    <li class="mx-7 lg:mx-4"><a href="#">Blogs</a></li>
+                    <li class="mx-7 lg:mx-4"><a href="#">Home</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
