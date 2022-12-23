@@ -310,7 +310,6 @@ body.dark-theme {
 }
 .navbar__home .top-navbar div:nth-child(3) .account {
   flex: 2.5;
-  background-color: yellow;
   display: flex;
   justify-content: flex-start;
   display: flex;
@@ -357,7 +356,6 @@ body.dark-theme {
   }
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping {
-  background-color: pink;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -377,10 +375,15 @@ body.dark-theme {
   border: none;
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping div {
-  background-color: red;
+  background-color: #f3f3f3;
   position: relative;
   display: flex;
   align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  padding: 2px;
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping div span {
   font-size: 9px;
@@ -393,10 +396,9 @@ body.dark-theme {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping div i {
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -405,7 +407,6 @@ body.dark-theme {
   .navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping {
     flex: 0;
     padding: 5px;
-    border: 1px solid #adaaaa;
     border-radius: 50%;
     display: flex;
     justify-content: flex-start;
@@ -414,9 +415,14 @@ body.dark-theme {
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing {
   padding: 10px 8px;
-  background-color: blue;
   display: block;
   font-size: 19px;
+}
+@media screen and (max-width: 1200px) {
+  .navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing {
+    padding: 10px 0px;
+    font-size: 14px;
+  }
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping .cart-boxing span {
   font-size: 12px;

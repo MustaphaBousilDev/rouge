@@ -73,7 +73,7 @@
                 }
                 .account{
                     flex:2.5;
-                    background-color: yellow;
+                    //background-color: yellow;
                     display: flex;
                     justify-content: flex-start;
                     display: flex;cursor: pointer;
@@ -116,25 +116,29 @@
                     }
                 }
                 .cart-shopping{
-                    background-color: pink;
+                    //background-color: pink;
                     display: flex;align-items: center;cursor: pointer;
                     @media screen and (min-width:900px){padding:0 0 0 5px}
                     @media screen and (min-width:800px){justify-content: flex-start;}
                     .icon-cart-shopping{flex:1;border: none;
                         div{
-                            background-color: red;
+                            background-color: rgb(243, 243, 243);
                             position: relative;display: flex;align-items: center;
+                            border-radius: 50%;
+                            justify-content: center;
+                            width: 43px;height:43px;
+                            padding: 2px;
                             span{
                                 font-size: 9px;top:0px;right:0px;color:#fff;width:13px;height:13px;
                                 border-radius: 50%;display: flex;justify-content: center;
-                                align-items: center;display: none;
+                                align-items: center;
                             }
-                            i{font-size:30px;display: flex;justify-content: center;align-items: center;}
+                            i{font-size:20px;display: flex;justify-content: center;align-items: center;}
                         }
                         @media screen and (max-width:800px){
                             flex:0;
                             padding: 5px;
-                            border:1px solid rgb(173, 170, 170);
+                            //border:1px solid rgb(173, 170, 170);
                             border-radius: 50%;
                             display: flex;
                             justify-content:flex-start;
@@ -143,7 +147,13 @@
                     }
                     .cart-boxing{
                         padding:10px 8px;
-                        background-color: blue;display: block;font-size:19px;
+                        
+                        display: block;font-size:19px;
+                        @media screen and (max-width:1200px){
+                            padding:10px 0px;
+                            //background-color: blue;
+                            font-size: 14px;
+                        }
                         span{font-size: 12px;display:block;}
                         @media screen and (max-width:800px){
                             display: none;
