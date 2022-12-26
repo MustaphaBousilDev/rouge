@@ -517,6 +517,12 @@ body.dark-theme {
 .navbar__home .bottom-navbar .links-page {
   flex: 10.7;
 }
+.navbar__home .bottom-navbar .links-page li {
+  transition: 0.3s;
+}
+.navbar__home .bottom-navbar .links-page li:hover {
+  transform: translateX(5px);
+}
 @media screen and (max-width: 800px) {
   .navbar__home .bottom-navbar .links-page {
     display: none;
@@ -532,4 +538,50 @@ body.dark-theme {
 }
 .navbar__home .bottom-navbar .links-page li:first-child a {
   color: #ef4444;
+}
+.navbar__home .bottom-navbar .links-page .list-account-nav {
+  border: 1px solid #f2f1f1;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s;
+  top: 50px;
+}
+.navbar__home .bottom-navbar .links-page .list-account-nav li a {
+  color: #757474;
+  font-size: 15px;
+  font-weight: normal;
+}
+.navbar__home .bottom-navbar .links-page .list-account-nav li a i {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.navbar__home .bottom-navbar .links-page .list-account-nav li a:hover {
+  color: #ef4444;
+}
+.navbar__home .bottom-navbar .links-page .list-account-nav .links-one-secondary .list-ul-secondary {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s;
+  border: 1px solid #f0efef;
+}
+.navbar__home .bottom-navbar .links-page .list-account-nav .links-one-secondary:hover .list-ul-secondary {
+  opacity: 1;
+  visibility: visible;
+  left: 200px;
+}
+.navbar__home .bottom-navbar .links-page .list-account-nav .links-one-secondary-2 .list-ul-secondary-2 {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s;
+  border: 1px solid #f0efef;
+}
+.navbar__home .bottom-navbar .links-page .list-account-nav .links-one-secondary-2:hover .list-ul-secondary-2 {
+  opacity: 1;
+  visibility: visible;
+  left: 200px;
+}
+.navbar__home .bottom-navbar .links-page .account-link:hover .list-account-nav {
+  visibility: visible;
+  opacity: 1;
+  top: 25px;
 }

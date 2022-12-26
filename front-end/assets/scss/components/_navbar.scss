@@ -244,6 +244,12 @@
             }
         }
         .links-page{
+            li{
+                transition: .3s;
+                &:hover{
+                    transform: translateX(5px);
+                }
+            }
             @media screen and (max-width:800px){
                 display: none;
             }
@@ -263,6 +269,69 @@
                 }
             }
             //background-color: pink;
+            .list-account-nav {
+                border:1px solid rgb(242, 241, 241);
+                visibility: hidden;
+                opacity: 0;
+                transition: .2s;
+                top:50px;
+                li{
+                    
+                    a{
+                        color:rgb(117, 116, 116);
+                        font-size: 15px;
+                        font-weight: normal;
+                        i{
+                            font-size: 10px;
+                            margin-left: 10px;
+                        }
+                        &:hover{
+                            color:#ef4444
+                        }
+                    
+                    }
+                
+                }
+                .links-one-secondary{
+                    .list-ul-secondary{
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: .2s;
+                        border:1px solid rgb(240, 239, 239)
+                    }
+                    &:hover{
+                        .list-ul-secondary{
+                            opacity: 1;
+                            visibility: visible;
+                            left: 200px;
+                        }
+                    }
+                }
+                .links-one-secondary-2{
+                    .list-ul-secondary-2{
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: .2s;
+                        border:1px solid rgb(240, 239, 239)
+                    }
+                    &:hover{
+                        .list-ul-secondary-2{
+                            opacity: 1;
+                            visibility: visible;
+                            left: 200px;
+                        }
+                    }
+                }
+            }
+            .account-link{
+                &:hover{
+                    .list-account-nav{
+                        visibility:visible;
+                        opacity: 1;
+                        top:25px;
+                    }
+                }
+            }
         }
     }
 } 
