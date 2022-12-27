@@ -227,6 +227,41 @@
         
         .departement{
             flex:1.3;
+            .departement-products{
+                .departement-products-categories{
+                    .box{
+                        opacity: .9;
+                        transform: scale(0.98);
+                        transition: .2s ease-in-out;
+                        img{transform-origin: right top;}
+                        span{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: rgba(76, 73, 73, 0.25);
+                            transition: .3s;
+                            color:#fff;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition-delay: .4s;
+                            font-size: 14px;
+                            
+                        }
+                        &:hover{
+                            opacity: 1; 
+                            transform: scale(1);
+                            img{
+                                transition: 1.5s;
+                                transform: scale(1.1);
+                            }
+                            span{
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                    }
+                }
+            }
             @media screen and (max-width:800px){
                 display: none;
             }

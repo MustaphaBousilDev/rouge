@@ -1,0 +1,5 @@
+my goal is to build an ecommecre genrale web site with a veriaty of products and categories,
+at my web site i will build two part the back office(admin part) and the front office(the client part)
+each one has his own rule based on his type of account. first of all each actor  may have an account based,
+on his operation: the client will create an account if he wants to buy a product or have a good to sell 
+ 
