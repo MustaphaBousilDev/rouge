@@ -18,13 +18,12 @@ document.querySelector('.cart__parent').addEventListener('click', function () {
   toggle__menu.classList.toggle('active');
 }); //search input version mobile
 
+console.log('kr,gfg,f,');
 document.querySelector('.input-search-mobile').addEventListener('focus', function (e) {
+  console.log('gggg');
   this.placeholder = "";
   this.style.border = "1px solid #fe7676";
-  document.querySelector('.icon-search-mobile').style.color = "#fe7676";
 });
 document.querySelector('.input-search-mobile').addEventListener('blur', function () {
   this.placeholder = "Search for Products";
-  this.style.border = "1px solid rgb(213, 212, 212)";
-  document.querySelector('.icon-search-mobile').style.color = "rgb(213, 212, 212)";
 });

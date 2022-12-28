@@ -624,8 +624,12 @@ body{
   right: 30px;
 }
 
-.top-9{
-  top: 2.25rem;
+.top-0{
+  top: 0px;
+}
+
+.left-0{
+  left: 0px;
 }
 
 .top-10{
@@ -638,14 +642,6 @@ body{
 
 .top-\[0px\]{
   top: 0px;
-}
-
-.top-0{
-  top: 0px;
-}
-
-.left-0{
-  left: 0px;
 }
 
 .z-\[200\]{
@@ -932,10 +928,6 @@ body{
   padding: 0.75rem;
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -964,6 +956,21 @@ body{
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .text-left{
@@ -1159,14 +1166,6 @@ body{
 
   .lg\:block{
     display: block;
-  }
-
-  .lg\:h-\[500px\]{
-    height: 500px;
-  }
-
-  .lg\:h-\[490px\]{
-    height: 490px;
   }
 
   .lg\:h-\[450px\]{
