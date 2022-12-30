@@ -10,7 +10,7 @@
     <title>Document</title>
 </head> 
 <body class="body">
-    <div class="bg-color-gray-dark px-3  md:px-20   h-12 items-center flex header__home">
+    <div class="bg-color-gray-dark w-[100vw]   md:px-20   h-12 items-center flex header__home">
         <div class=" w-[100%]    flex justify-between text-xs md:text-md">
             <div class="flex items-center">
                 <div class="text-color-red-button"><i class='bx bx-phone-call'></i></div>
@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-    <div class="navbar__home px-3  md:px-20">
+    <div class="navbar__home px-3   md:px-20">
         <div class="top-navbar">
             <div>
                 <div class="logo-mugiwara">
@@ -253,13 +253,13 @@
                 <div class="menu-bar"><i class='bx bx-menu'></i></div>
             </div>
         </div>
-        <div class="bottom-navbar h-16 flex items-center">
-            <div class="departement flex items-center p-3 py-2 cursor-pointer
+        <div class="flex bottom-navbar h-16">
+            <div class="departement my-depart w-[160px] flex items-center p-3 py-2 cursor-pointer
                 text-color-gray-background-light relative">
-                <div class="mx-1"><i class='bx bx-grid-alt icon-departement'></i></div>
-                <div class="mx-1">Categories</div>
-                <div class="flex justify-center items-center">
-                    <i class='bx bxs-down-arrow icon-arrow-dow-departement'></i>
+                <div class="mx-1 my-depart"><i class='bx bx-grid-alt icon-departement'></i></div>
+                <div class="mx-1 my-depart">Categories</div>
+                <div class="flex justify-center items-center my-depart">
+                    <i class='bx bxs-down-arrow icon-arrow-dow-departement my-depart'></i>
                 </div>
                 <div class=" overflow-y-scroll departement-products absolute bg-while shadow-md md:w-[680px] 
                     md:h-[350px] lg:w-[850px] lg:h-[450px] z-50 rounded-md
@@ -350,15 +350,15 @@
                 </div>
             </div>
             <div class="links-page flex items-center">
-                <ul class="flex px-4">
+                <ul class="flex pr-3 bg-while">
                     <li class="mx-7 lg:mx-4"><a href="#">Home</a></li>
                     <li class="mx-7 lg:mx-4"><a href="#">Shop</a></li>
                     <li class="mx-7 lg:mx-4 relative account-link">
                         <a  href="#">Account</a>
-                        <ul class="absolute list-account-nav z-50  p-5 shadow-sm rounded-md w-56 top-10 bg-while">
+                        <ul class="fixed list-account-nav z-[3000] left-[-10px]  p-5 shadow-sm rounded-md w-44 lg:w-56 top-10 bg-while">
                             <li class="mb-2 transition relative links-one-secondary">
                                 <a class="flex items-center justify-between" href="#">Shop User Account <i class='bx bxs-right-arrow'></i></a>
-                                <ul class="absolute left-48 w-52 top-[0px] bg-while rounded-md shadow-sm p-5 z-50 list-ul-secondary">
+                                <ul class="fixed z-[3000] left-48 w-52 top-[0px] bg-while rounded-md shadow-sm p-5 list-ul-secondary">
                                     <li class="mb-2"><a href="#">Orders History</a></li>
                                     <li class="my-2"><a href="#">Profile Settings</a></li>
                                     <li class="my-2"><a href="#">Account Address</a></li>
@@ -370,7 +370,7 @@
                             </li>
                             <li class="my-2 transition links-one-secondary-2">
                                 <a class="flex items-center justify-between" href="#">Vendor Dashboard  <i class='bx bxs-right-arrow'></i></a>
-                                <ul class="absolute left-48 w-52 top-[0px] bg-while rounded-md shadow-sm p-5 z-50 list-ul-secondary-2">
+                                <ul class="fixed z-[3000] left-10 w-44 lg:w-65 top-[0px] bg-while rounded-md shadow-sm p-5  list-ul-secondary-2">
                                     <li class="mb-2"><a href="#">Settings</a></li>
                                     <li class="my-2"><a href="#">Favourite</a></li>
                                     <li class="my-2"><a href="#">Sales</a></li>
@@ -382,7 +382,7 @@
                         </ul>
                     </li>
                     <li class="mx-7 lg:mx-4"><a href="#">Blogs</a></li>
-                    <li class="mx-7 lg:mx-4"><a href="#">Home</a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -395,13 +395,71 @@
                     </div>
                 </form>
                 <ul class=''>
-                    <li>
+                    <li class="departement_mode_phone">
                         <a href="#">
                             <i class='bx bx-grid-alt icon-grid' ></i>
                             <span>Departement</span>
                             <i class='bx bx-chevron-down icon-arrow'></i>
                         </a>
                     </li>
+                    <ul class="list_categories_mode_phono">
+                        <li class="flex">
+                            <a href="#" class="w-[25%] mr-2 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://i.ytimg.com/vi/q2LqMlxE8eY/maxresdefault.jpg" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] mr-2 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full"  src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/38d7f640108731.5606d146b9bb7.jpg" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] mr-2 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://i.wfcdn.de/teaser/1920/49296.jpg" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://i.pinimg.com/736x/25/ca/42/25ca426cad1148ceff2270fe153b078e.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="flex">
+                            <a href="#" class="w-[25%] mr-4 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://i.pinimg.com/736x/25/ca/42/25ca426cad1148ceff2270fe153b078e.jpg" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] mr-4 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqlGDjIG-Wwu_HqboZZVg2vKxSjlXDWE2tZG6Qaz3xslUWbyA6L9oW0346D5xodDMXS-E&usqp=CAU" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] mr-4 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7W3kSjtKsOQQUm1jP6WjXv3mtiRt27mg5Qg&usqp=CAU" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%]  overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://ma.jumia.is/cms/SIS/moulinex/mlp/PC-OK-BANNIERE-TEASER-MOULINEX-PREPA-CULINAIRE-572X250-11-3-2021.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li class="flex">
+                            <a href="#" class="w-[25%]  mr-4 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://ma.jumia.is/cms/slider-Nivea-desktop.jpg" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] mr-4 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://ma.jumia.is/cms/000_2022/Z-Categories/7-Supermarche/z-provi/220/epsuc-220-gris.jpg" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] mr-4 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://images.yourstory.com/cs/7/1da9ec3014cc11e9a1b2b928167b6c62/mensfashionbanner1572434751640png?w=752&fm=auto&ar=2:1&mode=crop&crop=face" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale" alt="" />
+                            </a>
+                        </li>
+                        <li class="flex">
+                            <a href="#" class="w-[25%] mr-4 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://mir-s3-cdn-cf.behance.net/projects/404/f9d2a2112033561.Y3JvcCwxMjkzLDEwMTEsMCww.jpg" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] mr-4 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://www.shutterstock.com/image-photo/kitchen-utensils-cooking-tools-on-260nw-1738748708.jpg" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] mr-4 overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://www.ensemble-multitudes.com/phooksee/2021/06/instruments-musique-facile-apprendre-5.jpg" alt="" />
+                            </a>
+                            <a href="#" class="w-[25%] overflow-hidden rounded-md">
+                                <img class="h-[90px] w-full" src="https://images.ctfassets.net/lhzh8coidz9i/5oiTD260pHHo0cAI2RJDtP/3a16d739b3c9a2d2be8f82422503c7ef/5_Creative_Counting_Games_for_Kids.jpg" alt="" />
+                            </a>
+                        </li>
+                    </ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Shop</a></li>
                     <li>

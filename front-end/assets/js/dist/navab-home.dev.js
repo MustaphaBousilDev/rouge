@@ -28,3 +28,11 @@ document.querySelector('.input-search-mobile').addEventListener('blur', function
   this.style.border = "1px solid rgb(213, 212, 212)";
   document.querySelector('.icon-search-mobile').style.color = "rgb(213, 212, 212)";
 });
+document.querySelector('.departement_mode_phone').addEventListener('click', function () {
+  document.querySelector('.list_categories_mode_phono').classList.toggle('active');
+});
+document.addEventListener('click', function (e) {
+  if (e.target.classList.contains('my-depart')) {
+    document.querySelector('.departement-products').classList.toggle('toggle');
+  }
+});

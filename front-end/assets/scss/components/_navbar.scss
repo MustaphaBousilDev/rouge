@@ -224,15 +224,18 @@
         }
     }
     .bottom-navbar{
-        @media screen and (max-width:800px){
+        //display: flex;
+        @media screen and (max-width:830px){
             display: none;
         }
         .departement{
             flex:1.3;
+            //background-color: aqua;
             .departement-products{
                 border:1px solid rgb(232, 231, 231);
                 top:60px;
                 opacity: 0;
+                z-index: -1;
                 visibility: hidden;
                 transition: .2s ease-in-out;
                 .departement-products-categories{
@@ -246,11 +249,11 @@
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            background-color: rgba(76, 73, 73, 0.25);
+                            background-color: rgba(76, 73, 73, 0.5);
                             transition: .3s;
                             color:#fff;
-                            opacity: 0;
-                            visibility: hidden;
+                            opacity: 1;
+                            visibility:visible;
                             transition-delay: .4s;
                             font-size: 14px;
                             
@@ -282,17 +285,16 @@
                 //transform: scaleX(0.6);
                 transform: scale(0.69,0.6);
             }
-            &:hover{
-                color:#ef4444;
-                .departement-products{
-                    top:45px;
-                    opacity: 1;
-                    visibility:visible;
-                    
-                }
+            
+            .toggle{
+                top:45px;
+                opacity: 1;
+                visibility:visible;
+                z-index: 1000;
             }
         }
         .links-page{
+            flex:10;
             li{
                 transition: .3s;
                 &:hover{
@@ -302,7 +304,7 @@
             @media screen and (max-width:800px){
                 //display: none;
             }
-            flex:10.7;
+            
             
             a{
                 color:rgb(96, 93, 93);
@@ -352,7 +354,7 @@
                         .list-ul-secondary{
                             opacity: 1;
                             visibility: visible;
-                            left: 200px;
+                            left: 130px;
                         }
                     }
                 }
@@ -367,7 +369,7 @@
                         .list-ul-secondary-2{
                             opacity: 1;
                             visibility: visible;
-                            left: 200px;
+                            left: 130px;
                         }
                     }
                 }
@@ -388,6 +390,9 @@
         min-height:700px;
         width:100%;
         padding: 5px;
+        @media screen and (min-width:830px){
+            display: none;
+        }
         div{
             display: flex;
             flex-direction: column;
@@ -426,12 +431,16 @@
                     border-radius:8px;
                     margin-bottom: 5px;
                     display: flex;
+                    
                     align-items: center;
+                    
                     cursor: pointer;
                     a{
                         display: flex;
-                        color:rgb(165, 164, 164);
+                        color:rgb(134, 130, 130);
                         transition: .3s;
+                        font-weight:500;
+                        
                         .icon-grid{
                             width: 25px;
                             height: 25px;
@@ -448,11 +457,32 @@
                             font-size: 17px;
                             font-weight: bold;
                         }
-                        &:hover{
-                            color:#ef4444;
-                        }
+                        
+                    }
+                    &:hover{
+                         a{color:#ef4444;}
+                    }
+                    &:first-child{
+                        margin-bottom: 0;
+                        margin-top: 0;
                     }
                 }
+                ul{
+                    background-color: rgb(236, 234, 234);
+                    padding:0px;
+                    height: 0;
+                    opacity: 0;
+                    transform-origin: top;
+                    transition:height .6s;
+                    &.active{
+                        height: auto;
+                        opacity: 1;
+                    }
+                    li{
+                       
+                    }
+                }
+                
             }
         }
     }

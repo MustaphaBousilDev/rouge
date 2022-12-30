@@ -38,6 +38,22 @@ document.querySelector('.input-search-mobile').addEventListener('blur',function(
 
 
 
+document.querySelector('.departement_mode_phone').addEventListener('click',()=>{
+    document.querySelector('.list_categories_mode_phono').classList.toggle('active')
+})
+
+
+
+
+
+document.addEventListener('click',function(e){
+    if(e.target.classList.contains('my-depart')){
+        document.querySelector('.departement-products').classList.toggle('toggle')
+    }
+})
+    
+
+
 
 
 
