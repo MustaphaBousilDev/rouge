@@ -36,3 +36,8 @@ document.addEventListener('click', function (e) {
     document.querySelector('.departement-products').classList.toggle('toggle');
   }
 });
+document.querySelector('.account-link-mobile-li').addEventListener('click', function () {
+  console.debug('gogog');
+  document.querySelector('.account-list-mobile').classList.toggle('expanded');
+});
+console.log('yofgfgyoyoy');

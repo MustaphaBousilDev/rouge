@@ -53,6 +53,16 @@ document.addEventListener('click',function(e){
 })
     
 
+ document.querySelector('.account-link-mobile-li').addEventListener('click',()=>{
+     console.debug('gogog')
+     document.querySelector('.account-list-mobile').classList.toggle('expanded')
+    
+ })
+
+console.log('yofgfgyoyoy')
+
+
+
 
 
 

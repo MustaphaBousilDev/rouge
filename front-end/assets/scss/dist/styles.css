@@ -722,3 +722,21 @@ body.dark-theme {
   height: auto;
   opacity: 1;
 }
+.navbar__home .nav-links-bottom-phono .account-list-mobile {
+  transform: scale(1, 0);
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  transition: transform 0.2s;
+  transform-origin: top;
+}
+.navbar__home .nav-links-bottom-phono .expanded {
+  opacity: 1;
+  height: 100%;
+  transition: transform 0.1s;
+  visibility: visible;
+  transform: scale(1, 1);
+}
+.navbar__home .nav-links-bottom-phono .account-link-mobile-li a {
+  color: green;
+}
