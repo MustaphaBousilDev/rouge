@@ -70,6 +70,11 @@ document.querySelector('.vendor-dashboard-link-version-mobile').addEventListener
 })
 
 
+document.querySelector('.menu-bar').addEventListener('click',()=>{
+    document.querySelector('.nav-links-bottom-phono').classList.toggle('show')
+})
+
+
 
 
 

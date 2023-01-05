@@ -398,10 +398,15 @@
         }
     }
     .nav-links-bottom-phono{
-        background-color:  #fff;
-        min-height:700px;
+        
+        
         width:100%;
-        padding: 5px;
+        transform: scale(1,0);
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        transition:transform .2s;
+        transform-origin: top;
         @media screen and (min-width:830px){
             display: none;
         }
@@ -572,5 +577,15 @@
             }
         }
         
+    }
+    .show{
+        min-height:300px;
+        opacity: 1;
+        height: 100%;
+        padding: 5px;
+        transition:transform .1s;
+        visibility: visible;
+        margin-top: 5px;
+        transform: scale(1,1);
     }
 } 

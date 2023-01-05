@@ -47,3 +47,6 @@ document.querySelector('.account-link-version-mobile').addEventListener('click',
 document.querySelector('.vendor-dashboard-link-version-mobile').addEventListener('click', function () {
   document.querySelector('.child-two-account-version-mobile').classList.toggle('expanded-child');
 });
+document.querySelector('.menu-bar').addEventListener('click', function () {
+  document.querySelector('.nav-links-bottom-phono').classList.toggle('show');
+});
