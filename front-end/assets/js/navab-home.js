@@ -62,6 +62,14 @@ document.addEventListener('click',function(e){
 console.log('yofgfgyoyoy')
 
 
+document.querySelector('.account-link-version-mobile').addEventListener('click',()=>{
+    document.querySelector('.child-one-account-version-mobile').classList.toggle('expanded-child')
+})
+document.querySelector('.vendor-dashboard-link-version-mobile').addEventListener('click',()=>{
+    document.querySelector('.child-two-account-version-mobile').classList.toggle('expanded-child')
+})
+
+
 
 
 

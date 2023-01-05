@@ -42,7 +42,7 @@
                 @media screen and (max-width:1024px){
                     flex:4;
                 }
-                @media screen and (max-width:800px){
+                @media screen and (max-width:830px){
                     display: none;
                 }
             }
@@ -174,12 +174,13 @@
                     .box-carts{
                         visibility: hidden;
                         opacity: 0;
+                        
                         transition: .3s;
                         top:140px;
                         @media screen and (max-width:800px){
-                            top:140px
+                            top:140px;
+                            font-size: 12px;
                         }
-                        
                     }
                     .active{
                         opacity: 1;
@@ -225,6 +226,7 @@
     }
     .bottom-navbar{
         //display: flex;
+        //background-color: red;
         @media screen and (max-width:830px){
             display: none;
         }
@@ -276,7 +278,17 @@
             @media screen and (max-width:800px){
                 //display: none;
             }
-            border-right:2px solid #d4d4d8;
+            //border-right:2px solid #d4d4d8;
+            //background-color: red;
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                right:0;
+                background-color: rgb(188, 187, 187);
+                width: 2px;
+                height: 60%;
+            }
             transition: .3s ease-in-out;
             .icon-departement{
                 transform: scale(2);
@@ -492,6 +504,55 @@
             height: 0;
             transition:transform .2s;
             transform-origin: top;
+            background-color: rgba(240, 243, 243, 0.5);
+            
+            span{
+                //background-color: red;
+                a{
+                    font-size: 13px;
+                    font-weight: 500;
+                    transition: .3s;
+                    color:rgb(71, 71, 71);
+                    &:hover{
+                        color:#ef4444;
+                        
+                    }
+                    i{
+                        font-size: 7px;
+                        transform: rotate(90deg);
+                    }
+                }
+                .child-one-account-version-mobile, 
+                .child-two-account-version-mobile{
+                    span{
+                        a{
+                            color:rgb(103, 102, 102);
+                            font-size: 11px;
+                            &:hover{
+                                color:#ef4444;
+                            }
+                        }
+                    }
+                    transform: scale(1,0);
+                    visibility: hidden;
+                    opacity: 0;
+                    height: 0;
+                    transition:transform .2s;
+                    transform-origin: top;
+                    background-color: rgba(240, 243, 243, 0.5);
+                    
+                }
+                .expanded-child{
+                    opacity: 1;
+                    height: 100%;
+                    padding:5px;
+                    transition:transform .1s;
+                    visibility: visible;
+                    margin-bottom: 10px;
+                    margin: 6px 10px;
+                    transform: scale(1,1);
+                }
+            }
             
         }
         .expanded{
@@ -499,11 +560,16 @@
             height: 100%;
             transition:transform .1s;
             visibility: visible;
+            margin-bottom: 10px;
             transform: scale(1,1);
             
         }
         .account-link-mobile-li{
-            a{color:green;}
+            a{
+                &:hover{
+                    color:#ef4444;
+                }
+            }
         }
         
     }
