@@ -366,6 +366,7 @@
   opacity: 0;
   transition: 0.2s;
   top: 50px;
+  z-index: 100000;
 }
 .navbar__home .bottom-navbar .links-page .list-account-nav li a {
   color: #757474;
@@ -384,11 +385,13 @@
   opacity: 0;
   transition: 0.2s;
   border: 1px solid #f0efef;
+  background-color: blue;
 }
 .navbar__home .bottom-navbar .links-page .list-account-nav .links-one-secondary:hover .list-ul-secondary {
   opacity: 1;
   visibility: visible;
   left: 130px;
+  z-index: 100000;
 }
 .navbar__home .bottom-navbar .links-page .list-account-nav .links-one-secondary-2 .list-ul-secondary-2 {
   visibility: hidden;
@@ -404,7 +407,9 @@
 .navbar__home .bottom-navbar .links-page .account-link:hover .list-account-nav {
   visibility: visible;
   opacity: 1;
+  background-color: blue;
   top: 25px;
+  z-index: 100000;
 }
 .navbar__home .nav-links-bottom-phono {
   width: 100%;

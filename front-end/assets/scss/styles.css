@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 1rem;
-  /*1 rem = 16px*/
+  --header-height: 1rem; /*1 rem = 16px*/
   /*========== Colors ==========*/
   --hue: 45;
   --sat: 98%;
@@ -168,7 +167,7 @@ body.dark-theme {
   font-size: 13px;
   transition: opacity 0.3s ease;
   opacity: 0;
-  color: #aea9a9;
+  color: rgb(174, 169, 169);
 }
 .header__home .offre p.active {
   opacity: 1;
@@ -302,7 +301,7 @@ body.dark-theme {
   background-color: #ef4444;
 }
 .slider__home .span-icons-slier {
-  background-color: #e0dddd;
+  background-color: rgb(224, 221, 221);
   opacity: 0.7;
   transition: 0.3s;
   transform-origin: center;
@@ -324,7 +323,7 @@ body.dark-theme {
   margin-right: 5px;
 }
 .slider__home .span-icons-slier .icon-slider {
-  color: #766e6e;
+  color: rgb(118, 110, 110);
 }
 .slider__home:hover .span-icons-slier {
   visibility: visible;
@@ -363,7 +362,8 @@ body.dark-theme {
 .button-flex {
   display: inline-flex;
   align-items: center;
-  column-gap: 0.25rem;
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
   padding: 0.75rem 1rem;
 }
 .button__icon {
@@ -445,7 +445,7 @@ body.dark-theme {
 .navbar__home .top-navbar div:nth-child(3) .icon-wishlist i {
   font-size: 20px;
   padding: 5px;
-  border: 1px solid #c7c7c7;
+  border: 1px solid rgb(199, 199, 199);
 }
 @media screen and (max-width: 800px) {
   .navbar__home .top-navbar div:nth-child(3) .icon-wishlist {
@@ -477,7 +477,7 @@ body.dark-theme {
   .navbar__home .top-navbar div:nth-child(3) .account .icon-header {
     flex: 10;
     padding: 5px;
-    border: 1px solid #c7c7c7;
+    border: 1px solid rgb(199, 199, 199);
     border-radius: 50%;
     cursor: pointer;
   }
@@ -521,7 +521,7 @@ body.dark-theme {
   border: none;
 }
 .navbar__home .top-navbar div:nth-child(3) .cart-shopping .icon-cart-shopping div {
-  background-color: #f3f3f3;
+  background-color: rgb(243, 243, 243);
   position: relative;
   display: flex;
   align-items: center;
@@ -625,7 +625,7 @@ body.dark-theme {
 }
 .navbar__home .top-navbar div:nth-child(3) .menu-bar i {
   transform: scale(2.3, 1.9);
-  color: #7c7b7b;
+  color: rgb(124, 123, 123);
 }
 @media screen and (min-width: 801px) {
   .navbar__home .top-navbar div:nth-child(3) .menu-bar {
@@ -653,7 +653,7 @@ body.dark-theme {
   transition: 0.3s ease-in-out;
 }
 .navbar__home .bottom-navbar .departement .departement-products {
-  border: 1px solid #e8e7e7;
+  border: 1px solid rgb(232, 231, 231);
   top: 60px;
   opacity: 0;
   z-index: -1;
@@ -696,7 +696,7 @@ body.dark-theme {
   content: "";
   position: absolute;
   right: 0;
-  background-color: #bcbbbb;
+  background-color: rgb(188, 187, 187);
   width: 2px;
   height: 60%;
 }
@@ -722,7 +722,7 @@ body.dark-theme {
   transform: translateX(5px);
 }
 .navbar__home .bottom-navbar .links-page a {
-  color: #605d5d;
+  color: rgb(96, 93, 93);
   font-weight: 500;
   transition: 0.3s ease-in-out;
 }
@@ -733,7 +733,7 @@ body.dark-theme {
   color: #ef4444;
 }
 .navbar__home .bottom-navbar .links-page .list-account-nav {
-  border: 1px solid #f2f1f1;
+  border: 1px solid rgb(242, 241, 241);
   visibility: hidden;
   opacity: 0;
   transition: 0.2s;
@@ -741,7 +741,7 @@ body.dark-theme {
   z-index: 100000;
 }
 .navbar__home .bottom-navbar .links-page .list-account-nav li a {
-  color: #757474;
+  color: rgb(117, 116, 116);
   font-size: 15px;
   font-weight: normal;
 }
@@ -756,7 +756,7 @@ body.dark-theme {
   visibility: hidden;
   opacity: 0;
   transition: 0.2s;
-  border: 1px solid #f0efef;
+  border: 1px solid rgb(240, 239, 239);
   background-color: blue;
 }
 .navbar__home .bottom-navbar .links-page .list-account-nav .links-one-secondary:hover .list-ul-secondary {
@@ -769,7 +769,7 @@ body.dark-theme {
   visibility: hidden;
   opacity: 0;
   transition: 0.2s;
-  border: 1px solid #f0efef;
+  border: 1px solid rgb(240, 239, 239);
 }
 .navbar__home .bottom-navbar .links-page .list-account-nav .links-one-secondary-2:hover .list-ul-secondary-2 {
   opacity: 1;
@@ -810,17 +810,25 @@ body.dark-theme {
   border: none;
   outline: none;
   border-radius: 5px;
-  border: 1px solid #d5d4d4;
+  border: 1px solid rgb(213, 212, 212);
   transition: 0.3s;
+}
+.navbar__home .nav-links-bottom-phono div form input::-moz-placeholder {
+  font-size: 17px;
+  color: rgb(213, 212, 212);
+}
+.navbar__home .nav-links-bottom-phono div form input:-ms-input-placeholder {
+  font-size: 17px;
+  color: rgb(213, 212, 212);
 }
 .navbar__home .nav-links-bottom-phono div form input::placeholder {
   font-size: 17px;
-  color: #d5d4d4;
+  color: rgb(213, 212, 212);
 }
 .navbar__home .nav-links-bottom-phono div form .icon-search-mobile {
   position: absolute;
   font-size: 25px;
-  color: #d5d4d4;
+  color: rgb(213, 212, 212);
   top: 50%;
   left: 10px;
   transform: translateY(-50%);
@@ -841,7 +849,7 @@ body.dark-theme {
 }
 .navbar__home .nav-links-bottom-phono div ul li a {
   display: flex;
-  color: #868282;
+  color: rgb(134, 130, 130);
   transition: 0.3s;
   font-weight: 500;
 }
@@ -867,7 +875,7 @@ body.dark-theme {
   margin-top: 0;
 }
 .navbar__home .nav-links-bottom-phono div ul ul {
-  background-color: #eceaea;
+  background-color: rgb(236, 234, 234);
   padding: 0px;
   height: 0;
   opacity: 0;
@@ -891,7 +899,7 @@ body.dark-theme {
   font-size: 13px;
   font-weight: 500;
   transition: 0.3s;
-  color: #474747;
+  color: rgb(71, 71, 71);
 }
 .navbar__home .nav-links-bottom-phono .account-list-mobile span a:hover {
   color: #ef4444;
@@ -912,7 +920,7 @@ body.dark-theme {
 }
 .navbar__home .nav-links-bottom-phono .account-list-mobile span .child-one-account-version-mobile span a,
 .navbar__home .nav-links-bottom-phono .account-list-mobile span .child-two-account-version-mobile span a {
-  color: #676666;
+  color: rgb(103, 102, 102);
   font-size: 11px;
 }
 .navbar__home .nav-links-bottom-phono .account-list-mobile span .child-one-account-version-mobile span a:hover,
@@ -949,4 +957,4 @@ body.dark-theme {
   visibility: visible;
   margin-top: 5px;
   transform: scale(1, 1);
-}
+}/*# sourceMappingURL=styles.css.map */

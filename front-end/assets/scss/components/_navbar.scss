@@ -338,6 +338,7 @@
                 opacity: 0;
                 transition: .2s;
                 top:50px;
+                z-index: 100000;
                 li{
                     
                     a{
@@ -360,13 +361,15 @@
                         visibility: hidden;
                         opacity: 0;
                         transition: .2s;
-                        border:1px solid rgb(240, 239, 239)
+                        border:1px solid rgb(240, 239, 239);
+                        background-color: blue;
                     }
                     &:hover{
                         .list-ul-secondary{
                             opacity: 1;
                             visibility: visible;
                             left: 130px;
+                            z-index: 100000;
                         }
                     }
                 }
@@ -391,7 +394,9 @@
                     .list-account-nav{
                         visibility:visible;
                         opacity: 1;
+                        background-color: blue;
                         top:25px;
+                        z-index: 100000;
                     }
                 }
             }
