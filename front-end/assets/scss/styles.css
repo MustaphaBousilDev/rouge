@@ -296,6 +296,9 @@ body.dark-theme {
     height: 55%;
   }
 }
+.slider__home .bullets-pagination li {
+  transition: 0.3s;
+}
 .slider__home .bullets-pagination .active {
   width: 24px;
   background-color: #ef4444;

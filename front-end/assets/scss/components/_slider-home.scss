@@ -85,6 +85,9 @@
         }
     }
     .bullets-pagination{
+        li{
+            transition: .3s;
+        }
         .active{
             width: 24px;
             background-color:#ef4444;
@@ -92,7 +95,7 @@
     }
     .span-icons-slier{
         background-color: rgb(224, 221, 221);
-        opacity: .7;
+        opacity: .7; 
         transition:.3s;
         transform-origin: center;
         &:hover{

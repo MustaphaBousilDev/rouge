@@ -501,32 +501,48 @@
         </div>
     </div>
     <div class="slider__home">
-        <div class="container-slide active bg-color-rating">
+        <div class="container-slide bg-color-rating">
             <div>
-                <div class="content-slider">
+                <div class="content-slider" style="background-color: #3AAFD2;">
 
                 </div>
-                <div class="img-slider">
+                <div 
+                style="background-image: url('https://cartzilla.createx.studio/img/home/hero-slider/01.jpg');
+                background-size: covers;
+                background-position: center;
+                "
+                class="img-slider bg-color-red-button">
                     
                 </div>
             </div>
         </div>
-        <div class="container-slide bg-color-red-button">
+        <div class="container-slide" >
             <div>
-                <div class="content-slider">
+                <div class="content-slider" style="background-color: #F5B1B0;">
 
                 </div>
-                <div class="img-slider">
+                <div class="img-slider bg-color-red-button" 
+                style="background-image: url('https://cartzilla.createx.studio/img/home/hero-slider/02.jpg');
+                background-size: covers;
+                background-position: center;
+                "
+                >
                     
                 </div>
             </div>
         </div>
-        <div class="container-slide bg-color-gray-background-light">
+        <div class="container-slide">
             <div>
-                <div class="content-slider">
+                <div  
+                class="content-slider"  style="background-color: #EBA170;">
 
                 </div>
-                <div class="img-slider">
+                <div class="img-slider bg-color-red-button" 
+                style="background-image: url('https://cartzilla.createx.studio/img/home/hero-slider/03.jpg');
+                background-size: covers;
+                background-position: center;
+                "
+                >
                     
                 </div>
             </div>
@@ -534,13 +550,17 @@
         <ul class="bullets-pagination left-[50%] z-30  
             absolute flex bottom-2 w-24 h-5 
             translate-x-[-50%] items-center justify-center">
+        <!--
+            
             <li class="w-3 h-3 p-0 transition  mx-1 border border-1 border-color-red-button rounded-full cursor-pointer active"></li>
             <li class="w-3 h-3 p-0  mx-1 border border-1 transition border-color-red-button rounded-full cursor-pointer"></li>
             <li class="w-3 h-3 p-0  mx-1 border border-1 transition border-color-red-button rounded-full cursor-pointer"></li>
             <li class="w-3 h-3 p-0  mx-1 border border-1 transition border-color-red-button rounded-full cursor-pointer"></li>
+        
+        -->
         </ul>
         <span class="absolute right-5 opacity-0 flex  invisible top-[50%] translate-y-[-50%] w-11 h-11 
-             items-center justify-center  z-20 rounded-full cursor-pointer
+            items-center justify-center  z-20 rounded-full cursor-pointer
             span-icons-slier span-icons-slier-right">
             <i class='bx bxs-chevron-right scale-x-[1.5] scale-y-[1.9] icon-right-slider icon-slider'></i>
         </span> 
@@ -554,5 +574,6 @@
 <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
 <script src="assets/js/header-home.js"></script>
 <script src="assets/js/navab-home.js"></script>
+<script src="assets/js/slider-home.js"></script>
 </body>
 </html>
