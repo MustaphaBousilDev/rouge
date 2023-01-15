@@ -73,7 +73,7 @@
     @media screen and (max-width:500px){
         height: 500px;
         background-color: orange;
-        flex-direction: column;
+        flex-direction:column-reverse;
         flex-wrap: wrap;
         .content-slider{
             width: 100%;
