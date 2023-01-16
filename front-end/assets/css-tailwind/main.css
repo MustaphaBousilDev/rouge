@@ -1025,11 +1025,6 @@ body{
   background-color: rgb(245 158 11 / var(--tw-bg-opacity));
 }
 
-.bg-color-gray-background-light{
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
-}
-
 .p-2{
   padding: 0.5rem;
 }

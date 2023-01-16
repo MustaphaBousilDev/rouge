@@ -21,6 +21,101 @@
             .content-slider{
                 width: 55%;
                 //background-color: aqua;
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:flex-start;
+                .info__slider{
+                    display: flex;
+                    //min-height:200px;
+                    //background-color: yellow;
+                    background-color: transparent;
+                    height: fit-content;
+                    flex-direction: column;
+                    color:#fff;
+                    p{font-size: 35px;margin-bottom: 15px;  transition: 1s;transition-delay: .3s;}
+                    h2{font-size: 55px;color:#fff; transition: 1s;transition-delay: .6s;}
+                    span{font-size: 20px;font-weight: 500;transition: 1s;transition-delay: .9s;}
+                    @media screen and (max-width:1000px){
+                        p{font-size: 30px;margin-bottom: 10px;}
+                        h2{font-size: 35px;}
+                        span{font-size: 18px;}
+                    }
+                    @media screen and (max-width:900px){
+                        p{font-size: 25px}
+                        h2{font-size: 35px;}
+                        span{font-size: 15px;}
+                    }
+                    @media screen and (max-width:800px){
+                        p{font-size: 20px}
+                        h2{font-size: 25px;}
+                        span{font-size: 15px;}
+                    }
+                    @media screen and (max-width:700px){
+                        p{font-size: 20px}
+                        h2{font-size: 22px;}
+                        span{font-size: 13px;}
+                    }
+                    @media screen and (max-width:600px){
+                        p{font-size: 18px}
+                        h2{font-size:20px;}
+                        span{font-size: 13px;}
+                        
+                    }
+                    .active-emotion{
+                        opacity: 1;
+                        visibility: visible;
+                        margin-left: 10px;
+                    }
+                    .hidden-motion{
+                        visibility: hidden;opacity: 0;
+                    }
+                }
+                a{
+                    color:#fff;background-color: #ef4444;
+                    width: fit-content;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+                    padding: 10px 15px;
+                    transition: 1s;
+                    transition-delay: 1.2s;
+                    @media screen and (max-width:600px){
+                        margin-top: 10px;
+                        
+                    }
+                    
+                }
+                .active-emotion{
+                    opacity: 1;
+                    visibility: visible;
+                    
+                    transform: scale(1);
+                }
+                .hidden-motion{
+                    visibility: hidden;opacity: 0;
+                     transform: scale(0);
+                }
+                @media screen and (max-width:1200px){
+                    padding: 50px;
+                }
+                @media screen and (max-width:1000px){
+                    padding: 40px;
+                }
+                @media screen and (max-width:900px){
+                    padding: 30px;
+                }
+                @media screen and (max-width:800px){
+                    padding: 20px;
+                }
+                @media screen and (max-width:700px){
+                    padding: 15px;
+                }
+                @media screen and (max-width:600px){
+                    align-items: center;
+                }
             }
             .img-slider{
                 width:45%;
@@ -41,7 +136,7 @@
             @media screen and (max-width:500px){
                 height: 500px;
                 background-color: orange;
-                flex-direction: column;
+                flex-direction: column-reverse;
                 flex-wrap: wrap;
                 .content-slider{
                     width: 100%;
