@@ -37,6 +37,5 @@ setInterval(function () {
 
 function menu__Toggle() {
   var toggle__menu = document.querySelector('.menu-language');
-  toggle__menu.classList.toggle('active');
-  console.log('hohohohoh');
+  toggle__menu.classList.toggle('active'); //console.log('hohohohoh')
 }

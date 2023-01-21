@@ -37,10 +37,9 @@ document.addEventListener('click', function (e) {
   }
 });
 document.querySelector('.account-link-mobile-li').addEventListener('click', function () {
-  console.debug('gogog');
+  //console.debug('gogog')
   document.querySelector('.account-list-mobile').classList.toggle('expanded');
 });
-console.log('yofgfgyoyoy');
 document.querySelector('.account-link-version-mobile').addEventListener('click', function () {
   document.querySelector('.child-one-account-version-mobile').classList.toggle('expanded-child');
 });

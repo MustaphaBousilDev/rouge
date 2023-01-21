@@ -1,0 +1,71 @@
+.category__slider-product-home {
+  background-color: #fff;
+}
+.category__slider-product-home .arrow-categories-slider-home {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 35px;
+  display: inline-block;
+  padding: 5px;
+  background-color: #e4e4f7;
+  border-radius: 50%;
+  z-index: 1000;
+  color: #7f7e7e;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .category__slider-product-home .arrow-categories-slider-home {
+    font-size: 25px;
+  }
+}
+.category__slider-product-home .arrow-categories-slider-home.arrow_right-categories-slider-home {
+  right: 15px;
+}
+.category__slider-product-home .arrow-categories-slider-home.arrow_right-categories-slider-home:hover {
+  opacity: 1;
+  right: 13px;
+}
+.category__slider-product-home .arrow-categories-slider-home.arrow_left-categories-slider-home {
+  left: 15px;
+}
+.category__slider-product-home .arrow-categories-slider-home.arrow_left-categories-slider-home:hover {
+  opacity: 1;
+  left: 13px;
+}
+.category__slider-product-home .content__categories {
+  height: 100%;
+}
+.category__slider-product-home .content__categories .category-home {
+  background-color: #fff;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  scroll-behavior: smooth;
+  min-width: 100%;
+  /*not probleme scrolling*/
+  overflow: hidden;
+  transition: 0.5s;
+  align-items: center;
+}
+.category__slider-product-home .content__categories .category-home::-webkit-scrollbar {
+  display: none;
+}
+.category__slider-product-home .content__categories .category-home .box-category {
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transform: scale(0.97);
+  opacity: 0.85;
+  transition: 0.1s ease-in-out;
+}
+.category__slider-product-home .content__categories .category-home .box-category:nth-child(1) {
+  margin-left: 0;
+}
+.category__slider-product-home .content__categories .category-home .box-category:hover {
+  opacity: 1;
+  transform: scale(1);
+}

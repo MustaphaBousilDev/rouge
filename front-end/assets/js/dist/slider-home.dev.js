@@ -26,8 +26,7 @@ btn_right.addEventListener('click', function () {
     ul_pagination.querySelectorAll('li').forEach(function (li) {
       li.classList.remove('active');
     });
-    ul_pagination.querySelectorAll('li')[counters].classList.add('active');
-    console.log(counters);
+    ul_pagination.querySelectorAll('li')[counters].classList.add('active'); //console.log(counters)
   } else {
     counters = 0;
     arr_slide.forEach(function (item) {
@@ -53,8 +52,7 @@ btn_left.addEventListener('click', function () {
     ul_pagination.querySelectorAll('li').forEach(function (li) {
       li.classList.remove('active');
     });
-    ul_pagination.querySelectorAll('li')[counters].classList.add('active');
-    console.log(counters);
+    ul_pagination.querySelectorAll('li')[counters].classList.add('active'); //console.log(counters)
   } else {
     counters = arr_slide.length - 1;
     arr_slide.forEach(function (item) {
@@ -71,22 +69,23 @@ btn_left.addEventListener('click', function () {
 
   motion_info_slider();
 });
-var li_paginartion = document.querySelectorAll('.bullets-pagination .bullets-pagination-li');
-console.log('yow');
-console.log(li_paginartion);
+var li_paginartion = document.querySelectorAll('.bullets-pagination .bullets-pagination-li'); //console.log('yow')
+//console.log(li_paginartion)
+
 li_paginartion.forEach(function (li) {
   li.addEventListener('click', function () {
     li_paginartion.forEach(function (item) {
       item.classList.remove('active');
     });
     this.classList.add('active');
-    var datas = this.dataset.index;
-    console.log(datas);
+    var datas = this.dataset.index; //console.log(datas)
+
     counters = datas;
     arr_slide.forEach(function (item) {
       item.classList.remove('active');
     });
     arr_slide[counters].classList.add('active');
+    motion_info_slider();
   });
 });
 

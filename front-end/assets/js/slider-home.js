@@ -31,7 +31,7 @@ btn_right.addEventListener('click',function(){
         })
         ul_pagination.querySelectorAll('li')[counters].classList.add('active')
         
-        console.log(counters)
+        //console.log(counters)
     }else{
         counters=0
         arr_slide.forEach((item)=>{
@@ -62,7 +62,7 @@ btn_left.addEventListener('click',function(){
         })
         ul_pagination.querySelectorAll('li')[counters].classList.add('active')
         
-        console.log(counters)
+        //console.log(counters)
     }else{
         counters=arr_slide.length - 1
         arr_slide.forEach((item)=>{
@@ -82,8 +82,8 @@ btn_left.addEventListener('click',function(){
 
 
 let li_paginartion=document.querySelectorAll('.bullets-pagination .bullets-pagination-li')
-console.log('yow')
-console.log(li_paginartion)
+//console.log('yow')
+//console.log(li_paginartion)
 li_paginartion.forEach((li)=>{
     li.addEventListener('click',function(){
         li_paginartion.forEach((item)=>{
@@ -91,12 +91,13 @@ li_paginartion.forEach((li)=>{
         })
         this.classList.add('active')
         let datas=this.dataset.index 
-        console.log(datas)
+        //console.log(datas)
         counters=datas 
         arr_slide.forEach((item)=>{
             item.classList.remove('active')
         })
         arr_slide[counters].classList.add('active')
+        motion_info_slider()
     })
 })
 

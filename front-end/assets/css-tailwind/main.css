@@ -730,6 +730,16 @@ body{
   margin-right: 1.25rem;
 }
 
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -820,6 +830,14 @@ body{
 
 .h-11{
   height: 2.75rem;
+}
+
+.h-\[120px\]{
+  height: 120px;
+}
+
+.h-\[20px\]{
+  height: 20px;
 }
 
 .w-\[100vw\]{
@@ -1025,6 +1043,58 @@ body{
   background-color: rgb(245 158 11 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'https\:\/\/i\.ytimg\.com\/vi\/q2LqMlxE8eY\/maxresdefault\.jpg\'\)\]{
+  background-image: url('https://i.ytimg.com/vi/q2LqMlxE8eY/maxresdefault.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/mir-s3-cdn-cf\.behance\.net\/project_modules\/disp\/38d7f640108731\.5606d146b9bb7\.jpg\'\)\]{
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/38d7f640108731.5606d146b9bb7.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.wfcdn\.de\/teaser\/1920\/49296\.jpg\'\)\]{
+  background-image: url('https://i.wfcdn.de/teaser/1920/49296.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.pinimg\.com\/736x\/25\/ca\/42\/25ca426cad1148ceff2270fe153b078e\.jpg\'\)\]{
+  background-image: url('https://i.pinimg.com/736x/25/ca/42/25ca426cad1148ceff2270fe153b078e.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/encrypted-tbn0\.gstatic\.com\/images\?q\=tbn\:ANd9GcRqlGDjIG-Wwu_HqboZZVg2vKxSjlXDWE2tZG6Qaz3xslUWbyA6L9oW0346D5xodDMXS-E\&usqp\=CAU\'\)\]{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqlGDjIG-Wwu_HqboZZVg2vKxSjlXDWE2tZG6Qaz3xslUWbyA6L9oW0346D5xodDMXS-E&usqp=CAU');
+}
+
+.bg-\[url\(\'https\:\/\/encrypted-tbn0\.gstatic\.com\/images\?q\=tbn\:ANd9GcS7W3kSjtKsOQQUm1jP6WjXv3mtiRt27mg5Qg\&usqp\=CAU\'\)\]{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7W3kSjtKsOQQUm1jP6WjXv3mtiRt27mg5Qg&usqp=CAU');
+}
+
+.bg-\[url\(\'https\:\/\/img\.huffingtonpost\.com\/asset\/5ce6bd0c210000b90ed0ed6a\.jpeg\?ops\=scalefit_720_noupscale\'\)\]{
+  background-image: url('https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/slider-Nivea-desktop\.jpg\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/slider-Nivea-desktop.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2022\/Z-Categories\/7-Supermarche\/z-provi\/220\/epsuc-220-gris\.jpg\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2022/Z-Categories/7-Supermarche/z-provi/220/epsuc-220-gris.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/images\.yourstory\.com\/cs\/7\/1da9ec3014cc11e9a1b2b928167b6c62\/mensfashionbanner1572434751640png\?w\=752\&fm\=auto\&ar\=2\:1\&mode\=crop\&crop\=face\'\)\]{
+  background-image: url('https://images.yourstory.com/cs/7/1da9ec3014cc11e9a1b2b928167b6c62/mensfashionbanner1572434751640png?w=752&fm=auto&ar=2:1&mode=crop&crop=face');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-right{
+  background-position: right;
+}
+
 .p-2{
   padding: 0.5rem;
 }
@@ -1210,6 +1280,22 @@ body{
     margin-right: 1rem;
   }
 
+  .sm\:h-\[140px\]{
+    height: 140px;
+  }
+
+  .sm\:h-\[100px\]{
+    height: 100px;
+  }
+
+  .sm\:h-\[80px\]{
+    height: 80px;
+  }
+
+  .sm\:min-w-\[80px\]{
+    min-width: 80px;
+  }
+
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1227,6 +1313,21 @@ body{
 
   .md\:right-\[70px\]{
     right: 70px;
+  }
+
+  .md\:mx-4{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .md\:mx-12{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .md\:mx-3{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
   }
 
   .md\:ml-0{
@@ -1249,12 +1350,36 @@ body{
     height: 350px;
   }
 
+  .md\:h-\[180px\]{
+    height: 180px;
+  }
+
+  .md\:h-\[160px\]{
+    height: 160px;
+  }
+
+  .md\:h-\[120px\]{
+    height: 120px;
+  }
+
+  .md\:h-\[150px\]{
+    height: 150px;
+  }
+
   .md\:w-\[400px\]{
     width: 400px;
   }
 
   .md\:w-\[680px\]{
     width: 680px;
+  }
+
+  .md\:min-w-\[160px\]{
+    min-width: 160px;
+  }
+
+  .md\:min-w-\[120px\]{
+    min-width: 120px;
   }
 
   .md\:px-20{
@@ -1306,11 +1431,23 @@ body{
     height: 450px;
   }
 
+  .lg\:h-\[140px\]{
+    height: 140px;
+  }
+
+  .lg\:h-\[160\]{
+    height: 160;
+  }
+
   .lg\:w-\[850px\]{
     width: 850px;
   }
 
   .lg\:w-56{
     width: 14rem;
+  }
+
+  .lg\:min-w-\[140px\]{
+    min-width: 140px;
   }
 }
