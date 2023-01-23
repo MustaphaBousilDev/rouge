@@ -1,0 +1,100 @@
+.products__offre-home{
+    &::-webkit-scrollbar{display: none;}
+        .offre__body-home{
+            background-color: #fff;
+            display: flex;
+            scroll-behavior: smooth;
+            min-width:100%;/*not probleme scrolling*/
+            overflow: hidden;
+            
+            transition: .5s;
+            align-items: center;
+            @media screen and (min-width:280px){
+                height:calc(100% - 40px);
+            }
+            @media screen and (min-width:976px){
+                height: calc(100% - 56px);
+            }
+            @media screen and (max-width:768){
+                height:calc(100% - 48px);
+            }
+
+            .product__offre{
+                //background-color: blue;
+                border-radius:5px;
+                border: 1px solid rgb(213, 212, 212);
+                overflow: hidden;
+                height:100%;
+                cursor: pointer;
+                
+                opacity: .96;
+                
+                transition: .1s ease-in-out;
+                margin-left: 8px;
+                margin-top: 0;
+                &:nth-child(1){
+                    margin-left: 0;
+                }
+                &:hover{
+                opacity: 1;
+                
+                }
+                .old__price-span{
+                    position: relative;
+                    color:rgb(194, 191, 191);
+                    &::before{
+                        content:'';
+                        position: absolute;
+                        top:50%;
+                        height:1px;
+                        width: 90%;
+                        background-color: rgb(194, 191, 191);
+                        transform: rotate(-6deg);
+                    }
+                }
+                .btns-cart-wish{
+                    button{
+                        //background-color: yellow;
+                        margin-left: 5px;
+                        padding: 5px;
+                        width: 35px;
+                        border-radius: 5px;
+                        height:35px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        opacity: .8;
+                        transition:.3s;
+                        transform-origin: center;
+                        transform: scale(0.98);
+                        &:hover{
+                            opacity: 1;
+                            transform: scale(1);
+                        }
+                        &.btn__cart-shopping{
+                            background-color: rgb(32, 125, 255);
+                            a{
+                                i{
+                                    color:#fff;
+                                }
+                            }
+                        }
+                        &.btn__cart-wishlist{
+                            background-color: rgb(247, 245, 245);
+                            a{
+                                i{
+                                    color:rgb(242, 150, 150);
+                                }
+                            }
+                        }
+                        a{
+                            font-size: 20px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+}
