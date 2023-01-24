@@ -844,6 +844,14 @@ body{
   height: 50%;
 }
 
+.h-80{
+  height: 20rem;
+}
+
+.h-96{
+  height: 24rem;
+}
+
 .w-\[100vw\]{
   width: 100vw;
 }
@@ -916,6 +924,10 @@ body{
   width: 1.5rem;
 }
 
+.w-\[33\%\]{
+  width: 33%;
+}
+
 .translate-y-\[-50\%\]{
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -974,6 +986,10 @@ body{
 
 .gap-2{
   gap: 0.5rem;
+}
+
+.gap-1{
+  gap: 0.25rem;
 }
 
 .overflow-hidden{
@@ -1113,6 +1129,46 @@ body{
 
 .bg-\[url\(\'https\:\/\/falconreact18\.prium\.me\/static\/media\/7\.28b0461293b557493c78\.jpg\'\)\]{
   background-image: url('https://falconreact18.prium.me/static/media/7.28b0461293b557493c78.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/prium\.github\.io\/falcon\/v3\.14\.0\/assets\/img\/products\/2\.jpg\'\)\]{
+  background-image: url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/prium\.github\.io\/falcon\/v3\.14\.0\/assets\/img\/products\/4\.jpg\'\)\]{
+  background-image: url('https://prium.github.io/falcon/v3.14.0/assets/img/products/4.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/prium\.github\.io\/falcon\/v3\.14\.0\/assets\/img\/products\/1-2\.jpg\'\)\]{
+  background-image: url('https://prium.github.io/falcon/v3.14.0/assets/img/products/1-2.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/prium\.github\.io\/falcon\/v3\.14\.0\/assets\/img\/products\/1\.jpg\'\)\]{
+  background-image: url('https://prium.github.io/falcon/v3.14.0/assets/img/products/1.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Destockage\/NewArrivageADI\/378X252_copie_3_copy_3_copie_5\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Destockage/NewArrivageADI/378X252_copie_3_copy_3_copie_5.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/7-Tvs\/378X252_copie_3_copy_3_copie_5\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/7-Tvs/378X252_copie_3_copy_3_copie_5.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Destockage\/Beaute\/378X252_copie_3_copy_3_copie_9\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Destockage/Beaute/378X252_copie_3_copy_3_copie_9.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Destockage\/Mode\/378X252_copie_3_copy_3_copie_7\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Destockage/Mode/378X252_copie_3_copy_3_copie_7.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Destockage\/Supermarche\/v2\/378X252_copie_3_copy_3_copie_3\.jpg\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Destockage/Supermarche/v2/378X252_copie_3_copy_3_copie_3.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Ads\/ElectroBousfiha\/Promos\/378X252_copie_3_copy_3_Electro_Bou\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Ads/ElectroBousfiha/Promos/378X252_copie_3_copy_3_Electro_Bou.png');
 }
 
 .bg-cover{
@@ -1385,6 +1441,16 @@ body{
     margin-right: 0.75rem;
   }
 
+  .md\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .md\:mx-28{
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
   .md\:ml-0{
     margin-left: 0px;
   }
@@ -1490,6 +1556,11 @@ body{
   .lg\:mx-4{
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .lg\:mx-28{
+    margin-left: 7rem;
+    margin-right: 7rem;
   }
 
   .lg\:block{
