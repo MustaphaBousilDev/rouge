@@ -844,10 +844,6 @@ body{
   height: 50%;
 }
 
-.h-80{
-  height: 20rem;
-}
-
 .h-96{
   height: 24rem;
 }
@@ -922,10 +918,6 @@ body{
 
 .w-6{
   width: 1.5rem;
-}
-
-.w-\[33\%\]{
-  width: 33%;
 }
 
 .translate-y-\[-50\%\]{
@@ -1151,24 +1143,328 @@ body{
   background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Destockage/NewArrivageADI/378X252_copie_3_copy_3_copie_5.png');
 }
 
-.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/7-Tvs\/378X252_copie_3_copy_3_copie_5\.png\'\)\]{
-  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/7-Tvs/378X252_copie_3_copy_3_copie_5.png');
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Destockage\/Mode\/378X252_copie_3_copy_3_copie_7\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Destockage/Mode/378X252_copie_3_copy_3_copie_7.png');
 }
 
 .bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Destockage\/Beaute\/378X252_copie_3_copy_3_copie_9\.png\'\)\]{
   background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Destockage/Beaute/378X252_copie_3_copy_3_copie_9.png');
 }
 
-.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Destockage\/Mode\/378X252_copie_3_copy_3_copie_7\.png\'\)\]{
-  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Destockage/Mode/378X252_copie_3_copy_3_copie_7.png');
-}
-
 .bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Destockage\/Supermarche\/v2\/378X252_copie_3_copy_3_copie_3\.jpg\'\)\]{
   background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Destockage/Supermarche/v2/378X252_copie_3_copy_3_copie_3.jpg');
 }
 
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/7-Tvs\/378X252_copie_3_copy_3_copie_5\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/7-Tvs/378X252_copie_3_copy_3_copie_5.png');
+}
+
 .bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Ads\/ElectroBousfiha\/Promos\/378X252_copie_3_copy_3_Electro_Bou\.png\'\)\]{
   background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Ads/ElectroBousfiha/Promos/378X252_copie_3_copy_3_Electro_Bou.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/01\/788475\/1\.jpg\?3015\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/01/788475/1.jpg?3015');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/44\/688475\/1\.jpg\?3032\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/44/688475/1.jpg?3032');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/27\/788475\/1\.jpg\?3073\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/27/788475/1.jpg?3073');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/79\/688475\/1\.jpg\?3021\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/79/688475/1.jpg?3021');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/22\/135116\/1\.jpg\?5288\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/22/135116/1.jpg?5288');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/74\/022793\/1\.jpg\?4016\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/74/022793/1.jpg?4016');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/00\/888475\/1\.jpg\?3068\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/00/888475/1.jpg?3068');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/63\/788475\/1\.jpg\?3008\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/788475/1.jpg?3008');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/18\/688475\/1\.jpg\?3022\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/18/688475/1.jpg?3022');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Ads\/FLO\/3\/572x250\.jpg\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Ads/FLO/3/572x250.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Ads\/GroupeSEB\/572x250_\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Ads/GroupeSEB/572x250_.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Ads\/Nivea\/572x250\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Ads/Nivea/572x250.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Ads\/Waikiki\/DDB\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Ads/Waikiki/DDB.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/40\/699524\/1\.jpg\?4990\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/40/699524/1.jpg?4990');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/37\/423064\/1\.jpg\?5434\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/423064/1.jpg?5434');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/58\/892054\/1\.jpg\?2987\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/58/892054/1.jpg?2987');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/92\/699606\/1\.jpg\?3115\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/92/699606/1.jpg?3115');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/50\/599606\/1\.jpg\?3149\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/50/599606/1.jpg?3149');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/43\/762575\/1\.jpg\?8194\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/43/762575/1.jpg?8194');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/02\/510435\/1\.jpg\?7672\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/02/510435/1.jpg?7672');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/85\/060885\/1\.jpg\?0997\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/85/060885/1.jpg?0997');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/16\/355134\/1\.jpg\?1217\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/16/355134/1.jpg?1217');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/13\/759145\/1\.jpg\?4784\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/13/759145/1.jpg?4784');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/46\/912655\/1\.jpg\?4845\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/46/912655/1.jpg?4845');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/73\/677845\/1\.jpg\?4846\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/73/677845/1.jpg?4846');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/37\/636635\/1\.jpg\?8949\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/636635/1.jpg?8949');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/32\/532635\/1\.jpg\?9723\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/32/532635/1.jpg?9723');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/96\/055375\/1\.jpg\?9977\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/96/055375/1.jpg?9977');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/54\/701995\/1\.jpg\?4223\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/54/701995/1.jpg?4223');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/03\/055375\/1\.jpg\?4845\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/03/055375/1.jpg?4845');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/12\/041293\/1\.jpg\?6774\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/12/041293/1.jpg?6774');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/37\/022293\/1\.jpg\?4248\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/022293/1.jpg?4248');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/02\/041293\/1\.jpg\?6774\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/02/041293/1.jpg?6774');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/71\/041293\/1\.jpg\?6774\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/71/041293/1.jpg?6774');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/92\/041293\/1\.jpg\?6774\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/92/041293/1.jpg?6774');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/72\/041293\/1\.jpg\?6774\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/72/041293/1.jpg?6774');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/35\/022293\/1\.jpg\?3830\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/35/022293/1.jpg?3830');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/03\/041293\/1\.jpg\?6774\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/03/041293/1.jpg?6774');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/53\/041293\/1\.jpg\?6773\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/53/041293/1.jpg?6773');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/Z-Jex\/DB\.jpg\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/Z-Jex/DB.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2022\/Z-HP-Elements\/572x250_copy\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2022/Z-HP-Elements/572x250_copy.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/7-Tvs\/378X252_copie_3_copy_3_copie_6-2\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/7-Tvs/378X252_copie_3_copy_3_copie_6-2.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/7-Tvs\/378X252_copie_3_copy_3_copie_6v2\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/7-Tvs/378X252_copie_3_copy_3_copie_6v2.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/7-Tvs\/378X252_copie_3_copy_3_copie_6-1v2\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/7-Tvs/378X252_copie_3_copy_3_copie_6-1v2.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/11\/341116\/1\.jpg\?0424\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/11/341116/1.jpg?0424');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/14\/241116\/1\.jpg\?4545\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/14/241116/1.jpg?4545');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/24\/241116\/1\.jpg\?4544\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/24/241116/1.jpg?4544');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/12\/341116\/1\.jpg\?1383\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/12/341116/1.jpg?1383');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/74\/235194\/1\.jpg\?5742\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/74/235194/1.jpg?5742');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/22\/969815\/1\.jpg\?6248\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/22/969815/1.jpg?6248');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/65\/962625\/1\.jpg\?5284\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/65/962625/1.jpg?5284');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/86\/129625\/1\.jpg\?5465\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/86/129625/1.jpg?5465');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/69\/393725\/1\.jpg\?2370\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/69/393725/1.jpg?2370');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/4-Beaute\/378X252_copie_3_copy_3_copie_4\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/4-Beaute/378X252_copie_3_copy_3_copie_4.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/4-Beaute\/378X252_copie_3_copy_3_copie_5\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/4-Beaute/378X252_copie_3_copy_3_copie_5.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/4-Beaute\/378X252_copie_3_copy_3_copie_3\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/4-Beaute/378X252_copie_3_copy_3_copie_3.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/31\/899873\/1\.jpg\?2475\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/31/899873/1.jpg?2475');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/91\/259193\/1\.jpg\?1538\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/91/259193/1.jpg?1538');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/01\/644785\/1\.jpg\?1159\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/01/644785/1.jpg?1159');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/57\/048823\/1\.jpg\?2806\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/048823/1.jpg?2806');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/61\/041293\/1\.jpg\?6774\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/61/041293/1.jpg?6774');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/04\/903206\/1\.jpg\?6588\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/04/903206/1.jpg?6588');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/45\/980223\/1\.jpg\?7543\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/45/980223/1.jpg?7543');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/27\/904214\/1\.jpg\?7808\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/27/904214/1.jpg?7808');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/5-Maison\/378X252_copie_3_copy_3_copie_4\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/5-Maison/378X252_copie_3_copy_3_copie_4.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/5-Maison\/378X252_copie_3_copy_3_copie_5\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/5-Maison/378X252_copie_3_copy_3_copie_5.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/5-Maison\/378X252_copie_3_copy_3_copie_3_copy\.jpg\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/5-Maison/378X252_copie_3_copy_3_copie_3_copy.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/67\/443725\/1\.jpg\?8701\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/67/443725/1.jpg?8701');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/16\/484315\/1\.jpg\?7145\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/16/484315/1.jpg?7145');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/03\/247225\/1\.jpg\?4424\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/03/247225/1.jpg?4424');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/65\/146825\/1\.jpg\?6736\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/65/146825/1.jpg?6736');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/34\/638673\/1\.jpg\?2444\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/34/638673/1.jpg?2444');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/37\/695595\/1\.jpg\?6285\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/695595/1.jpg?6285');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/72\/738673\/1\.jpg\?5399\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/72/738673/1.jpg?5399');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/81\/247225\/1\.jpg\?4228\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/81/247225/1.jpg?4228');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/86\/459145\/1\.jpg\?2942\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/86/459145/1.jpg?2942');
 }
 
 .bg-cover{
@@ -1363,6 +1659,12 @@ body{
   transition-duration: 150ms;
 }
 
+.transition-opacity{
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .focus\:border-color-red-button:focus{
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
@@ -1377,6 +1679,10 @@ body{
   --tw-scale-x: 1;
   --tw-scale-y: 1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:bg-\[url\(\'https\:\/\/prium\.github\.io\/falcon\/v3\.14\.0\/assets\/img\/products\/2\.jpg\'\)\]:hover{
+  background-image: url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg');
 }
 
 .hover\:opacity-\[1\]:hover{
@@ -1439,16 +1745,6 @@ body{
   .md\:mx-3{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-  }
-
-  .md\:mx-20{
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .md\:mx-28{
-    margin-left: 7rem;
-    margin-right: 7rem;
   }
 
   .md\:ml-0{

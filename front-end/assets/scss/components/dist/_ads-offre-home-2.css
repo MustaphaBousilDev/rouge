@@ -1,0 +1,52 @@
+.offre-ads-home-two {
+  display: flex;
+  flex-wrap: wrap;
+}
+.offre-ads-home-two div {
+  transform: scale(0.98);
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+  width: calc(50% - 4px);
+  cursor: pointer;
+}
+.offre-ads-home-two div:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+.offre-ads-home-two div a {
+  transition: 0.5s;
+  opacity: 1;
+}
+.offre-ads-home-two div .ads-photo-hide {
+  opacity: 0;
+}
+@media screen and (max-width: 1080px) {
+  .offre-ads-home-two {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .offre-ads-home-two div {
+    width: calc(50% - 4px);
+    height: 13rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .offre-ads-home-two {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .offre-ads-home-two div {
+    width: calc(50% - 4px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .offre-ads-home-two {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .offre-ads-home-two div {
+    width: 98%;
+    margin: auto;
+    height: 15rem;
+  }
+}

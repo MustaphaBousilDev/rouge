@@ -1,0 +1,52 @@
+.offre-ads-home-three{
+    display: flex;
+    flex-wrap: wrap;
+    div{
+        transform: scale(.98);
+        opacity: .8;
+        transition: .3s ease-in-out;
+        width: calc(33.33% - 4px);
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1);
+            opacity: 1;
+        }
+        a{
+            transition: .5s;
+            opacity: 1;
+            //visibility: visible;
+        }
+        .ads-photo-hide{
+            opacity: 0;
+            //visibility: hidden;
+        }
+    }
+    @media screen and (max-width:1080px){
+        display: flex;
+        flex-wrap: wrap;
+        div{
+            width: calc(33.33% - 4px);
+            height:13rem;
+            
+        }
+    }
+    @media screen and (max-width:800px){
+        display: flex;
+        flex-wrap: wrap;
+        div{
+            width: calc(50% - 4px);
+            
+        }
+    }
+    @media screen and (max-width:600px){
+        flex-wrap: nowrap;
+        flex-direction: column;
+        div{
+            width: 98%;
+            margin: auto;
+            height:15rem;
+        }
+    }
+   
+}

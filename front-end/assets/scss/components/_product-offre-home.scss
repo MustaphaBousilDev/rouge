@@ -1,4 +1,8 @@
 .products__offre-home{
+    .offre-photo-hide{
+        opacity: 0;
+        
+    }
     &::-webkit-scrollbar{display: none;}
         .offre__body-home{
             background-color: #fff;
@@ -22,6 +26,7 @@
             
         }
         .product__offre{
+            
             //background-color: blue;
             border-radius:5px;
             border: 1px solid rgb(213, 212, 212);
@@ -97,6 +102,7 @@
                     }
                 }
             }
+            .offre-photo-hide{opacity: 0;}
         }
         .icon-offre-home{
             position: absolute;
