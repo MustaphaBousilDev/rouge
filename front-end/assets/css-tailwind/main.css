@@ -740,6 +740,11 @@ body{
   margin-bottom: 0px;
 }
 
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -848,6 +853,26 @@ body{
   height: 24rem;
 }
 
+.h-24{
+  height: 6rem;
+}
+
+.h-28{
+  height: 7rem;
+}
+
+.h-32{
+  height: 8rem;
+}
+
+.h-36{
+  height: 9rem;
+}
+
+.h-\[80px\]{
+  height: 80px;
+}
+
 .w-\[100vw\]{
   width: 100vw;
 }
@@ -918,6 +943,14 @@ body{
 
 .w-6{
   width: 1.5rem;
+}
+
+.w-28{
+  width: 7rem;
+}
+
+.w-36{
+  width: 9rem;
 }
 
 .translate-y-\[-50\%\]{
@@ -1057,6 +1090,10 @@ body{
 .bg-color-rating{
   --tw-bg-opacity: 1;
   background-color: rgb(245 158 11 / var(--tw-bg-opacity));
+}
+
+.bg-\[ul\(\'https\:\/\/seeklogo\.com\/images\/M\/mugiwara-logo-303FD55C54-seeklogo\.com\.png\'\)\]{
+  background-color: ul('https://seeklogo.com/images/M/mugiwara-logo-303FD55C54-seeklogo.com.png');
 }
 
 .bg-\[url\(\'https\:\/\/i\.ytimg\.com\/vi\/q2LqMlxE8eY\/maxresdefault\.jpg\'\)\]{
@@ -1467,6 +1504,182 @@ body{
   background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/86/459145/1.jpg?2942');
 }
 
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/6-Telephonie\/1v3\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/6-Telephonie/1v3.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/6-Telephonie\/3v3\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/6-Telephonie/3v3.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/6-Telephonie\/378X252_copie_3_copy_3_copie_5\.png\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/6-Telephonie/378X252_copie_3_copy_3_copie_5.png');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/35\/751305\/1\.jpg\?1527\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/35/751305/1.jpg?1527');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/90\/485685\/1\.jpg\?4864\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/90/485685/1.jpg?4864');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/31\/966375\/1\.jpg\?3604\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/31/966375/1.jpg?3604');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/94\/427254\/1\.jpg\?6955\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/94/427254/1.jpg?6955');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/97\/562784\/1\.jpg\?9907\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/97/562784/1.jpg?9907');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/57\/664384\/1\.jpg\?8250\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/664384/1.jpg?8250');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/57\/562784\/1\.jpg\?8918\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/562784/1.jpg?8918');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/76\/664384\/1\.jpg\?8206\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/76/664384/1.jpg?8206');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/57\/106384\/1\.jpg\?0677\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/106384/1.jpg?0677');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/02\/735984\/1\.jpg\?8932\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/02/735984/1.jpg?8932');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/40\/140724\/1\.jpg\?7709\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/40/140724/1.jpg?7709');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/72\/171705\/1\.jpg\?3375\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/72/171705/1.jpg?3375');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/11\/090694\/1\.jpg\?7549\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/11/090694/1.jpg?7549');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/28\/733165\/1\.jpg\?0407\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/28/733165/1.jpg?0407');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/98\/866375\/1\.jpg\?0926\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/98/866375/1.jpg?0926');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/32\/426554\/1\.jpg\?6376\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/32/426554/1.jpg?6376');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/62\/241774\/1\.jpg\?1448\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/62/241774/1.jpg?1448');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/22\/971093\/1\.jpg\?9867\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/22/971093/1.jpg?9867');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/23\/526614\/1\.jpg\?3930\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/23/526614/1.jpg?3930');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/63\/697685\/1\.jpg\?0288\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/697685/1.jpg?0288');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/66\/728564\/1\.jpg\?6459\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/66/728564/1.jpg?6459');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/91\/155585\/1\.jpg\?3285\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/91/155585/1.jpg?3285');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/51\/603824\/1\.jpg\?6758\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/51/603824/1.jpg?6758');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/8-Informatique\/378X252_copie_3_copy_3_copie_3_copy_3\.jpg\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/8-Informatique/378X252_copie_3_copy_3_copie_3_copy_3.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/8-Informatique\/378X252_copie_3_copy_3_copie_3_copy_2\.jpg\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/8-Informatique/378X252_copie_3_copy_3_copie_3_copy_2.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/cms\/000_2023\/000001_Janvier\/Camps\/2-Promotions\/8-Informatique\/378X252_copie_3_copy_3_copie_3_copy\.jpg\'\)\]{
+  background-image: url('https://ma.jumia.is/cms/000_2023/000001_Janvier/Camps/2-Promotions/8-Informatique/378X252_copie_3_copy_3_copie_3_copy.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/63\/133935\/1\.jpg\?8056\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/133935/1.jpg?8056');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/80\/624506\/1\.jpg\?4638\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/80/624506/1.jpg?4638');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/60\/775685\/1\.jpg\?0365\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/60/775685/1.jpg?0365');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/94\/514545\/1\.jpg\?0592\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/94/514545/1.jpg?0592');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/18\/311544\/1\.jpg\?0048\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/18/311544/1.jpg?0048');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/21\/599185\/1\.jpg\?8462\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/21/599185/1.jpg?8462');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/11\/539693\/1\.jpg\?2200\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/11/539693/1.jpg?2200');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/91\/245424\/1\.jpg\?2947\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/91/245424/1.jpg?2947');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/88\/707725\/1\.jpg\?0130\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/88/707725/1.jpg?0130');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/55\/068425\/1\.jpg\?0152\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/55/068425/1.jpg?0152');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/60\/288273\/1\.jpg\?9493\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/60/288273/1.jpg?9493');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/74\/865024\/1\.jpg\?3797\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/74/865024/1.jpg?3797');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/65\/528624\/1\.jpg\?8421\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/65/528624/1.jpg?8421');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/09\/579585\/1\.jpg\?5485\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/09/579585/1.jpg?5485');
+}
+
+.bg-\[url\(\'https\:\/\/seeklogo\.com\/images\/M\/mugiwara-logo-303FD55C54-seeklogo\.com\.png\'\)\]{
+  background-image: url('https://seeklogo.com/images/M/mugiwara-logo-303FD55C54-seeklogo.com.png');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1497,6 +1710,14 @@ body{
 
 .p-1{
   padding: 0.25rem;
+}
+
+.p-12{
+  padding: 3rem;
+}
+
+.p-9{
+  padding: 2.25rem;
 }
 
 .px-3{
@@ -1572,6 +1793,16 @@ body{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-medium{
@@ -1659,12 +1890,6 @@ body{
   transition-duration: 150ms;
 }
 
-.transition-opacity{
-  transition-property: opacity;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .focus\:border-color-red-button:focus{
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
@@ -1721,6 +1946,11 @@ body{
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sm\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1846,6 +2076,11 @@ body{
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 @media (min-width: 976px){
@@ -1883,6 +2118,10 @@ body{
     height: 3.5rem;
   }
 
+  .lg\:h-\[200px\]{
+    height: 200px;
+  }
+
   .lg\:w-\[850px\]{
     width: 850px;
   }
@@ -1907,5 +2146,10 @@ body{
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
