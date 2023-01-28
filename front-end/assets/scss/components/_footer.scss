@@ -1,40 +1,138 @@
 footer{
     height:500px;
-    background-color: rgb(61, 60, 60);
+    background-color: #000;
     color:#fff;
     .header__footer{
-        background-color: rgb(86, 74, 74);
-        min-height: 100%;
+        background-color: rgb(61, 60, 60);
         display:flex;
+        flex-wrap: wrap;
         .child{
+            //height: 200px;
+            padding: 20px;
             &:nth-child(1){
                 order: 1;
                 width: 25%;
-                background-color: yellow;
+                //background-color: yellow;
             }
             &:nth-child(2){
                 order:2;
                 width: 50%;
-                background-color: red;
+                @media screen and (max-width:1500px){
+                    width: 40%;
+                }
+                //background-color: red;
+                form{
+                    div{
+                        i{
+                            color:gray;
+                        }
+                        input{
+                            &::placeholder{
+                                color:gray;
+                                font-size: 17px;
+                            }
+                        }
+                        i{
+                            &.send{
+                                color:#fff;
+                            }
+                        }
+                    }
+                }
             }
             &:nth-child(3){
                 width: 25%;
                 order: 3;
-                background-color: blue;
+                
+                //background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                a{
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        border-color:#ef4444;
+                        div {
+                            i{
+                                color:#ef4444;
+                            }
+                        }
+                        span{
+                            color:#ef4444;
+                            @media screen and (max-width:1600px){
+                                font-size: 10px;
+                            }
+                        }
+                        h3{
+                            color:#ef4444;
+                        }
+                    }
+                    @media screen and (max-width:1600px){
+                        width: 49%;
+                        padding: 5px ;
+                    }
+                }
+                @media screen and (max-width:1500px){
+                    justify-content: flex-start;
+                    width: 35%;
+                    a{
+                        width: calc(50% - 5px);
+                        margin-left: 5px;
+                    }
+                }
             }
 
            
         }
-        @media screen and (max-width:900px){
-            flex-direction: column;
+        @media screen and (max-width:1080px){
+            
             .child{
                 &:nth-child(1){
                     order: 1;
-                    width:100% ;
+                    width:50%;
+                    justify-content: flex-start;
                 }
                 &:nth-child(2){
                     order:3;
                     width: 100%;
+                }
+                &:nth-child(3){
+                    width: 50%;
+                    order: 2;
+                }
+            }
+        }
+        @media screen and (max-width:700px){
+            
+            .child{
+                &:nth-child(1){
+                    order: 1;
+                    width:30%;
+                }
+                &:nth-child(2){
+                    order:3;
+                    width: 100%;
+                }
+                &:nth-child(3){
+                    width: 70%;
+                    order: 2;
+                }
+            }
+        }
+        @media screen and (max-width:500px){
+            
+            .child{
+                &:nth-child(1){
+                    order: 1;
+                    width:100%;
+                }
+                &:nth-child(2){
+                    order:3;
+                    width: 100%;
+                    form{
+                        width: 99%;
+                    }
                 }
                 &:nth-child(3){
                     width: 100%;
