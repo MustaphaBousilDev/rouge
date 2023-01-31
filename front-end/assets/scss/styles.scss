@@ -1,4 +1,4 @@
-@import 'config/variables';
+@import 'config/variables'; 
 @import 'base/base';
 @import 'theme/themes';
 @import 'layout/layouts';
@@ -14,5 +14,8 @@
 @import 'components/footer'; 
 @import 'components/scrolls'; 
 @import 'components/media-query';
+
+//shop page 
+@import 'components/shop/shop';
 
 
