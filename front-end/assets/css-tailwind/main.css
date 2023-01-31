@@ -672,18 +672,6 @@ body{
   left: 1.25rem;
 }
 
-.top-\[30\%\]{
-  top: 30%;
-}
-
-.top-\[40\%\]{
-  top: 40%;
-}
-
-.top-\[20\%\]{
-  top: 20%;
-}
-
 .top-\[25\%\]{
   top: 25%;
 }
@@ -768,11 +756,6 @@ body{
   margin-bottom: 0px;
 }
 
-.my-\[-5px\]{
-  margin-top: -5px;
-  margin-bottom: -5px;
-}
-
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -801,20 +784,8 @@ body{
   margin-right: 1rem;
 }
 
-.mt-\[-5px\]{
-  margin-top: -5px;
-}
-
-.mt-\[-10px\]{
-  margin-top: -10px;
-}
-
 .mt-\[-8px\]{
   margin-top: -8px;
-}
-
-.mt-\[-9px\]{
-  margin-top: -9px;
 }
 
 .flex{
@@ -971,10 +942,6 @@ body{
 
 .w-6{
   width: 1.5rem;
-}
-
-.w-14{
-  width: 3.5rem;
 }
 
 .w-20{
@@ -1748,16 +1715,8 @@ body{
   padding: 0.25rem;
 }
 
-.p-9{
-  padding: 2.25rem;
-}
-
 .p-4{
   padding: 1rem;
-}
-
-.p-8{
-  padding: 2rem;
 }
 
 .px-3{
@@ -1793,11 +1752,6 @@ body{
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .px-9{
@@ -1961,18 +1915,8 @@ body{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:border-color-red-button:hover{
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
 .hover\:bg-\[url\(\'https\:\/\/prium\.github\.io\/falcon\/v3\.14\.0\/assets\/img\/products\/2\.jpg\'\)\]:hover{
   background-image: url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg');
-}
-
-.hover\:text-color-red-button:hover{
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-\[1\]:hover{
@@ -2006,10 +1950,6 @@ body{
 
   .sm\:min-w-\[200px\]{
     min-width: 200px;
-  }
-
-  .sm\:p-1{
-    padding: 0.25rem;
   }
 
   .sm\:px-4{
@@ -2108,6 +2048,10 @@ body{
 
   .md\:p-2{
     padding: 0.5rem;
+  }
+
+  .md\:p-8{
+    padding: 2rem;
   }
 
   .md\:px-20{

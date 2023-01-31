@@ -1,5 +1,4 @@
 footer{
-    height:500px;
     background-color: #000;
     color:#fff;
     .header__footer{
@@ -103,7 +102,7 @@ footer{
                 }
             }
         }
-        @media screen and (max-width:700px){
+        @media screen and (max-width:800px){
             
             .child{
                 &:nth-child(1){
@@ -113,6 +112,13 @@ footer{
                 &:nth-child(2){
                     order:3;
                     width: 100%;
+                    form{
+                        width: 99%;
+                        div{
+                            width: 100%;
+                            
+                        }
+                    }
                 }
                 &:nth-child(3){
                     width: 70%;
@@ -132,6 +138,10 @@ footer{
                     width: 100%;
                     form{
                         width: 99%;
+                        div{
+                            width: 100%;
+                            
+                        }
                     }
                 }
                 &:nth-child(3){
@@ -142,6 +152,21 @@ footer{
         }
     }
     .body__footer{
-
+        .our__services{
+            display: flex;
+            flex-wrap: wrap;
+            ul{
+                width:calc(25% - 10px);
+                margin-right: 10px;
+                @media screen and (max-width:1080px){
+                    width:calc(50% - 10px);
+                    margin-top: 20px;
+                }
+                @media screen and (max-width:600px){
+                    width: calc(100%);
+                    margin-right: 0;
+                }
+            }
+        }
     }
 }
