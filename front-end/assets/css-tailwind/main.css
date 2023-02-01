@@ -872,6 +872,18 @@ body{
   height: 100%;
 }
 
+.h-\[100vh\]{
+  height: 100vh;
+}
+
+.h-\[60\%\]{
+  height: 60%;
+}
+
+.h-\[55\%\]{
+  height: 55%;
+}
+
 .w-\[100vw\]{
   width: 100vw;
 }
@@ -1683,6 +1695,18 @@ body{
   background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/09/579585/1.jpg?5485');
 }
 
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/06\/918334\/1\.jpg\?7339\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/06/918334/1.jpg?7339');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/11\/154924\/1\.jpg\?1290\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/11/154924/1.jpg?1290');
+}
+
+.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/46\/082824\/1\.jpg\?9203\'\)\]{
+  background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/46/082824/1.jpg?9203');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1757,6 +1781,11 @@ body{
 .px-9{
   padding-left: 2.25rem;
   padding-right: 2.25rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pr-3{
@@ -1957,6 +1986,11 @@ body{
     padding-right: 1rem;
   }
 
+  .sm\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .sm\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -2074,6 +2108,21 @@ body{
     padding-right: 0.75rem;
   }
 
+  .md\:px-14{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .md\:px-9{
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
+  .md\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .md\:text-\[12px\]{
     font-size: 12px;
   }
@@ -2157,6 +2206,11 @@ body{
 
   .lg\:p-8{
     padding: 2rem;
+  }
+
+  .lg\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:text-3xl{
