@@ -1,0 +1,29 @@
+.products__secondaires-details {
+  display: flex;
+  padding: 5px;
+}
+.products__secondaires-details .product__secondary-detail {
+  width: calc(25% - 10px);
+  margin-right: 10px;
+  background-color: #000;
+  height: calc(100% - 5px);
+  border-radius: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+  transform: scale(0.97);
+  cursor: pointer;
+}
+.products__secondaires-details .product__secondary-detail:last-child {
+  margin-right: 0;
+  width: 25%;
+}
+.products__secondaires-details .product__secondary-detail img {
+  opacity: 0.7;
+}
+.products__secondaires-details .product__secondary-detail:hover {
+  transform: scale(1);
+}
+.products__secondaires-details .product__secondary-detail:hover img {
+  opacity: 1;
+}
