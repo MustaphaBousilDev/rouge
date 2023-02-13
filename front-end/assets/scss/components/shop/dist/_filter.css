@@ -1,0 +1,26 @@
+.filter__products-shop-page .shows_removing {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+}
+.filter__products-shop-page .categories___dropdown .category h2 {
+  color: #b7afaf;
+}
+.filter__products-shop-page .categories___dropdown .category span.span__drop-down {
+  transition: 0.3s ease-in-out;
+  background-color: #dde1fa;
+}
+.filter__products-shop-page .categories___dropdown .category span.span__drop-down i.drop__down-icon {
+  color: #737396;
+}
+.filter__products-shop-page .categories___dropdown .category span.span__drop-down:hover {
+  background-color: #f9b4b4;
+}
+.filter__products-shop-page .categories___dropdown .category span.span__drop-down:hover i {
+  transition: 0.3s ease-in-out;
+  color: #f15d5d;
+  transform: rotate(180deg);
+}
+.filter__products-shop-page hr {
+  background-color: #d1c8c8;
+}

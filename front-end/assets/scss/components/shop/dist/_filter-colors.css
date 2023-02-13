@@ -1,0 +1,47 @@
+.colors-filter-shop-page-parent .colors-filter-shop-page label {
+  border: 1px solid #beb5b5;
+  transition: 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page label span {
+  opacity: 0.6;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page label:hover {
+  border: 1px solid #e95656;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page label:hover span {
+  opacity: 1;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page label.active {
+  border: 2px solid #e95656;
+  width: 47px;
+  height: 47px;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page label.active span {
+  opacity: 1;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page:nth-child(1) label span {
+  background-color: #00aaff;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page:nth-child(2) label span {
+  background-color: #fff200;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page:nth-child(3) label span {
+  background-color: #ff003c;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page:nth-child(4) label span {
+  background-color: #0e0e10;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page:nth-child(5) label span {
+  background-color: #a4a4b3;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page:nth-child(6) label span {
+  background-color: #00ff04;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page:nth-child(7) label span {
+  background-color: #f200ff;
+}
+.colors-filter-shop-page-parent .colors-filter-shop-page:nth-child(8) label span {
+  background-color: #ff5e00;
+}

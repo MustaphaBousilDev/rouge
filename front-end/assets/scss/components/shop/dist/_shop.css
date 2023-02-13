@@ -1,6 +1,5 @@
 .shopping__page {
   position: relative;
-  height: 4000px;
 }
 .shopping__page .header__controll__shopping__page {
   display: flex;
@@ -138,9 +137,8 @@
   border-radius: 10px;
   position: absolute;
   left: calc(80px + 0.9%);
-  height: 100vh;
   top: calc(120px - 60px);
-  z-index: 1000;
+  z-index: 100;
 }
 @media screen and (max-width: 1200px) {
   .shopping__page .body__controll__shopping__page .filter__products-shop-page {

@@ -1,0 +1,38 @@
+.filter__products-shop-page{
+     
+    .shows_removing{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    
+    .categories___dropdown{
+        .category{ 
+            h2{
+                color:rgb(183, 175, 175);
+            }
+            span.span__drop-down{
+                transition: .3s ease-in-out;
+                background-color: rgb(221, 225, 250);
+                i.drop__down-icon{
+                    color:rgb(115, 115, 150);
+                    
+                }
+                &:hover{
+                   background-color: rgb(249, 180, 180);
+                   i{
+                    transition: .3s ease-in-out;
+                    color:rgb(241, 93, 93);
+                    transform: rotate(180deg);
+                   }
+                }
+            }
+            
+           
+            
+        }
+    }
+    hr{
+        background-color: #d1c8c8;
+    }
+}
