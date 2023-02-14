@@ -20,6 +20,44 @@ body{
             //background-color: pink;
             border-radius: 10px;
             overflow: hidden;
+            position: relative;
+            i{
+                position: absolute;
+                top:50%;
+                z-index: 10;
+                transform: translateY(-50%);
+                background-color: rgb(221, 211, 211);
+                display: inline-block;
+                padding: 5px;
+                cursor: pointer;
+                opacity: .5;
+                transition: .3s;
+                border-radius: 50%;
+                opacity: 0;
+                visibility: 0;
+                &.right-icon__product-details{
+                    right: 15px;
+                }
+                &.left-icon__product-details{
+                    left: 15px;
+                }
+                &:hover{
+                    opacity: 1;
+                }
+            }
+            &:hover{
+                i{
+                    opacity: 1;
+                    visibility: visible;
+                    &.right-icon__product-details{
+                        right: 13px;
+                    }
+                    &.left-icon__product-details{
+                        left: 13px;
+                    }
+                }
+            }
+
         }
         .products__secondaires-details{
            

@@ -17,7 +17,12 @@
             width: 25%;
         }
         img{
-            opacity: .7;
+            opacity: .5;
+            transform: scale(0.97);
+            &.active{
+                opacity: 1;
+                transform: scale(1);
+            }
         }
         &:hover{
             transform: scale(1);

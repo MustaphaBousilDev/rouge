@@ -19,7 +19,12 @@
   width: 25%;
 }
 .products__secondaires-details .product__secondary-detail img {
-  opacity: 0.7;
+  opacity: 0.5;
+  transform: scale(0.97);
+}
+.products__secondaires-details .product__secondary-detail img.active {
+  opacity: 1;
+  transform: scale(1);
 }
 .products__secondaires-details .product__secondary-detail:hover {
   transform: scale(1);
