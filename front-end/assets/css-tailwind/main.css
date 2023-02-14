@@ -766,21 +766,6 @@ body{
   margin-right: 0.5%;
 }
 
-.mx-20{
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
-.mx-24{
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -925,6 +910,38 @@ body{
   height: 37px;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-\[120px\]{
+  height: 120px;
+}
+
+.h-\[500px\]{
+  height: 500px;
+}
+
+.h-\[450px\]{
+  height: 450px;
+}
+
+.h-\[400px\]{
+  height: 400px;
+}
+
+.h-\[350px\]{
+  height: 350px;
+}
+
+.h-\[340px\]{
+  height: 340px;
+}
+
+.h-\[370px\]{
+  height: 370px;
+}
+
 .w-\[100vw\]{
   width: 100vw;
 }
@@ -1021,12 +1038,24 @@ body{
   width: 37px;
 }
 
-.w-\[\'45\%\'\]{
-  width: '45%';
+.w-\[30\%\]{
+  width: 30%;
 }
 
-.w-\[50\%\]{
-  width: 50%;
+.w-\[120px\]{
+  width: 120px;
+}
+
+.w-\[40\%\]{
+  width: 40%;
+}
+
+.w-\[35\%\]{
+  width: 35%;
+}
+
+.w-\[20\%\]{
+  width: 20%;
 }
 
 .translate-y-\[-50\%\]{
@@ -1772,10 +1801,6 @@ body{
   background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/46/082824/1.jpg?9203');
 }
 
-.bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/500x500\/filters\:fill\(white\)\/product\/07\/509464\/1\.jpg\?3167\'\)\]{
-  background-image: url('https://ma.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/509464/1.jpg?3167');
-}
-
 .bg-cover{
   background-size: cover;
 }
@@ -1949,6 +1974,10 @@ body{
   font-weight: 400;
 }
 
+.font-semibold{
+  font-weight: 600;
+}
+
 .leading-tight{
   line-height: 1.25;
 }
@@ -1991,6 +2020,11 @@ body{
 .text-\[\#333\]{
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.text-\[\#fff\]{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-\[\.8\]{
@@ -2131,11 +2165,6 @@ body{
   .md\:mx-3{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-  }
-
-  .md\:mx-24{
-    margin-left: 6rem;
-    margin-right: 6rem;
   }
 
   .md\:mx-8{
