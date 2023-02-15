@@ -2330,3 +2330,23 @@ body {
 .products__secondaires-details .product__secondary-detail:hover img {
   opacity: 1;
 }
+
+.review-description-products {
+  height: 100vh;
+  background-color: yellow;
+}
+.review-description-products .header-review-description-products p {
+  color: #4e4e4e;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.review-description-products .header-review-description-products p:hover {
+  border-bottom: 2px solid #333;
+}
+
+.description__product-details {
+  background-color: red;
+  width: 70%;
+  font-size: 15px;
+  color: #4b4b4b;
+}

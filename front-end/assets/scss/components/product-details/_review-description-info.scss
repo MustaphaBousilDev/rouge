@@ -1,0 +1,14 @@
+.review-description-products{
+    height: 100vh;
+    background-color: yellow;
+    .header-review-description-products{
+        p{
+            color:#4e4e4e;
+            padding: 0 5px;
+            cursor: pointer;
+            &:hover{
+                border-bottom: 2px solid #333;
+            }
+        }
+    }
+}
