@@ -4,3 +4,8 @@
   font-size: 15px;
   color: #4b4b4b;
 }
+@media screen and (max-width: 800px) {
+  .description__product-details {
+    width: 100%;
+  }
+}

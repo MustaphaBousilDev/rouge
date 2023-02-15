@@ -2332,7 +2332,6 @@ body {
 }
 
 .review-description-products {
-  height: 100vh;
   background-color: yellow;
 }
 .review-description-products .header-review-description-products p {
@@ -2349,4 +2348,9 @@ body {
   width: 70%;
   font-size: 15px;
   color: #4b4b4b;
+}
+@media screen and (max-width: 800px) {
+  .description__product-details {
+    width: 100%;
+  }
 }
