@@ -2331,9 +2331,6 @@ body {
   opacity: 1;
 }
 
-.review-description-products {
-  background-color: yellow;
-}
 .review-description-products .header-review-description-products p {
   color: #4e4e4e;
   padding: 0 5px;
@@ -2347,10 +2344,24 @@ body {
   background-color: red;
   width: 70%;
   font-size: 15px;
+  display: none;
   color: #4b4b4b;
 }
 @media screen and (max-width: 800px) {
   .description__product-details {
     width: 100%;
   }
+}
+
+.review-description-products .info__product-details {
+  display: none;
+}
+.review-description-products .info__product-details table {
+  border: 1px solid red;
+}
+
+.review-description-products .rating__product-details hr {
+  height: 0.5px;
+  background-color: #cac5c5;
+  border: 0;
 }

@@ -18,7 +18,7 @@
 //shop page 
 @import 'components/shop/shop';
 @import 'components/shop/filter';
-@import 'components/shop/range'; 
+@import 'components/shop/range';  
 @import 'components/shop/filter-colors';
 
 
@@ -29,3 +29,6 @@
 @import 'components/product-details/product-secondary';
 @import 'components/product-details/review-description-info';
 @import 'components/product-details/description-product-details';
+@import 'components/product-details/info-product-details';
+@import 'components/product-details/rating-product-details-show';
+@import 'components/product-details/review-rating-commenter-product-details';
