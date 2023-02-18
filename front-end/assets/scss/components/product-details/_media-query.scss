@@ -1,0 +1,30 @@
+@media screen and (max-width:1300px){
+    .profile__commenter{
+        width: 50%;
+    }
+    .rating__profile-commenter{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .profile__commenter{
+        width: 50%;
+    }
+    .rating__profile-commenter{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1079px){
+    .rating__product-details{
+        flex-direction: column;
+    }
+    .profile__commenter{
+        width: 100%;
+    }
+    .rating__profile-commenter{
+        width: 100%;
+        padding-left: 10px;
+    }
+}

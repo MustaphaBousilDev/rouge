@@ -766,16 +766,6 @@ body{
   margin-right: 0px;
 }
 
-.my-6{
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.mx-\[0\.5\%\]{
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-}
-
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -784,6 +774,16 @@ body{
 .mx-3{
   margin-left: 0.75rem;
   margin-right: 0.75rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mx-\[0\.5\%\]{
+  margin-left: 0.5%;
+  margin-right: 0.5%;
 }
 
 .ml-2{
@@ -836,10 +836,6 @@ body{
 
 .mt-6{
   margin-top: 1.5rem;
-}
-
-.mt-64{
-  margin-top: 16rem;
 }
 
 .inline-block{
@@ -1070,6 +1066,18 @@ body{
   width: 55px;
 }
 
+.w-\[250px\]{
+  width: 250px;
+}
+
+.w-\[60\%\]{
+  width: 60%;
+}
+
+.w-\[55\%\]{
+  width: 55%;
+}
+
 .w-\[80\%\]{
   width: 80%;
 }
@@ -1084,22 +1092,6 @@ body{
 
 .w-\[37px\]{
   width: 37px;
-}
-
-.w-\[200px\]{
-  width: 200px;
-}
-
-.w-\[250px\]{
-  width: 250px;
-}
-
-.w-\[60\%\]{
-  width: 60%;
-}
-
-.w-\[55\%\]{
-  width: 55%;
 }
 
 .translate-y-\[-50\%\]{
@@ -1973,28 +1965,12 @@ body{
   padding-right: 0.75rem;
 }
 
-.pl-14{
-  padding-left: 3.5rem;
-}
-
-.pl-64{
-  padding-left: 16rem;
-}
-
-.pl-12{
-  padding-left: 3rem;
-}
-
 .pl-16{
   padding-left: 4rem;
 }
 
 .text-left{
   text-align: left;
-}
-
-.text-right{
-  text-align: right;
 }
 
 .text-xs{
