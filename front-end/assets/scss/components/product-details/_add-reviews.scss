@@ -1,0 +1,29 @@
+.add__review-product-details{
+    @media screen and (max-width:1200px){
+        width: 100%;
+    }
+    form{
+        textarea{
+            @media screen and (max-width:1200px){
+                width: 95%;
+            }
+            @media screen and (max-width:800px){
+                width: 100%;
+            }
+        }
+        div{
+            flex-wrap: wrap;
+            input{
+                @media screen and (max-width:1200px){
+                    width: 46%;
+                }
+                @media screen and (max-width:800px){
+                    width:100%;
+                    margin-top: 10px;
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width: 1200px) {
+  .add__review-product-details {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .add__review-product-details form textarea {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .add__review-product-details form textarea {
+    width: 100%;
+  }
+}
+.add__review-product-details form div {
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1200px) {
+  .add__review-product-details form div input {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .add__review-product-details form div input {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

@@ -1,3 +1,6 @@
+.review-description-products .rating__product-details {
+  flex-wrap: wrap;
+}
 .review-description-products .rating__product-details hr {
   height: 0.5px;
   background-color: #cac5c5;

@@ -592,9 +592,9 @@
     <!--review & description-->
     <div class="review-description-products mx-2 md:mx-8 lg:mx-24 p-3">
         <div class="header-review-description-products flex">
-            <p class="mx-2 font-bold">DESCRIPTION</p>
-            <p class="mx-2 font-bold">ADDITIONEL INFO</p>
-            <p class="mx-2 font-bold">REVIEWS(3)</p>
+            <p class="mx-2 font-bold description">DESCRIPTION</p>
+            <p class="mx-2 font-bold thisOpacity infos">ADDITIONEL INFO</p>
+            <p class="mx-2 font-bold thisOpacity reviews">REVIEWS(3)</p>
         </div>
         <div class="description__product-details mt-4 w-[70%]">
             <p>
@@ -612,7 +612,7 @@
                 bucolically hey precarious goldfinch mastodon goodness gnashed 
                 a jellyfish and one however because.
             </p>
-            <ul class="my-5 w-[100%] bg-color-rating" >
+            <ul class="my-5 w-[100%]" >
                 <div class="flex my-2 text-color-gray-dark">
                     <li class="w-[20%]">Type Of Packing </li>
                     <span class="inline-block w-[50%] ml-5">Bottle</span>
@@ -661,8 +661,8 @@
                 lugubrious luridly irrationally attractively dachshund.
             </p>
         </div>
-        <div class="info__product-details mt-4">
-            <table class=" w-[50%]">
+        <div class="info__product-details mt-4 hiddens">
+            <table class=" w-[100%] md:w-[50%]">
                 <thead>
                   <tr>
                     <th class="border border-slate-600">Info</th>
@@ -689,9 +689,7 @@
                 </tbody>
             </table>
         </div>
-        <h3 class="text-md mt-3 text-color-gray-dark">Customer questions & answers</h3>
-        <div class="rating__product-details mt-4 flex ">
-            
+        <div class="rating__product-details mt-4 flex hiddens">
             <div class="profile__commenter w-[50%]">
                 <div class="flex items-center p-1">
                     <div class="profile-info mt-4 flex flex-col items-end px-4 w-[20%]">
@@ -821,7 +819,314 @@
                     </div>
                 </div>
             </div>
+            <div class="w-[70%] h-[500px] p-8 add__review-product-details">
+                <h1 class="text-xl mb-2">Add a Review</h1>
+                <div>
+                    <i class='bx bx-star mx-0 inline-block'></i>
+                    <i class='bx bx-star mx-0 inline-block'></i>
+                    <i class='bx bx-star mx-0 inline-block'></i>
+                    <i class='bx bx-star mx-0 inline-block'></i>
+                    <i class='bx bx-star mx-0 inline-block'></i>
+                </div>
+                <form class="mt-3">
+                    <textarea class="w-[90%] h-56 rounded-md outline-none border">
+                        Write Comment
+                    </textarea>
+                    <div class="flex items-center">
+                        <input placeholder="Name" class="w-[44%] border p-3 mr-[1%] rounded-md outline-none" type="text"/>
+                        <input placeholder="Email" class="w-[44%] border p-3 ml-[1%] rounded-md outline-none" type="text"/>
+                    </div>
+                    <Button class="bg-color-red-button text-[#fff] px-7 py-2 rounded-md mt-3">Save</Button>
+                </form>
+            </div>
         </div>
+    </div>
+    <!--products offre-->
+    <div class="products__offre-home mt-2 rounded-lg h-[100px] sm:h-[480px] md:h-[400px] lg:h-[420px] overflow-hidden  mx-1 md:mx-10 lg:mx-28  shadow-md relative">
+        <div class="offre__header-home  h-10 md:h-12 lg:h-14  bg-color-red-button flex justify-between px-4 items-center">
+            <h3 class="flex items-center text-while">
+                <p class='w-6 h-6 md:w-8 md:h-8 bg-[url("https://cdn-icons-png.flaticon.com/128/5775/5775289.png")] mx-2 bg-center bg-cover bg-color-gray-dark'></p>
+                <p>Vite</p>
+            </h3>
+            <div class="crono__offre-home ">
+                <h3 class="text-lg md:text-2xl lg:text-3xl font-bold text-while"><span>12</span>:<span>56</span>:<span>00</span></h3>
+            </div>
+            <p><a class="text-md md:text-xl text-while" href="#">more...</a></p>
+        </div>
+        <div class="offre__body-home p-3 relative">
+            <div class="product__offre sm:min-w-[200px]    md:min-w-[210px] lg:min-w-[270px]">
+                <div class="header-product bg-center bg-cover h-[50%]
+                bg-color-rating bg-[url('https://falconreact18.prium.me/static/media/8.5337a0bb9c2ffd16669d.jpg')]
+                    transition
+                    hover:bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]"></div>
+                <div class="body-product p-1">
+                    <h3 class="md:text-sm lg:text-lg my-0">Logitech G305 Gaming Mouse</h3>
+                    <a href="#" class="text-sm my-0 ">Computer & Accessories</a>
+                    <div class="flex items-center">
+                        <h2 class="text-xl font-bold text-color-red-button mx-1">$34.56</h2>
+                        <span class="text-xs old__price-span">$95.00</span>
+                    </div>
+                    <p class="text-sm text-color-gray-background-light">Shipping Cost: <span class="font-bold">$20</span></p>
+                    <p class="text-sm text-color-gray-background-light">Stock: <span class="font-bold" style="color:rgb(106, 240, 106)">Available</span></p>
+                    <div class=" flex items-center justify-between mt-2">
+                        <div class="ratings">
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <span class="text-color-gray-background-light text-sm ">(6)</span>
+                        </div>
+                        <div class="btns-cart-wish flex">
+                            <button class="btn__cart-shopping"><a href="#"><i class='bx bx-cart-alt'></i></a></button>
+                            <button class="btn__cart-wishlist"><a href="#"><i class='bx bx-heart'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__offre sm:min-w-[200px]    md:min-w-[210px] lg:min-w-[270px]">
+                <div class="header-product bg-center bg-cover h-[50%] bg-color-rating bg-[url('https://falconreact18.prium.me/static/media/5.09ac6a83faf13369156d.jpg')]
+                hover:bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]">
+                    
+                </div>
+                <div class="body-product p-1">
+                    <h3 class="md:text-sm lg:text-lg my-0">Logitech G305 Gaming Mouse</h3>
+                    <a href="#" class="text-sm my-0 ">Computer & Accessories</a>
+                    <div class="flex items-center">
+                        <h2 class="text-xl font-bold text-color-red-button mx-1">$34.56</h2>
+                        <span class="text-xs old__price-span">$95.00</span>
+                    </div>
+                    <p class="text-sm text-color-gray-background-light">Shipping Cost: <span class="font-bold">$20</span></p>
+                    <p class="text-sm text-color-gray-background-light">Stock: <span class="font-bold" style="color:rgb(106, 240, 106)">Available</span></p>
+                    <div class=" flex items-center justify-between mt-2">
+                        <div class="ratings">
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <span class="text-color-gray-background-light text-sm ">(6)</span>
+                        </div>
+                        <div class="btns-cart-wish flex">
+                            <button class="btn__cart-shopping"><a href="#"><i class='bx bx-cart-alt'></i></a></button>
+                            <button class="btn__cart-wishlist"><a href="#"><i class='bx bx-heart'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__offre sm:min-w-[200px]    md:min-w-[210px] lg:min-w-[270px]">
+                <div class="header-product bg-center bg-cover h-[50%] bg-color-rating bg-[url('https://falconreact18.prium.me/static/media/6.143652509e9714eab9cd.jpg')]
+                hover:bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]">
+                    
+                </div>
+                <div class="body-product p-1">
+                    <h3 class="md:text-sm lg:text-lg my-0">Logitech G305 Gaming Mouse</h3>
+                    <a href="#" class="text-sm my-0 ">Computer & Accessories</a>
+                    <div class="flex items-center">
+                        <h2 class="text-xl font-bold text-color-red-button mx-1">$34.56</h2>
+                        <span class="text-xs old__price-span">$95.00</span>
+                    </div>
+                    <p class="text-sm text-color-gray-background-light">Shipping Cost: <span class="font-bold">$20</span></p>
+                    <p class="text-sm text-color-gray-background-light">Stock: <span class="font-bold" style="color:rgb(106, 240, 106)">Available</span></p>
+                    <div class=" flex items-center justify-between mt-2">
+                        <div class="ratings">
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <span class="text-color-gray-background-light text-sm ">(6)</span>
+                        </div>
+                        <div class="btns-cart-wish flex">
+                            <button class="btn__cart-shopping"><a href="#"><i class='bx bx-cart-alt'></i></a></button>
+                            <button class="btn__cart-wishlist"><a href="#"><i class='bx bx-heart'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__offre sm:min-w-[200px]    md:min-w-[210px] lg:min-w-[270px]">
+                <div class="header-product bg-center bg-cover h-[50%] bg-color-rating bg-[url('https://falconreact18.prium.me/static/media/3.ba98a1ec4092e9f3e1e8.jpg')]
+                hover:bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]">
+                    
+                </div>
+                <div class="body-product p-1">
+                    <h3 class="md:text-sm lg:text-lg my-0">Logitech G305 Gaming Mouse</h3>
+                    <a href="#" class="text-sm my-0 ">Computer & Accessories</a>
+                    <div class="flex items-center">
+                        <h2 class="text-xl font-bold text-color-red-button mx-1">$34.56</h2>
+                        <span class="text-xs old__price-span">$95.00</span>
+                    </div>
+                    <p class="text-sm text-color-gray-background-light">Shipping Cost: <span class="font-bold">$20</span></p>
+                    <p class="text-sm text-color-gray-background-light">Stock: <span class="font-bold" style="color:rgb(106, 240, 106)">Available</span></p>
+                    <div class=" flex items-center justify-between mt-2">
+                        <div class="ratings">
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <span class="text-color-gray-background-light text-sm ">(6)</span>
+                        </div>
+                        <div class="btns-cart-wish flex">
+                            <button class="btn__cart-shopping"><a href="#"><i class='bx bx-cart-alt'></i></a></button>
+                            <button class="btn__cart-wishlist"><a href="#"><i class='bx bx-heart'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__offre sm:min-w-[200px]    md:min-w-[210px] lg:min-w-[270px]">
+                <div class="header-product bg-center bg-cover h-[50%] bg-color-rating bg-[url('https://falconreact18.prium.me/static/media/7.28b0461293b557493c78.jpg')]
+                hover:bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]">
+                    
+                </div>
+                <div class="body-product p-1">
+                    <h3 class="md:text-sm lg:text-lg my-0">Logitech G305 Gaming Mouse</h3>
+                    <a href="#" class="text-sm my-0 ">Computer & Accessories</a>
+                    <div class="flex items-center">
+                        <h2 class="text-xl font-bold text-color-red-button mx-1">$34.56</h2>
+                        <span class="text-xs old__price-span">$95.00</span>
+                    </div>
+                    <p class="text-sm text-color-gray-background-light">Shipping Cost: <span class="font-bold">$20</span></p>
+                    <p class="text-sm text-color-gray-background-light">Stock: <span class="font-bold" style="color:rgb(106, 240, 106)">Available</span></p>
+                    <div class=" flex items-center justify-between mt-2">
+                        <div class="ratings">
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <span class="text-color-gray-background-light text-sm ">(6)</span>
+                        </div>
+                        <div class="btns-cart-wish flex">
+                            <button class="btn__cart-shopping"><a href="#"><i class='bx bx-cart-alt'></i></a></button>
+                            <button class="btn__cart-wishlist"><a href="#"><i class='bx bx-heart'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__offre sm:min-w-[200px]    md:min-w-[210px] lg:min-w-[270px]">
+                <div class="header-product bg-center bg-cover h-[50%] bg-color-rating bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]
+                hover:bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]">
+                    
+                </div>
+                <div class="body-product p-1">
+                    <h3 class="md:text-sm lg:text-lg my-0">Logitech G305 Gaming Mouse</h3>
+                    <a href="#" class="text-sm my-0 ">Computer & Accessories</a>
+                    <div class="flex items-center">
+                        <h2 class="text-xl font-bold text-color-red-button mx-1">$34.56</h2>
+                        <span class="text-xs old__price-span">$95.00</span>
+                    </div>
+                    <p class="text-sm text-color-gray-background-light">Shipping Cost: <span class="font-bold">$20</span></p>
+                    <p class="text-sm text-color-gray-background-light">Stock: <span class="font-bold" style="color:rgb(106, 240, 106)">Available</span></p>
+                    <div class=" flex items-center justify-between mt-2">
+                        <div class="ratings">
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <span class="text-color-gray-background-light text-sm ">(6)</span>
+                        </div>
+                        <div class="btns-cart-wish flex">
+                            <button class="btn__cart-shopping"><a href="#"><i class='bx bx-cart-alt'></i></a></button>
+                            <button class="btn__cart-wishlist"><a href="#"><i class='bx bx-heart'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__offre sm:min-w-[200px]    md:min-w-[210px] lg:min-w-[270px]">
+                <div class="header-product bg-center bg-cover h-[50%] bg-color-rating bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/4.jpg')]
+                hover:bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]">
+                    
+                </div>
+                <div class="body-product p-1">
+                    <h3 class="md:text-sm lg:text-lg my-0">Logitech G305 Gaming Mouse</h3>
+                    <a href="#" class="text-sm my-0 ">Computer & Accessories</a>
+                    <div class="flex items-center">
+                        <h2 class="text-xl font-bold text-color-red-button mx-1">$34.56</h2>
+                        <span class="text-xs old__price-span">$95.00</span>
+                    </div>
+                    <p class="text-sm text-color-gray-background-light">Shipping Cost: <span class="font-bold">$20</span></p>
+                    <p class="text-sm text-color-gray-background-light">Stock: <span class="font-bold" style="color:rgb(106, 240, 106)">Available</span></p>
+                    <div class=" flex items-center justify-between mt-2">
+                        <div class="ratings">
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <span class="text-color-gray-background-light text-sm ">(6)</span>
+                        </div>
+                        <div class="btns-cart-wish flex">
+                            <button class="btn__cart-shopping"><a href="#"><i class='bx bx-cart-alt'></i></a></button>
+                            <button class="btn__cart-wishlist"><a href="#"><i class='bx bx-heart'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__offre sm:min-w-[200px]    md:min-w-[210px] lg:min-w-[270px]">
+                <div class="header-product bg-center bg-cover h-[50%] bg-color-rating bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/1-2.jpg')]
+                hover:bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]">
+                    
+                </div>
+                <div class="body-product p-1">
+                    <h3 class="md:text-sm lg:text-lg my-0">Logitech G305 Gaming Mouse</h3>
+                    <a href="#" class="text-sm my-0 ">Computer & Accessories</a>
+                    <div class="flex items-center">
+                        <h2 class="text-xl font-bold text-color-red-button mx-1">$34.56</h2>
+                        <span class="text-xs old__price-span">$95.00</span>
+                    </div>
+                    <p class="text-sm text-color-gray-background-light">Shipping Cost: <span class="font-bold">$20</span></p>
+                    <p class="text-sm text-color-gray-background-light">Stock: <span class="font-bold" style="color:rgb(106, 240, 106)">Available</span></p>
+                    <div class=" flex items-center justify-between mt-2">
+                        <div class="ratings">
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <span class="text-color-gray-background-light text-sm ">(6)</span>
+                        </div>
+                        <div class="btns-cart-wish flex">
+                            <button class="btn__cart-shopping"><a href="#"><i class='bx bx-cart-alt'></i></a></button>
+                            <button class="btn__cart-wishlist"><a href="#"><i class='bx bx-heart'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__offre sm:min-w-[200px]    md:min-w-[210px] lg:min-w-[270px]">
+                <div class="header-product bg-center bg-cover h-[50%] bg-color-rating bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/1.jpg')]
+                hover:bg-[url('https://prium.github.io/falcon/v3.14.0/assets/img/products/2.jpg')]">
+                    
+                </div>
+                <div class="body-product p-1">
+                    <h3 class="md:text-sm lg:text-lg my-0">Logitech G305 Gaming Mouse</h3>
+                    <a href="#" class="text-sm my-0 ">Computer & Accessories</a>
+                    <div class="flex items-center">
+                        <h2 class="text-xl font-bold text-color-red-button mx-1">$34.56</h2>
+                        <span class="text-xs old__price-span">$95.00</span>
+                    </div>
+                    <p class="text-sm text-color-gray-background-light">Shipping Cost: <span class="font-bold">$20</span></p>
+                    <p class="text-sm text-color-gray-background-light">Stock: <span class="font-bold" style="color:rgb(106, 240, 106)">Available</span></p>
+                    <div class=" flex items-center justify-between mt-2">
+                        <div class="ratings">
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <i class='bx bx-star text-color-rating'></i>
+                            <span class="text-color-gray-background-light text-sm ">(6)</span>
+                        </div>
+                        <div class="btns-cart-wish flex">
+                            <button class="btn__cart-shopping"><a href="#"><i class='bx bx-cart-alt'></i></a></button>
+                            <button class="btn__cart-wishlist"><a href="#"><i class='bx bx-heart'></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class='bx bxs-chevron-right icon-offre-home right-icon-offre-product-home'></i>
+        <i class='bx bxs-chevron-left  icon-offre-home left-icon-offre-product-home' ></i>
     </div>
     <!--footer page-->
     <footer class="">
@@ -910,7 +1215,9 @@
 <script src="../assets/js/shop/select.js"></script>
 <script src="../assets/js/shop/drop_down-categories.js"></script>
 <script src="../assets/js/shop/range.js"></script>
+<script src="../assets/js/slider-product-offre-home.js"></script>
 <script src="../assets/js/shop/filter-colors.js"></script>
+<script src="../assets/js/product-details/info-filter.js"></script>
 
 </body>
 </html>
