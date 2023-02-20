@@ -1,7 +1,7 @@
 @import 'config/variables'; 
 @import 'base/base';
 @import 'theme/themes';
-@import 'layout/layouts'; 
+@import 'layout/layouts';  
 @import 'components/header'; 
 @import 'components/slider-home';
 @import 'components/slider-categories-home';
@@ -35,3 +35,8 @@
 @import 'components/product-details/media-query';
 @import 'components/product-details/add-reviews';
 @import 'components/product-details/toggle-hidden.scss';
+
+
+//login
+@import 'components/login/login';
+@import 'components/login/media-query';
