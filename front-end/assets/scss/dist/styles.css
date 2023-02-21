@@ -2458,6 +2458,16 @@ body {
 .login .content-login .image-login {
   width: 45%;
 }
+@media screen and (max-width: 1200px) {
+  .login .content-login .image-login {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login .content-login .image-login {
+    display: none;
+  }
+}
 .login .content-login .content-login {
   width: 55%;
   flex-direction: column;
@@ -2527,4 +2537,39 @@ body {
 }
 .login .content-login .content-login .form__login .button__login-page:hover {
   opacity: 1;
+}
+@media screen and (max-width: 1200px) {
+  .login .content-login .content-login {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login .content-login .content-login {
+    width: 100%;
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .login .content-login .content-login {
+    padding: 20px;
+  }
+  .login .content-login .content-login p a {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .login .content-login {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login .content-login {
+    width: 97%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login {
+    align-items: flex-start;
+    padding-top: 100px;
+  }
 }

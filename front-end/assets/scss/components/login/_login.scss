@@ -15,6 +15,12 @@
         .image-login{
             width: 45%;
             //background-color: yellow;
+            @media screen and (max-width:1200px){
+                width: 50%;
+            }
+            @media screen and (max-width:800px){
+                display: none;
+            }
         }
         .content-login{
             width: 55%;
@@ -84,6 +90,31 @@
                     }
                 }
             }
+            @media screen and (max-width:1200px){
+                width: 50%;
+            }
+            @media screen and (max-width:800px){
+                width: 100%;
+                padding:50px;
+            }
+            @media screen and(max-width:600px){
+                padding: 20px;
+                p{
+                    a{
+                        font-size: 11px;
+                    }
+                }
+            }
         }
+        @media screen and (max-width:1200px){
+            width: 90%;
+        }
+        @media screen and (max-width:800px){
+            width:97%;
+        }
+    }
+    @media screen and (max-width:800px){
+        align-items: flex-start;
+        padding-top: 100px;
     }
 }
