@@ -822,6 +822,10 @@ body{
   margin-top: -8px;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
 .mt-3{
   margin-top: 0.75rem;
 }
@@ -848,14 +852,6 @@ body{
 
 .ml-\[1\%\]{
   margin-left: 1%;
-}
-
-.mt-5{
-  margin-top: 1.25rem;
-}
-
-.mt-8{
-  margin-top: 2rem;
 }
 
 .inline-block{
@@ -984,10 +980,6 @@ body{
 
 .h-\[37px\]{
   height: 37px;
-}
-
-.h-\[700px\]{
-  height: 700px;
 }
 
 .w-\[100vw\]{
@@ -1888,10 +1880,6 @@ body{
 
 .bg-\[url\(\'https\:\/\/ma\.jumia\.is\/unsafe\/fit-in\/300x300\/filters\:fill\(white\)\/product\/46\/082824\/1\.jpg\?9203\'\)\]{
   background-image: url('https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/46/082824/1.jpg?9203');
-}
-
-.bg-\[url\(\'https\:\/\/static\.vecteezy\.com\/system\/resources\/previews\/007\/267\/492\/original\/date-of-delivery-service-courier-and-truck-shipping-with-a-mobile-smartphone-on-blue-background-free-vector\.jpg\'\)\]{
-  background-image: url('https://static.vecteezy.com/system/resources/previews/007/267/492/original/date-of-delivery-service-courier-and-truck-shipping-with-a-mobile-smartphone-on-blue-background-free-vector.jpg');
 }
 
 .bg-cover{
