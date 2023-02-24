@@ -9,7 +9,7 @@
 @import 'components/ads-offre-home';
 @import 'components/ads-offre-home-2';
 @import 'components/ads-offre-home-3';
-@import 'components/buttons';
+@import 'components/buttons'; 
 @import 'components/navbar'; 
 @import 'components/footer';  
 @import 'components/scrolls'; 
@@ -43,4 +43,7 @@
 
 //register
 @import 'components/register/register';
-@import 'components/register/media-query'
+@import 'components/register/media-query';
+
+//contacts
+@import 'components/contacts/contacts';

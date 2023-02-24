@@ -1,0 +1,62 @@
+.contacts-info-ecommerce{
+    display: flex;
+    .info{
+        width: 40%;
+        //background-color: red;
+    }
+    .form--info{
+        width: 60%;
+        //background-color: yellow;
+    }
+    .get-social-media{
+        div{
+            display: flex;
+            margin-top: 20px;
+            padding: 0 30px 0 10px;
+            flex-wrap: wrap;
+            gap: 10px;
+            i{
+                width:40px;
+                height: 40px;
+                font-size:32px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                //background-color: blue;
+                cursor: pointer;
+                border-radius: 50%;
+                &:nth-child(1){
+                    color:#fff;
+                    background-color:#1778f2;
+                }
+                &:nth-child(2){
+                    color: #fff;
+                    background: #d6249f;
+                    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+                }
+                
+                &:nth-child(3){
+                    background-color: red;
+                    color:#fff;
+                }
+                &:nth-child(4){
+                    background-color:#00acee;
+                    color:#fff;
+                }
+                &:nth-child(5){
+                    background-color:#db4a39;
+                    color:#fff;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1200px){
+        .info{width: 50%;}
+        .form--info{width: 50%;}
+    }
+    @media screen and (max-width:900px){
+        flex-direction: column;
+        .info{width: 100%;}
+        .form--info{width: 100%;}
+    }
+}
