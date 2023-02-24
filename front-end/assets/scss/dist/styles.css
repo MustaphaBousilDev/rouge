@@ -2824,3 +2824,38 @@ body {
     width: 100%;
   }
 }
+
+.cart-shopping__ecommerce {
+  display: flex;
+}
+.cart-shopping__ecommerce .cart-shopping__product {
+  width: 70%;
+  background-color: red;
+}
+.cart-shopping__ecommerce .cart-shopping__product .products-cart-shopping-columns {
+  display: flex;
+}
+.cart-shopping__ecommerce .cart-shopping__product .products-cart-shopping-columns .product-img-name {
+  width: 32%;
+  background-color: orange;
+}
+.cart-shopping__ecommerce .cart-shopping__product .products-cart-shopping-columns .product-price-cart-shoppping {
+  width: 17%;
+  background-color: green;
+}
+.cart-shopping__ecommerce .cart-shopping__product .products-cart-shopping-columns .product-quality-cart-shoppping {
+  width: 17%;
+  background-color: yellow;
+}
+.cart-shopping__ecommerce .cart-shopping__product .products-cart-shopping-columns .product-total-cart-shoppping {
+  width: 17%;
+  background-color: blue;
+}
+.cart-shopping__ecommerce .cart-shopping__product .products-cart-shopping-columns .product-action-cart-shoppping {
+  width: 17%;
+  background-color: pink;
+}
+.cart-shopping__ecommerce .total__checkout {
+  width: 30%;
+  background-color: blue;
+}

@@ -1,0 +1,35 @@
+.cart-shopping__ecommerce{
+    display: flex;
+    .cart-shopping__product{
+        width: 70%;
+        background-color: red;
+        .products-cart-shopping-columns{
+            display: flex;
+            .product-img-name{
+                width: 32%;
+                background-color: orange;
+            }
+            .product-price-cart-shoppping{
+                width: 17%;
+                background-color: green;
+            }
+            .product-quality-cart-shoppping{
+                width: 17%;
+                background-color: yellow;
+            }
+            .product-total-cart-shoppping{
+                width: 17%;
+                background-color: blue;
+            }
+            .product-action-cart-shoppping{
+                width: 17%;
+                background-color: pink;
+            }
+        }
+    }
+    .total__checkout{
+        width: 30%;
+        background-color: blue;
+    }
+
+}
