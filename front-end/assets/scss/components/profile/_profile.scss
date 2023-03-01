@@ -1,0 +1,57 @@
+.profile___user-page{
+    flex-wrap: wrap;
+    .information__details{
+        width: 40%;
+        //background-color: yellow;
+    }
+    .orders__products{
+        width: 40%;
+        
+    }
+    .profile__information{
+        width: 20%;
+        //background-color: red;
+        .instagram__icons{
+            background:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        }
+    }
+
+   
+    @media screen and (max-width:1300px){
+        
+        .profile__information{
+            width:40%
+        }
+        .information__details{
+            width: 60%;
+        }
+        .orders__products{
+            width: 100%;
+        }
+
+    }
+    @media screen and (max-width:900px){
+        .profile__information{
+            width:30%
+        }
+        .information__details{
+            width: 70%;
+        }
+        .orders__products{
+            width: 100%;
+        }
+    }
+    @media screen and (max-width:700px){
+        .profile__information{
+            width:30%
+        }
+        .information__details{
+            width: 70%;
+        }
+        .orders__products{
+            width: 100%;
+        }
+    }
+    //
+    
+}

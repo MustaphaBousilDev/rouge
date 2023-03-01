@@ -1,0 +1,48 @@
+.profile___user-page {
+  flex-wrap: wrap;
+}
+.profile___user-page .information__details {
+  width: 40%;
+}
+.profile___user-page .orders__products {
+  width: 40%;
+}
+.profile___user-page .profile__information {
+  width: 20%;
+}
+.profile___user-page .profile__information .instagram__icons {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+@media screen and (max-width: 1300px) {
+  .profile___user-page .profile__information {
+    width: 40%;
+  }
+  .profile___user-page .information__details {
+    width: 60%;
+  }
+  .profile___user-page .orders__products {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .profile___user-page .profile__information {
+    width: 30%;
+  }
+  .profile___user-page .information__details {
+    width: 70%;
+  }
+  .profile___user-page .orders__products {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .profile___user-page .profile__information {
+    width: 30%;
+  }
+  .profile___user-page .information__details {
+    width: 70%;
+  }
+  .profile___user-page .orders__products {
+    width: 100%;
+  }
+}
