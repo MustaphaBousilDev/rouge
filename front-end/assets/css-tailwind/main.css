@@ -891,6 +891,10 @@ body{
   margin-top: 2.25rem;
 }
 
+.mt-1{
+  margin-top: 0.25rem;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -1045,6 +1049,14 @@ body{
 
 .h-\[37px\]{
   height: 37px;
+}
+
+.h-\[400px\]{
+  height: 400px;
+}
+
+.h-\[200px\]{
+  height: 200px;
 }
 
 .w-\[100vw\]{
@@ -1215,6 +1227,22 @@ body{
   width: 37px;
 }
 
+.w-\[98\%\]{
+  width: 98%;
+}
+
+.w-\[49\%\]{
+  width: 49%;
+}
+
+.w-\[95\]{
+  width: 95;
+}
+
+.w-\[96\%\]{
+  width: 96%;
+}
+
 .min-w-\[100px\]{
   min-width: 100px;
 }
@@ -1293,6 +1321,18 @@ body{
 
 .gap-3{
   gap: 0.75rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
+}
+
+.gap-9{
+  gap: 2.25rem;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .space-y-0\.5 > :not([hidden]) ~ :not([hidden]){
@@ -2097,6 +2137,10 @@ body{
   padding: 1.75rem;
 }
 
+.p-6{
+  padding: 1.5rem;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -2522,6 +2566,11 @@ body{
     margin-right: 2rem;
   }
 
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:ml-0{
     margin-left: 0px;
   }
@@ -2602,6 +2651,18 @@ body{
     width: 49%;
   }
 
+  .md\:w-\[60\%\]{
+    width: 60%;
+  }
+
+  .md\:w-\[40\%\]{
+    width: 40%;
+  }
+
+  .md\:w-\[45\%\]{
+    width: 45%;
+  }
+
   .md\:min-w-\[120px\]{
     min-width: 120px;
   }
@@ -2620,6 +2681,10 @@ body{
 
   .md\:gap-3{
     gap: 0.75rem;
+  }
+
+  .md\:gap-9{
+    gap: 2.25rem;
   }
 
   .md\:space-y-2 > :not([hidden]) ~ :not([hidden]){
@@ -2654,6 +2719,10 @@ body{
 
   .md\:p-10{
     padding: 2.5rem;
+  }
+
+  .md\:p-6{
+    padding: 1.5rem;
   }
 
   .md\:px-20{
