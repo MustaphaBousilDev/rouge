@@ -1015,16 +1015,16 @@ body{
   height: 14rem;
 }
 
-.h-\[100vh\]{
-  height: 100vh;
-}
-
 .h-\[20px\]{
   height: 20px;
 }
 
 .h-24{
   height: 6rem;
+}
+
+.h-28{
+  height: 7rem;
 }
 
 .h-\[170px\]{
@@ -1043,8 +1043,8 @@ body{
   height: 37px;
 }
 
-.h-28{
-  height: 7rem;
+.h-\[100vh\]{
+  height: 100vh;
 }
 
 .w-\[100vw\]{
@@ -2246,6 +2246,26 @@ body{
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-9xl{
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-medium{
