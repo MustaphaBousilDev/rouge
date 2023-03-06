@@ -811,6 +811,11 @@ body{
   margin-right: 0.5%;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -1051,12 +1056,36 @@ body{
   height: 37px;
 }
 
-.h-\[400px\]{
-  height: 400px;
+.h-14{
+  height: 3.5rem;
 }
 
-.h-\[200px\]{
-  height: 200px;
+.h-\[140px\]{
+  height: 140px;
+}
+
+.h-\[340px\]{
+  height: 340px;
+}
+
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-\[50px\]{
+  height: 50px;
+}
+
+.h-\[130px\]{
+  height: 130px;
+}
+
+.h-\[60px\]{
+  height: 60px;
+}
+
+.h-\[40px\]{
+  height: 40px;
 }
 
 .w-\[100vw\]{
@@ -1167,6 +1196,18 @@ body{
   width: 60px;
 }
 
+.w-\[98\%\]{
+  width: 98%;
+}
+
+.w-\[80\%\]{
+  width: 80%;
+}
+
+.w-\[96\%\]{
+  width: 96%;
+}
+
 .w-\[30\%\]{
   width: 30%;
 }
@@ -1215,10 +1256,6 @@ body{
   width: 20px;
 }
 
-.w-\[80\%\]{
-  width: 80%;
-}
-
 .w-\[45px\]{
   width: 45px;
 }
@@ -1227,20 +1264,52 @@ body{
   width: 37px;
 }
 
-.w-\[98\%\]{
-  width: 98%;
+.w-\[\]{
+  width: ;
 }
 
 .w-\[49\%\]{
   width: 49%;
 }
 
-.w-\[95\]{
-  width: 95;
+.w-10{
+  width: 2.5rem;
 }
 
-.w-\[96\%\]{
-  width: 96%;
+.w-14{
+  width: 3.5rem;
+}
+
+.w-\[65\%\]{
+  width: 65%;
+}
+
+.w-\[32\%\]{
+  width: 32%;
+}
+
+.w-\[50px\]{
+  width: 50px;
+}
+
+.w-\[130px\]{
+  width: 130px;
+}
+
+.w-\[110px\]{
+  width: 110px;
+}
+
+.w-5{
+  width: 1.25rem;
+}
+
+.w-\[30px\]{
+  width: 30px;
+}
+
+.w-\[40px\]{
+  width: 40px;
 }
 
 .min-w-\[100px\]{
@@ -1299,6 +1368,10 @@ body{
   align-items: center;
 }
 
+.justify-start{
+  justify-content: flex-start;
+}
+
 .justify-end{
   justify-content: flex-end;
 }
@@ -1327,12 +1400,12 @@ body{
   gap: 1.25rem;
 }
 
-.gap-9{
-  gap: 2.25rem;
-}
-
 .gap-4{
   gap: 1rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .space-y-0\.5 > :not([hidden]) ~ :not([hidden]){
@@ -2181,6 +2254,11 @@ body{
   padding-right: 2.25rem;
 }
 
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-7{
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -2189,11 +2267,6 @@ body{
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .py-\[8px\]{
@@ -2224,6 +2297,16 @@ body{
 .py-\[10px\]{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pr-3{
@@ -2295,6 +2378,11 @@ body{
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-medium{
@@ -2502,6 +2590,10 @@ body{
     margin-right: 1rem;
   }
 
+  .sm\:flex{
+    display: flex;
+  }
+
   .sm\:h-\[100px\]{
     height: 100px;
   }
@@ -2512,6 +2604,10 @@ body{
 
   .sm\:h-\[480px\]{
     height: 480px;
+  }
+
+  .sm\:w-\[49\%\]{
+    width: 49%;
   }
 
   .sm\:min-w-\[80px\]{
@@ -2561,14 +2657,14 @@ body{
     margin-right: 0.75rem;
   }
 
-  .md\:mx-8{
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
   .md\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:mx-8{
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .md\:ml-0{
@@ -2577,6 +2673,10 @@ body{
 
   .md\:mr-0{
     margin-right: 0px;
+  }
+
+  .md\:mt-2{
+    margin-top: 0.5rem;
   }
 
   .md\:flex{
@@ -2615,6 +2715,18 @@ body{
     height: 30px;
   }
 
+  .md\:h-\[370px\]{
+    height: 370px;
+  }
+
+  .md\:h-14{
+    height: 3.5rem;
+  }
+
+  .md\:h-\[80px\]{
+    height: 80px;
+  }
+
   .md\:w-\[400px\]{
     width: 400px;
   }
@@ -2631,12 +2743,24 @@ body{
     width: 90%;
   }
 
-  .md\:w-\[50\%\]{
-    width: 50%;
-  }
-
   .md\:w-\[95\%\]{
     width: 95%;
+  }
+
+  .md\:w-\[60\%\]{
+    width: 60%;
+  }
+
+  .md\:w-\[45\%\]{
+    width: 45%;
+  }
+
+  .md\:w-\[40\%\]{
+    width: 40%;
+  }
+
+  .md\:w-\[50\%\]{
+    width: 50%;
   }
 
   .md\:w-\[100px\]{
@@ -2651,16 +2775,24 @@ body{
     width: 49%;
   }
 
-  .md\:w-\[60\%\]{
-    width: 60%;
+  .md\:w-\[32\%\]{
+    width: 32%;
   }
 
-  .md\:w-\[40\%\]{
-    width: 40%;
+  .md\:w-\[32\.33\%\]{
+    width: 32.33%;
   }
 
-  .md\:w-\[45\%\]{
-    width: 45%;
+  .md\:w-14{
+    width: 3.5rem;
+  }
+
+  .md\:w-\[110px\]{
+    width: 110px;
+  }
+
+  .md\:w-\[65\%\]{
+    width: 65%;
   }
 
   .md\:min-w-\[120px\]{
@@ -2679,12 +2811,32 @@ body{
     flex-direction: row;
   }
 
-  .md\:gap-3{
-    gap: 0.75rem;
+  .md\:flex-nowrap{
+    flex-wrap: nowrap;
+  }
+
+  .md\:justify-between{
+    justify-content: space-between;
   }
 
   .md\:gap-9{
     gap: 2.25rem;
+  }
+
+  .md\:gap-3{
+    gap: 0.75rem;
+  }
+
+  .md\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .md\:gap-2{
+    gap: 0.5rem;
+  }
+
+  .md\:gap-1{
+    gap: 0.25rem;
   }
 
   .md\:space-y-2 > :not([hidden]) ~ :not([hidden]){
@@ -2717,12 +2869,20 @@ body{
     padding: 2rem;
   }
 
+  .md\:p-6{
+    padding: 1.5rem;
+  }
+
   .md\:p-10{
     padding: 2.5rem;
   }
 
-  .md\:p-6{
-    padding: 1.5rem;
+  .md\:p-5{
+    padding: 1.25rem;
+  }
+
+  .md\:p-4{
+    padding: 1rem;
   }
 
   .md\:px-20{
@@ -2753,6 +2913,16 @@ body{
   .md\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .md\:py-7{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:pr-20{
@@ -2862,6 +3032,10 @@ body{
 
   .lg\:w-\[100px\]{
     width: 100px;
+  }
+
+  .lg\:w-\[24\%\]{
+    width: 24%;
   }
 
   .lg\:min-w-\[140px\]{

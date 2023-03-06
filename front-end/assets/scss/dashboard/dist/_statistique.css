@@ -1,0 +1,76 @@
+.statistiques .box i {
+  color: #fff;
+  display: flex;
+  padding: 9px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 500px) {
+  .statistiques .box i {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+}
+.statistiques .box.box__one {
+  background-color: #e8e8f9;
+}
+.statistiques .box.box__one i {
+  background-color: #6e6eec;
+}
+.statistiques .box.box__two {
+  background-color: #fbfbcd;
+}
+.statistiques .box.box__two i {
+  background-color: #ffcc00;
+}
+.statistiques .box.box__three {
+  background-color: #ffcfff;
+}
+.statistiques .box.box__three i {
+  background-color: fuchsia;
+}
+.statistiques .box.box__four {
+  background-color: #d7ffd7;
+}
+.statistiques .box.box__four i {
+  background-color: lime;
+}
+
+.profiles__dashboard h3 {
+  color: var(--heading-color);
+}
+
+.content__chart {
+  height: 400px;
+}
+@media screen and (max-width: 1250px) {
+  .content__chart {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .content__chart {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .content__chart {
+    height: 250px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content__chart {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .chart__1 {
+    width: 50%;
+  }
+}

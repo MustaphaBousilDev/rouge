@@ -2,7 +2,7 @@
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['../*.html', '../pages/*.html'],
+  content: ['../*.html', '../pages/*.html', '../pages/dashboard/*.html'],
   theme: {
     screens: {
       sm: '280px',

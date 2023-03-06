@@ -1,0 +1,68 @@
+.statistiques{
+    .box{
+        
+        i{
+           
+            color:#fff;
+            display: flex;
+            padding: 9px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width:500px){
+                width: 30px;
+                height: 30px;
+                padding: 5px;
+            }
+        }
+        &.box__one{
+            background-color:rgb(232, 232, 249);
+            i{ background-color: rgb(110, 110, 236);}
+        }
+        &.box__two{
+            background-color:rgb(251, 251, 205);
+            i{ background-color: rgb(255, 204, 0);}
+        }
+        &.box__three{
+            background-color: rgb(255, 207, 255);
+            i{ background-color: rgb(255, 0, 255);}
+        }
+        &.box__four{
+            background-color:rgb(215, 255, 215);
+            i{ background-color: rgb(0, 255, 0);}
+        }
+    }
+}
+
+.profiles__dashboard{
+    h3{
+        color:var(--heading-color)
+    }
+}
+
+.content__chart{
+    height:400px;
+    @media screen and (max-width:1250px){
+        height:350px;
+    }
+    @media screen and (max-width:1000px){
+        height:300px;
+    }
+    @media screen and (max-width:800px){
+        height:250px;
+        width: 50%;
+    }
+    @media screen and (max-width:500px){
+        height:200px;
+    }
+    
+
+}
+.chart__1{
+    @media screen and (max-width:800px){
+        width: 50%;
+    }
+}
+

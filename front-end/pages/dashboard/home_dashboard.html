@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="../../assets/scss/dist/styles.css"/>
+    <link rel="stylesheet" href="../../assets/css-tailwind/main.css">
+</head>
+<body class='body__dashboard'>
+    <nav class="sidebar close side-bar__dashboard shadow-md">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src='https://seeklogo.com/images/M/mugiwara-logo-303FD55C54-seeklogo.com.png' 
+                        alt='' width='50px' height='50px' />
+                </span>
+ 
+                <div class="text logo-text">
+                    <span class="name flex items-center">
+                        
+                        Mugiwara Shop
+                    </span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box search__box-dashboard">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#" class='bg-color-rating'>
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bi bi-person-check icon"></i>
+                            <span class="text nav-text">Employes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bi bi-bag icon"></i>
+                            <span class="text nav-text">Products</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bi bi-basket icon"></i>
+                            <span class="text nav-text">Orders</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+    <section class="home__dashboard">
+        <div class="content__dashboard py-2 px-4 md:px-10 relative flex flex-col">
+            <div class='profiles__dashboard flex justify-between items-center p-5'>
+                <h3 class="text-md md:text-3xl font-semibold ">Dashboard</h3>
+                <div class='w-14 h-14 p-1 cursor-pointer  border border-color-red-button rounded-full overflow-hidden'>
+                    <img class='w-full h-full rounded-full' src='https://newprofilepic2.photo-cdn.net//assets/images/article/profile.jpg' alt='image profile '/>
+                </div>
+            </div>
+            <div class='statistiques flex flex-wrap  w-full'>
+                <div class="box box__one flex gap-1 md:gap-5 justify-center items-center my-1 py-4 md:py-7 p-2 md:p-5 rounded-xl mx-[0.5%] w-[100%] sm:w-[49%]   md:w-[32.33%] lg:w-[24%] bg-color-red-button">
+                    <div>
+                        <i class='bx bx-money-withdraw text-md md:text-2xl'></i>
+                    </div>
+                    <div class="box__one__content">
+                        <h3 class="text-xs md:text-sm font-semibold text-color-gray-dark">Total Price</h3>
+                        <h1 class="text-md md:text-3xl font-bold mt-1 md:mt-2">$41K</h1>
+                    </div>
+                </div>
+                <div class="box box__two flex gap-1 md:gap-5 justify-center items-center my-1 py-4 md:py-7 p-2 md:p-5 rounded-xl mx-[0.5%] w-[100%] sm:w-[49%]   md:w-[32.33%] lg:w-[24%] bg-color-red-button">
+                    <div>
+                        <i class='bx bx-stats text-md md:text-2xl'></i>
+                    </div>
+                    <div class="box__one__content">
+                        <h3 class="text-xs md:text-sm font-semibold text-color-gray-dark">Total Price</h3>
+                        <h1 class="text-md md:text-3xl font-bold mt-1 md:mt-2">$221K</h1>
+                    </div>
+                </div>
+                <div class="box box__three flex gap-1 md:gap-5 justify-center items-center my-1 py-4 md:py-7 p-2 md:p-5 rounded-xl mx-[0.5%] w-[100%] sm:w-[49%]   md:w-[32.33%] lg:w-[24%] bg-color-red-button">
+                    <div>
+                        <i class='bx bx-money-withdraw text-md md:text-2xl'></i>
+                    </div>
+                    <div class="box__one__content">
+                        <h3 class="text-xs md:text-sm font-semibold text-color-gray-dark">Total Price</h3>
+                        <h1 class="text-md md:text-3xl font-bold mt-1 md:mt-2">$120K</h1>
+                    </div>
+                </div>
+                <div class="box box__four flex gap-1 md:gap-5 justify-center items-center my-1 py-4 md:py-7 p-2 md:p-5 rounded-xl mx-[0.5%] w-[100%] sm:w-[49%]   md:w-[32.33%] lg:w-[24%] bg-color-red-button">
+                    <div>
+                        <i class='bx bx-money-withdraw text-md md:text-2xl'></i>
+                    </div>
+                    <div class="box__one__content">
+                        <h3 class="text-xs md:text-sm font-semibold text-color-gray-dark">Total Price</h3>
+                        <h1 class="text-md md:text-3xl font-bold mt-1 md:mt-2">$41K</h1>
+                    </div>
+                </div>
+            </div>
+            <div class='flex:col flex-wrap md:flex-row content__dashboard-statistique rounded-md flex mt-9'>
+                <div class='content__chart w-[100%] md:w-[65%] overflow-y-scroll rounded-lg shadow-sm'>
+                    <h2 class='p-3 text-sm md:text-lg'>Top Selling Products</h2>
+                    <hr class='border-none h-[1px] bg-color-gray-background-light'>
+                    <div class='product__selling flex justify-start gap-8 md:justify-between items-center p-1 md:p-4'>
+                        <div class='product--dash flex items-center gap-1 md:gap-3'>
+                            <div>
+                                <img 
+                                class='w-[40px] h-[40px] md:w-[110px] md:h-[80px] rounded-md'
+                                src='https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/42/450684/1.jpg?9241' 
+                                alt='product'/>
+                            </div>
+                            <div>
+                                <div class='flex flex-col'>
+                                    <div class='flex-col md:flex-row flex items-center  md:gap-2'>
+                                        <h2 class='text-xs md:text-md'>Product Name</h2>
+                                        <p class='hidden text-color-rating items-center sm:flex md:gap-1 text-xs'>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </p>
+                                    </div>
+                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Categories</h3>
+                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Brands</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='price-dash'>
+                            <h2 class='text-sm md:text-xl font-bold'>$120</h2>
+                        </div>
+                    </div>
+                    <div class='product__selling flex justify-start gap-8 md:justify-between items-center p-1 md:p-4'>
+                        <div class='product--dash flex items-center gap-1 md:gap-3'>
+                            <div>
+                                <img 
+                                class='w-[40px] h-[40px] md:w-[110px] md:h-[80px] rounded-md'
+                                src='https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/42/450684/1.jpg?9241' 
+                                alt='product'/>
+                            </div>
+                            <div>
+                                <div class='flex flex-col'>
+                                    <div class='flex-col md:flex-row flex items-center  md:gap-2'>
+                                        <h2 class='text-xs md:text-md'>Product Name</h2>
+                                        <p class='hidden text-color-rating items-center sm:flex md:gap-1 text-xs'>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </p>
+                                    </div>
+                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Categories</h3>
+                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Brands</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='price-dash'>
+                            <h2 class='text-sm md:text-xl font-bold'>$120</h2>
+                        </div>
+                    </div>
+                    <div class='product__selling flex justify-start gap-8 md:justify-between items-center p-1 md:p-4'>
+                        <div class='product--dash flex items-center gap-1 md:gap-3'>
+                            <div>
+                                <img 
+                                class='w-[40px] h-[40px] md:w-[110px] md:h-[80px] rounded-md'
+                                src='https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/42/450684/1.jpg?9241' 
+                                alt='product'/>
+                            </div>
+                            <div>
+                                <div class='flex flex-col'>
+                                    <div class='flex-col md:flex-row flex items-center  md:gap-2'>
+                                        <h2 class='text-xs md:text-md'>Product Name</h2>
+                                        <p class='hidden text-color-rating items-center sm:flex md:gap-1 text-xs'>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </p>
+                                    </div>
+                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Categories</h3>
+                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Brands</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='price-dash'>
+                            <h2 class='text-sm md:text-xl font-bold'>$120</h2>
+                        </div>
+                    </div>
+                    <div class='product__selling flex justify-start gap-8 md:justify-between items-center p-1 md:p-4'>
+                        <div class='product--dash flex items-center gap-1 md:gap-3'>
+                            <div>
+                                <img 
+                                class='w-[40px] h-[40px] md:w-[110px] md:h-[80px] rounded-md'
+                                src='https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/42/450684/1.jpg?9241' 
+                                alt='product'/>
+                            </div>
+                            <div>
+                                <div class='flex flex-col'>
+                                    <div class='flex-col md:flex-row flex items-center  md:gap-2'>
+                                        <h2 class='text-xs md:text-md'>Product Name</h2>
+                                        <p class='hidden text-color-rating items-center sm:flex md:gap-1 text-xs'>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </p>
+                                    </div>
+                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Categories</h3>
+                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Brands</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='price-dash'>
+                            <h2 class='text-sm md:text-xl font-bold'>$120</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class='chart__1 w-[100%] md:w-[32%] '>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src='../../assets/js/admin/sidebar.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('myChart');
+    const data = {
+        labels: [
+            'Red',
+            'Green',
+            'Yellow',
+            'Grey',
+            'Blue'
+        ],
+        datasets: [{
+            label: 'My First Dataset',
+            data: [11, 16, 7, 3, 14],
+            backgroundColor: [
+            'rgb(255, 99, 132)',
+            'rgb(75, 192, 192)',
+            'rgb(255, 205, 86)',
+            'rgb(201, 203, 207)',
+            'rgb(54, 162, 235)'
+            ]
+        }]
+    };
+    new Chart(ctx, {
+        type: 'polarArea',
+        data: data,
+        options: {}
+    });
+
+    //function event if i scroll page 
+    
+    
+</script>
+</body>
+
+</html>
