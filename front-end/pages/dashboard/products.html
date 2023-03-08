@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="../../assets/scss/dist/styles.css"/>
+    <link rel="stylesheet" href="../../assets/css-tailwind/main.css">
+</head>
+<body class='body__dashboard'>
+    <nav class="sidebar h-[100vh] close side-bar__dashboard shadow-md">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src='https://seeklogo.com/images/M/mugiwara-logo-303FD55C54-seeklogo.com.png' 
+                        alt='' width='50px' height='50px' />
+                </span>
+ 
+                <div class="text logo-text">
+                    <span class="name flex items-center">
+                        
+                        Mugiwara Shop
+                    </span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box search__box-dashboard">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#" class='bg-color-rating'>
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bi bi-person-check icon"></i>
+                            <span class="text nav-text">Employes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bi bi-bag icon"></i>
+                            <span class="text nav-text">Products</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bi bi-basket icon"></i>
+                            <span class="text nav-text">Orders</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+    <section class="home__dashboard">
+        <div class="content__dashboard py-2 px-4 md:px-10 relative flex flex-col">
+            <div class='profiles__dashboard flex justify-between items-center p-5'>
+                <h3 class="text-md md:text-3xl font-semibold ">Dashboard</h3>
+                <div class='w-14 h-14 p-1 cursor-pointer  border border-color-red-button rounded-full overflow-hidden'>
+                    <img class='w-full h-full rounded-full' src='https://newprofilepic2.photo-cdn.net//assets/images/article/profile.jpg' alt='image profile '/>
+                </div>
+            </div>
+            <div class="products__tables">
+               <div class='header__product-lists'>
+                    <div class='left__product-header flex justify-between'>
+                         <h1 class='text-xl md:text-3xl font-bold'>Products</h1>
+                         <button class='bg-color-red-button opacity-80 transition hover:opacity-100
+                         cursor-pointer outline-none border-none rounded-md text-while py-1 px-3'>
+                              <span class='font-bold'>+</span> Add
+                         </button>
+                    </div>
+                    <div class="body__products-dashboard">
+                         <form class='mt-3'>
+                              <div class='fields relative border border-color-gray-background-light 
+                              bg-color-red-button w-[95%] md:w-[60%] overflow-hidden rounded-md'>
+                                   <input type='search' class='py-3  px-8 w-[100%] h-[100%]' name='search' placeholder="Search" />
+                                   <i class='bx bx-search-alt text-color-gray-background-light text-2xl 
+                                   absolute left-[10px] top-[50%] translate-y-[-50%]'></i>
+                              </div>
+                         </form>
+                         
+                         <div class="relative overflow-x-auto w-[99%] md:w-[95%] mx-auto shadow-lg sm:rounded-lg mt-10">
+                              <table class="w-full text-sm text-left text-blue-100 dark:text-blue-100">
+                              <thead class="text-xs text-white uppercase bg-blue-600 dark:text-white">
+                                   <tr>
+                                        <th scope="col" class="px-6 py-3">Product name</th>
+                                        <th scope="col" class="px-6 py-3">Quantity</th>
+                                        <th scope="col" class="px-6 py-3">Colors</th>
+                                        <th scope="col" class="px-6 py-3">Size</th>
+                                        <th scope="col" class="px-6 py-3">Category</th>
+                                        <th scope="col" class="px-6 py-3">Brands</th>
+                                        <th scope="col" class="px-6 py-3">Actions</th>
+                                   </tr>
+                              </thead>
+                              <tbody>
+                                   <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                        <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                             <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                  alt="products" class='w-14 h-14 rounded-full' />
+                                             </span>
+                                             <span>Apple MacBook Pro 17"</span>
+                                        </th>
+                                        <td class="px-6 py-4">
+                                             <button class='border border-color-gray-background-light w-32 cursor-pointer outline-none rounded-md bg-while flex items-center'>
+                                                  <span class="w-[30%] hover:bg-color-gray-background-light transition text-lg  border-r p-2 border-r-color-gray-background-light">-</span>
+                                                  <span class='w-[40%] hover:bg-color-gray-background-light p-2 transition text-lg'>4</span>
+                                                  <span class='w-[30%] hover:bg-color-gray-background-light transition text-lg border-l p-2 border-l-color-gray-background-light'>+</span>
+                                             </button>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex gap-1'>
+                                                  <span class='w-6 h-6 rounded-full bg-color-rating'></span>
+                                                  <span class='w-6 h-6 rounded-full bg-color-red-button'></span>
+                                                  <span class='w-6 h-6 rounded-full bg-[#0ea5e9]'></span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex gap-1'>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>XL</span>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>L</span>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>M</span>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>XS</span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex flex-col items-center'>
+                                                  <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                       class="w-14 h-14 rounded-full"
+                                                       />
+                                                  </span>
+                                                  <span>Clothes</span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex flex-col items-center'>
+                                                  <span><img src='data:image/png;base64,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' 
+                                                       alt='brands products' class="w-14 h-14 rounded-full"/></span>
+                                                  <span>Adidas</span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex gap-1 items-center'>
+                                                  <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                  <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                  <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                             </div>
+                                        </td>
+                                   </tr>
+                                   <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                        <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                             <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                  alt="products" class='w-14 h-14 rounded-full' />
+                                             </span>
+                                             <span>Apple MacBook Pro 17"</span>
+                                        </th>
+                                        <td class="px-6 py-4">
+                                             <button class='border border-color-gray-background-light w-32 cursor-pointer outline-none rounded-md bg-while flex items-center'>
+                                                  <span class="w-[30%] hover:bg-color-gray-background-light transition text-lg  border-r p-2 border-r-color-gray-background-light">-</span>
+                                                  <span class='w-[40%] hover:bg-color-gray-background-light p-2 transition text-lg'>4</span>
+                                                  <span class='w-[30%] hover:bg-color-gray-background-light transition text-lg border-l p-2 border-l-color-gray-background-light'>+</span>
+                                             </button>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex gap-1'>
+                                                  <span class='w-6 h-6 rounded-full bg-color-rating'></span>
+                                                  <span class='w-6 h-6 rounded-full bg-color-red-button'></span>
+                                                  <span class='w-6 h-6 rounded-full bg-[#0ea5e9]'></span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex gap-1'>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>XL</span>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>L</span>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>M</span>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>XS</span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex flex-col items-center'>
+                                                  <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                       class="w-14 h-14 rounded-full"
+                                                       />
+                                                  </span>
+                                                  <span>Clothes</span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex flex-col items-center'>
+                                                  <span><img src='data:image/png;base64,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' 
+                                                       alt='brands products' class="w-14 h-14 rounded-full"/></span>
+                                                  <span>Adidas</span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex gap-1 items-center'>
+                                                  <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                  <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                  <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                             </div>
+                                        </td>
+                                   </tr>
+                                   <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                        <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                             <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                  alt="products" class='w-14 h-14 rounded-full' />
+                                             </span>
+                                             <span>Apple MacBook Pro 17"</span>
+                                        </th>
+                                        <td class="px-6 py-4">
+                                             <button class='border border-color-gray-background-light w-32 cursor-pointer outline-none rounded-md bg-while flex items-center'>
+                                                  <span class="w-[30%] hover:bg-color-gray-background-light transition text-lg  border-r p-2 border-r-color-gray-background-light">-</span>
+                                                  <span class='w-[40%] hover:bg-color-gray-background-light p-2 transition text-lg'>4</span>
+                                                  <span class='w-[30%] hover:bg-color-gray-background-light transition text-lg border-l p-2 border-l-color-gray-background-light'>+</span>
+                                             </button>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex gap-1'>
+                                                  <span class='w-6 h-6 rounded-full bg-color-rating'></span>
+                                                  <span class='w-6 h-6 rounded-full bg-color-red-button'></span>
+                                                  <span class='w-6 h-6 rounded-full bg-[#0ea5e9]'></span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex gap-1'>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>XL</span>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>L</span>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>M</span>
+                                                  <span class='bg-color-gray-background-light p-1 px-3 rounded-md text-xs font-bold'>XS</span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex flex-col items-center'>
+                                                  <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                       class="w-14 h-14 rounded-full"
+                                                       />
+                                                  </span>
+                                                  <span>Clothes</span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex flex-col items-center'>
+                                                  <span><img src='data:image/png;base64,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' 
+                                                       alt='brands products' class="w-14 h-14 rounded-full"/></span>
+                                                  <span>Adidas</span>
+                                             </div>
+                                        </td>
+                                        <td class="px-6 py-4">
+                                             <div class='flex gap-1 items-center'>
+                                                  <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                  <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                  <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                             </div>
+                                        </td>
+                                   </tr>
+                              </tbody>
+                              </table>
+                         </div>
+                         <div class="flex flex-col gap-2 md:flex-row mt-7">
+                              <div class='relative overflow-x-auto w-[99%]  md:w-[48%] mx-auto shadow-lg sm:rounded-lg mt-6'>
+                                   <table class="w-full text-sm text-left text-blue-100 dark:text-blue-100">
+                                        <thead class="text-xs text-white uppercase bg-blue-600 dark:text-white">
+                                             <tr>
+                                                  <th scope="col" class="px-6 py-3">Categories name</th>
+                                                  <th scope="col" class="px-6 py-3">Cat</th>
+                                                  <th scope="col" class="px-6 py-3">Status</th>
+                                                  <th scope="col" class="px-6 py-3">Actions</th>
+                                             </tr>
+                                        </thead>
+                                        <tbody>
+                                             <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                                  <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                                       <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                            alt="products" class='w-14 h-14 rounded-full' />
+                                                       </span>
+                                                       <span>Electronic</span>
+                                                  </th>
+                                                  
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex flex-col items-center'>
+                                                            <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                                 class="w-14 h-14 rounded-full"
+                                                                 />
+                                                            </span>
+                                                            <span>Clothes</span>
+                                                       </div>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <form>
+                                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                                 <input type="checkbox" value="" class="sr-only peer" checked>
+                                                                 <div class="w-11 h-6 bg-color-red-button rounded-full peer peer-focus:ring-4 peer-focus:bg-color-gray-background-light
+                                                                 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full 
+                                                                 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] 
+                                                                 after:bg-color-red-button after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 
+                                                                 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                                            </label>
+                                                       </form>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex gap-1 items-center'>
+                                                            <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                            <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                            <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                                       </div>
+                                                  </td>
+                                             </tr>
+                                             <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                                  <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                                       <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                            alt="products" class='w-14 h-14 rounded-full' />
+                                                       </span>
+                                                       <span>Electronic</span>
+                                                  </th>
+                                                  
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex flex-col items-center'>
+                                                            <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                                 class="w-14 h-14 rounded-full"
+                                                                 />
+                                                            </span>
+                                                            <span>Clothes</span>
+                                                       </div>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <form>
+                                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                                 <input type="checkbox" value="" class="sr-only peer" checked>
+                                                                 <div class="w-11 h-6 bg-color-red-button rounded-full peer peer-focus:ring-4 peer-focus:bg-color-gray-background-light
+                                                                 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full 
+                                                                 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] 
+                                                                 after:bg-color-red-button after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 
+                                                                 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                                            </label>
+                                                       </form>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex gap-1 items-center'>
+                                                            <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                            <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                            <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                                       </div>
+                                                  </td>
+                                             </tr>
+                                             <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                                  <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                                       <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                            alt="products" class='w-14 h-14 rounded-full' />
+                                                       </span>
+                                                       <span>Electronic</span>
+                                                  </th>
+                                                  
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex flex-col items-center'>
+                                                            <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                                 class="w-14 h-14 rounded-full"
+                                                                 />
+                                                            </span>
+                                                            <span>Clothes</span>
+                                                       </div>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <form>
+                                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                                 <input type="checkbox" value="" class="sr-only peer" checked>
+                                                                 <div class="w-11 h-6 bg-color-red-button rounded-full peer peer-focus:ring-4 peer-focus:bg-color-gray-background-light
+                                                                 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full 
+                                                                 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] 
+                                                                 after:bg-color-red-button after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 
+                                                                 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                                            </label>
+                                                       </form>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex gap-1 items-center'>
+                                                            <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                            <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                            <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                                       </div>
+                                                  </td>
+                                             </tr>
+                                             <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                                  <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                                       <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                            alt="products" class='w-14 h-14 rounded-full' />
+                                                       </span>
+                                                       <span>Electronic</span>
+                                                  </th>
+                                                  
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex flex-col items-center'>
+                                                            <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                                 class="w-14 h-14 rounded-full"
+                                                                 />
+                                                            </span>
+                                                            <span>Clothes</span>
+                                                       </div>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <form>
+                                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                                 <input type="checkbox" value="" class="sr-only peer" checked>
+                                                                 <div class="w-11 h-6 bg-color-red-button rounded-full peer peer-focus:ring-4 peer-focus:bg-color-gray-background-light
+                                                                 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full 
+                                                                 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] 
+                                                                 after:bg-color-red-button after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 
+                                                                 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                                            </label>
+                                                       </form>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex gap-1 items-center'>
+                                                            <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                            <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                            <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                                       </div>
+                                                  </td>
+                                             </tr>
+                                        </tbody>
+                                   </table>
+                              </div>
+                              <div class='relative overflow-x-auto w-[99%]  md:w-[48%] mx-auto shadow-lg sm:rounded-lg mt-6'>
+                                   <table class="w-full text-sm text-left text-blue-100 dark:text-blue-100">
+                                        <thead class="text-xs text-white uppercase bg-blue-600 dark:text-white">
+                                             <tr>
+                                                  <th scope="col" class="px-6 py-3">Categories name</th>
+                                                  <th scope="col" class="px-6 py-3">Cat</th>
+                                                  <th scope="col" class="px-6 py-3">Status</th>
+                                                  <th scope="col" class="px-6 py-3">Actions</th>
+                                             </tr>
+                                        </thead>
+                                        <tbody>
+                                             <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                                  <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                                       <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                            alt="products" class='w-14 h-14 rounded-full' />
+                                                       </span>
+                                                       <span>Electronic</span>
+                                                  </th>
+                                                  
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex flex-col items-center'>
+                                                            <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                                 class="w-14 h-14 rounded-full"
+                                                                 />
+                                                            </span>
+                                                            <span>Clothes</span>
+                                                       </div>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <form>
+                                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                                 <input type="checkbox" value="" class="sr-only peer" checked>
+                                                                 <div class="w-11 h-6 bg-color-red-button rounded-full peer peer-focus:ring-4 peer-focus:bg-color-gray-background-light
+                                                                 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full 
+                                                                 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] 
+                                                                 after:bg-color-red-button after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 
+                                                                 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                                            </label>
+                                                       </form>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex gap-1 items-center'>
+                                                            <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                            <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                            <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                                       </div>
+                                                  </td>
+                                             </tr>
+                                             <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                                  <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                                       <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                            alt="products" class='w-14 h-14 rounded-full' />
+                                                       </span>
+                                                       <span>Electronic</span>
+                                                  </th>
+                                                  
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex flex-col items-center'>
+                                                            <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                                 class="w-14 h-14 rounded-full"
+                                                                 />
+                                                            </span>
+                                                            <span>Clothes</span>
+                                                       </div>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <form>
+                                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                                 <input type="checkbox" value="" class="sr-only peer" checked>
+                                                                 <div class="w-11 h-6 bg-color-red-button rounded-full peer peer-focus:ring-4 peer-focus:bg-color-gray-background-light
+                                                                 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full 
+                                                                 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] 
+                                                                 after:bg-color-red-button after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 
+                                                                 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                                            </label>
+                                                       </form>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex gap-1 items-center'>
+                                                            <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                            <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                            <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                                       </div>
+                                                  </td>
+                                             </tr>
+                                             <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                                  <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                                       <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                            alt="products" class='w-14 h-14 rounded-full' />
+                                                       </span>
+                                                       <span>Electronic</span>
+                                                  </th>
+                                                  
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex flex-col items-center'>
+                                                            <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                                 class="w-14 h-14 rounded-full"
+                                                                 />
+                                                            </span>
+                                                            <span>Clothes</span>
+                                                       </div>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <form>
+                                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                                 <input type="checkbox" value="" class="sr-only peer" checked>
+                                                                 <div class="w-11 h-6 bg-color-red-button rounded-full peer peer-focus:ring-4 peer-focus:bg-color-gray-background-light
+                                                                 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full 
+                                                                 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] 
+                                                                 after:bg-color-red-button after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 
+                                                                 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                                            </label>
+                                                       </form>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex gap-1 items-center'>
+                                                            <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                            <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                            <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                                       </div>
+                                                  </td>
+                                             </tr>
+                                             <tr class="bg-blue-500 border-b border-b-color-gray-background-light border-blue-400">
+                                                  <th scope="row" class="px-6 py-4 flex items-center gap-2 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
+                                                       <span><img src='https://ma.jumia.is/cms/000_2022/Z-Categories/4-TV&HiTech/44-Camera&Video/300/Cam-gris-300-(1).png' 
+                                                            alt="products" class='w-14 h-14 rounded-full' />
+                                                       </span>
+                                                       <span>Electronic</span>
+                                                  </th>
+                                                  
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex flex-col items-center'>
+                                                            <span><img src='https://img.huffingtonpost.com/asset/5ce6bd0c210000b90ed0ed6a.jpeg?ops=scalefit_720_noupscale' alt='category img'
+                                                                 class="w-14 h-14 rounded-full"
+                                                                 />
+                                                            </span>
+                                                            <span>Clothes</span>
+                                                       </div>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <form>
+                                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                                 <input type="checkbox" value="" class="sr-only peer" checked>
+                                                                 <div class="w-11 h-6 bg-color-red-button rounded-full peer peer-focus:ring-4 peer-focus:bg-color-gray-background-light
+                                                                 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full 
+                                                                 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] 
+                                                                 after:bg-color-red-button after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 
+                                                                 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                                                            </label>
+                                                       </form>
+                                                  </td>
+                                                  <td class="px-6 py-4">
+                                                       <div class='flex gap-1 items-center'>
+                                                            <span><i class='bx bxs-edit text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#dcfce7] text-[#4ade80]' ></i></span>
+                                                            <span><i class='bx bxs-trash text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#fee2e2] text-[#f87171]' ></i></span>
+                                                            <span><i class='bx bxs-detail text-2xl rounded-full flex items-center justify-center cursor-pointer w-11 h-11 bg-[#cffafe] text-[#22d3ee]' ></i></span>
+                                                       </div>
+                                                  </td>
+                                             </tr>
+                                        </tbody>
+                                   </table>
+                              </div>
+                         </div>
+ 
+                    </div>
+                    <div class='right__product-header'>
+
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+<script src='../../assets/js/admin/sidebar.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('myChart');
+    const bar_chart=document.getElementById('bar-chart');
+    const line_chart=document.getElementById('line-chart');
+    const data = {
+        labels: [
+            'Red',
+            'Green',
+            'Yellow',
+            'Grey',
+            'Blue'
+        ],
+        datasets: [{
+            label: 'My First Dataset',
+            data: [11, 16, 7, 3, 14],
+            backgroundColor: [
+            'rgb(255, 99, 132)',
+            'rgb(75, 192, 192)',
+            'rgb(255, 205, 86)',
+            'rgb(201, 203, 207)',
+            'rgb(54, 162, 235)'
+            ]
+        }]
+    };
+    new Chart(ctx, {
+        type: 'polarArea',
+        data: data,
+        options: {}
+    });
+
+    //function event if i scroll page 
+    
+    //bar charts
+    
+    Chart.defaults.backgroundColor = '#000';
+    new Chart(bar_chart, {
+        type: 'bar',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+            label: '# of Votes',
+            data: [3, 10, 9, 10,12,13],
+            backgroundColor:[
+                'rgba(255,99,132,0.2)',
+                'rgba(54,162,235,0.2)',
+                'rgba(255,206,86,0.2)',
+                'rgba(75,192,192,0.2)',
+                'rgba(153,102,255,0.2)',
+                'rgba(255,159,64,0.2)',
+            ],
+            borderColor:[
+                'rgba(255,99,132,1)',
+                'rgba(54,162,235,1)',
+                'rgba(255,206,86,1)',
+                'rgba(75,192,192,1)',
+                'rgba(153,102,255,1)',
+                'rgba(255,159,64,1)',
+            ],
+            borderWidth: 1,
+            }]
+        },
+        options: {
+            responsive:true,
+        }
+    });
+
+    //Line Charts 
+    
+    new Chart(line_chart,{
+        type: 'line',
+        data: {
+            labels: 'Red',
+            datasets: [{
+                label: 'My First Dataset',
+                data: [65, 59, 80, 81, 56, 55, 40],
+                fill: false,
+                borderColor: 'rgb(75, 192, 192)',
+                tension: 0.1
+            }]
+
+        }
+    })
+</script>
+</body>
+
+</html>

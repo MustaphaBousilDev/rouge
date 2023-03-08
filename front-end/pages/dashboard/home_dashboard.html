@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../assets/css-tailwind/main.css">
 </head>
 <body class='body__dashboard'>
-    <nav class="sidebar close side-bar__dashboard shadow-md">
+    <nav class="sidebar h-[100vh] close side-bar__dashboard shadow-md">
         <header>
             <div class="image-text">
                 <span class="image">
@@ -156,7 +156,7 @@
                 </div>
             </div>
             <div class='flex:col flex-wrap md:flex-row content__dashboard-statistique rounded-md flex mt-9'>
-                <div class='content__chart w-[100%] md:w-[65%] overflow-y-scroll rounded-lg shadow-sm'>
+                <div class='content__chart border border-color-gray-background-light w-[100%] md:w-[65%] overflow-y-scroll rounded-lg shadow-sm'>
                     <h2 class='p-3 text-sm md:text-lg'>Top Selling Products</h2>
                     <hr class='border-none h-[1px] bg-color-gray-background-light'>
                     <div class='product__selling flex justify-start gap-8 md:justify-between items-center p-1 md:p-4'>
@@ -185,7 +185,14 @@
                             </div>
                         </div>
                         <div class='price-dash'>
-                            <h2 class='text-sm md:text-xl font-bold'>$120</h2>
+                            <h2 class='text-sm md:text-xl flex  items-center flex-col font-bold'>
+                                <span class='text-[#bef264]'>13.000</span>
+                                <span class= 'text-xs md:text-md text-color-gray-background-light'>in Sales</span>
+                            </h2>
+                        </div>
+                        <div class='id__counter'>
+                            <h2 class='text-sm md:text-lg text-color-gray-dark font-bold bg-[#f5f3ff] w-[30px] 
+                            h-[30px] p-5 rounded-md flex justify-center items-center'>#1</h2>
                         </div>
                     </div>
                     <div class='product__selling flex justify-start gap-8 md:justify-between items-center p-1 md:p-4'>
@@ -214,7 +221,14 @@
                             </div>
                         </div>
                         <div class='price-dash'>
-                            <h2 class='text-sm md:text-xl font-bold'>$120</h2>
+                            <h2 class='text-sm md:text-xl flex  items-center flex-col font-bold'>
+                                <span class='text-[#bef264]'>13.000</span>
+                                <span class= 'text-xs md:text-md text-color-gray-background-light'>in Sales</span>
+                            </h2>
+                        </div>
+                        <div class='id__counter'>
+                            <h2 class='text-sm md:text-lg text-color-gray-dark font-bold bg-[#f5f3ff] w-[30px] 
+                            h-[30px] p-5 rounded-md flex justify-center items-center'>#1</h2>
                         </div>
                     </div>
                     <div class='product__selling flex justify-start gap-8 md:justify-between items-center p-1 md:p-4'>
@@ -243,41 +257,27 @@
                             </div>
                         </div>
                         <div class='price-dash'>
-                            <h2 class='text-sm md:text-xl font-bold'>$120</h2>
+                            <h2 class='text-sm md:text-xl flex  items-center flex-col font-bold'>
+                                <span class='text-[#bef264]'>13.000</span>
+                                <span class= 'text-xs md:text-md text-color-gray-background-light'>in Sales</span>
+                            </h2>
                         </div>
-                    </div>
-                    <div class='product__selling flex justify-start gap-8 md:justify-between items-center p-1 md:p-4'>
-                        <div class='product--dash flex items-center gap-1 md:gap-3'>
-                            <div>
-                                <img 
-                                class='w-[40px] h-[40px] md:w-[110px] md:h-[80px] rounded-md'
-                                src='https://ma.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/42/450684/1.jpg?9241' 
-                                alt='product'/>
-                            </div>
-                            <div>
-                                <div class='flex flex-col'>
-                                    <div class='flex-col md:flex-row flex items-center  md:gap-2'>
-                                        <h2 class='text-xs md:text-md'>Product Name</h2>
-                                        <p class='hidden text-color-rating items-center sm:flex md:gap-1 text-xs'>
-                                            <i class="bi bi-star"></i>
-                                            <i class="bi bi-star"></i>
-                                            <i class="bi bi-star"></i>
-                                            <i class="bi bi-star"></i>
-                                            <i class="bi bi-star"></i>
-                                        </p>
-                                    </div>
-                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Categories</h3>
-                                    <h3 class='text-color-gray-dark text-xs hidden md:flex'>Brands</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class='price-dash'>
-                            <h2 class='text-sm md:text-xl font-bold'>$120</h2>
+                        <div class='id__counter'>
+                            <h2 class='text-sm md:text-lg text-color-gray-dark font-bold bg-[#f5f3ff] w-[30px] 
+                            h-[30px] p-5 rounded-md flex justify-center items-center'>#1</h2>
                         </div>
                     </div>
                 </div>
                 <div class='chart__1 w-[100%] md:w-[32%] '>
                     <canvas id="myChart"></canvas>
+                </div>
+            </div>
+            <div class='users_place flex flex-col md:flex-row gap-3'>
+                <div class="bar__chart w-[100%] md:w-[48%]">
+                    <canvas id="bar-chart"></canvas>
+                </div>
+                <div class="bar__chart_2 w-[100%] md:w-[48%]">
+                    <canvas id="line-chart"></canvas>
                 </div>
             </div>
         </div>
@@ -287,6 +287,8 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
     const ctx = document.getElementById('myChart');
+    const bar_chart=document.getElementById('bar-chart');
+    const line_chart=document.getElementById('line-chart');
     const data = {
         labels: [
             'Red',
@@ -315,7 +317,56 @@
 
     //function event if i scroll page 
     
+    //bar charts
     
+    Chart.defaults.backgroundColor = '#000';
+    new Chart(bar_chart, {
+        type: 'bar',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+            label: '# of Votes',
+            data: [3, 10, 9, 10,12,13],
+            backgroundColor:[
+                'rgba(255,99,132,0.2)',
+                'rgba(54,162,235,0.2)',
+                'rgba(255,206,86,0.2)',
+                'rgba(75,192,192,0.2)',
+                'rgba(153,102,255,0.2)',
+                'rgba(255,159,64,0.2)',
+            ],
+            borderColor:[
+                'rgba(255,99,132,1)',
+                'rgba(54,162,235,1)',
+                'rgba(255,206,86,1)',
+                'rgba(75,192,192,1)',
+                'rgba(153,102,255,1)',
+                'rgba(255,159,64,1)',
+            ],
+            borderWidth: 1,
+            }]
+        },
+        options: {
+            responsive:true,
+        }
+    });
+
+    //Line Charts 
+    
+    new Chart(line_chart,{
+        type: 'line',
+        data: {
+            labels: 'Red',
+            datasets: [{
+                label: 'My First Dataset',
+                data: [65, 59, 80, 81, 56, 55, 40],
+                fill: false,
+                borderColor: 'rgb(75, 192, 192)',
+                tension: 0.1
+            }]
+
+        }
+    })
 </script>
 </body>
 
